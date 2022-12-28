@@ -1,0 +1,2 @@
+cd ..
+win.bat -rogue

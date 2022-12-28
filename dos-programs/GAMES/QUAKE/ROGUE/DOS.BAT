@@ -1,0 +1,2 @@
+cd ..
+dos.bat -rogue

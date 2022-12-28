@@ -1,0 +1,163 @@
+
+CA-SUPERCALC 5.5 README FILE
+============================================================
+This file includes update information for the following topics:
+
+*	Disk Contents Summary
+*	Information for Upgraders
+*	Install Copyright information
+
+
+============================================================
+DISK CONTENTS SUMMARY
+------------------------------------------------------------
+
+CA-SuperCalc 5.5 uses an automated installation procedure for your
+convenience.  All files on the diskettes except README.PRN
+are compressed.  To install the product insert
+Product disk 1 into drive A and type A:Install.
+
+Below is a description of program files and their usage.  This information
+is given to provide a better understanding of program files. Running
+the product without required program files will result in errors.
+
+Files in Program directory:
+
+    SC5.EXE -- Program file (required)
+    SC5.OVL -- Program file (required)
+    SCA.OVL -- Program file (required)
+    SCB.OVL -- Program file (required)
+    SCC.OVL -- Program file (required) - Default configuration file
+    SCD.OVL -- Program file (required)
+    SCE.OVL -- Program file (required)
+    SCF.OVL -- Program file (required)
+    SCP.OVL -- Program file (required)
+    SCR.OVL -- Program file (required)
+    SCS.OVL -- Program file (required)
+    SCT.OVL -- Program file (required)
+    SCW.OVL -- Program file (required)
+    SCX.OVL -- Program file (required)
+    SCY.OVL -- Program file (required)
+    SC5.HLP -- Help file    (Optional)
+
+    NOTE.AD5 -- Cell Annotation Addin (Optional)
+
+
+    DEVICES.DAT -- Data file for device installation (required)
+    SCBIT.DAT	-- Data file for preview and printing (required)
+    SCREEN.DAT	-- Data file for video modes (required)
+    DRIVERS.DAT -- Data file for common graphics interface drivers (optional)
+
+    *.FNT	-- Font files for graphics (required)
+
+    HP.FN?	-- Data files required for printing on supported HP Laser IIs
+    HP3.FN?	-- Data files required for printing on supported HP Laser IIIs
+    CANON.FN?	-- Data files required for printing on supported CANON Lasers
+    POST.FN?	-- Data files required for printing on Postscript devices
+
+    SIDEWAYS.COM -- Stand alone utility for Sideways printing (optional)
+    SWSETUP.COM  -- Setup program for Sideways (optional)
+
+
+
+
+
+CA-SuperCalc provides Bitstream font files for preview and printing purposes.
+Additional fonts can be purchased and installed for usage with the product.
+The following files are needed for Bitstream font usage.
+
+    *.SPD	-- Bitstream master typeface files (required)
+    SCDOS.INI	-- Contains directory path for typeface files (required)
+    SPDFONT.DAT -- Data file for preview and printing (required)
+
+    FONTINST.EXE -- Install program to allow installation of additional
+		    Bitstream font master typeface files.
+
+
+
+In addition to the above listed files, the SAMPLE, TUTORIAL and DRIVERS
+directories contain SAMPLE files, a comprehensive TUTORIAL system
+which discusses the major components of the product and DRIVER files
+for CGI graphics output.
+
+The FONTS directory is used exclusively for Bitstream font data file
+creation and usage.  These files are created during program execution
+and are used for print preview and spreadsheet printing in Final mode.
+These files can be deleted when disk space is low.  CA-SuperCalc
+recreates the files when needed.
+
+CA-SuperCalc runs under MS Windows 3.0 and MS Windows 3.1 as a DOS application.
+The following files are provided for usage with MS Windows.
+
+    SC5.STD -- PIF file for Windows 3.x running in standard mode
+    SC5.ENH -- PIF file for Windows 3.x running in enhanced mode
+    SC5.ICO -- CA-SuperCalc icon for  Windows 3.x
+
+
+
+============================================================
+INFORMATION FOR UPGRADERS
+------------------------------------------------------------
+
+Configuration File compatibility
+--------------------------------
+This release supports configuration files (*.cfg files) that were
+created in CA-SuperCalc version 5.1.
+
+Configuration files created in SuperCalc version 5.0 are NOT supported.
+
+
+Output,Printer,Options Settings
+-------------------------------
+Due to the addition of paper size support and measurement in various units,
+the default settings for spreadsheet printing has been set to inches
+instead of characters.
+
+The Report,Formatted settings is set to FINAL instead of DRAFT.
+
+If you have macros that require the default print settings to be
+in characters and the report format to be Draft, we recommend that
+you copy the file DRAFT.CFG as SCC.OVL using the DOS copy command.
+
+For example: C:\CALC>Copy draft.cfg scc.ovl
+
+This will change the default print settings for the product to match
+the CA-SuperCalc Release 5.1 settings.
+
+
+Usage of Ctrl-C and Ctrl-Z
+--------------------------
+We recommend that you use the CTRL-BREAK key combination for aborting
+commands instead of the old style Ctrl-C or Ctrl-Z.  On certain hardware
+configurations, Ctrl-C / Ctrl-Z may not initiate an abort process but
+will display a ^C / ^Z on the screen.
+
+
+============================================================
+INSTALL COPYRIGHT INFORMATION
+------------------------------------------------------------
+The installation program used to install CA-SuperCalc, INSTALL,
+is based on licensed software provided by Knowledge Dynamics Corp,
+Highway Contract 4 Box 185-H, Canyon Lake, Texas 78133-3508 (USA),
+1-512-964-3994.  INSTALL is Copyright (c) 1987-1990 by Knowledge
+Dynamics Corp which reserves all copyright protection worldwide.
+INSTALL is provided to you for the exclusive purpose of installing
+CA-SuperCalc.  Computer Associates International, Inc. has made
+modifications to the software as provided by Knowledge Dynamics
+Corp, and thus the performance and behavior of the INSTALL
+program shipped with CA-SuperCalc may not represent the performance
+and behavior of INSTALL as shipped by Knowledge Dynamics Corp.
+Computer Associates International, Inc. is exclusively
+responsible for the support of CA-SuperCalc including support
+during the installation phase.	In no event will Knowledge
+Dynamics Corp be able to provide any technical support for
+CA-SuperCalc.
+
+============================================================
+NETWORK INFORMATION
+------------------------------------------------------------
+CA-SuperCalc has the ability to run from a network.  During the install
+procedure, you will be asked for a DYNAMIC FONT directory.  All workstations
+must have at least read/write access for CA-SuperCalc to use this
+directory properly.
+

@@ -1,0 +1,171 @@
+=====================
+= TECHNICAL SUPPORT =
+=====================
+
+Technical support for Quake is now provided by GT Interactive Software via
+several methods.  In contrast to the comment in the manual, there is no
+longer a charge for this support except for long distance phone costs
+associated with making a call to technical support.
+
+If you experience problems running or playing Quake, you can use any of the
+following avenues to obtain assistance:
+
+
+Assistance Via the World Wide Web
+---------------------------------
+Get up-to-the-minute technical information at the GT Interactive Software
+web-site at www.gtinteractive.com, 24 hours a day, seven days a week.  In the
+Support section you'll have access to our FAQ documents, (Frequently Asked
+Questions) which contain our latest troubleshooting information.  You can
+also visit our Forums area, where you can swap email with other gamers, our
+FTP (File Transfer Protocol) area where you can download patches and new
+enhancements as soon as they become available, and other areas where you can
+get valuable information on GT Interactive Software products.
+
+
+Assistance Via E-Mail
+---------------------
+If you would like to e-mail a problem you are having with Quake, or any other
+id Software game, please refer to our web site at www.gtinteractive.com.
+
+
+Help Via USENET
+---------------
+For general Quake discussion:
+	rec.games.computer.quake.misc
+For information, FAQ, or announcements:
+	rec.games.computer.quake.announce
+For editing and hacking Quake-related files:
+	rec.games.computer.quake.editing
+For server listings and information:
+	rec.games.computer.quake.servers
+For Quake game playing tips:
+	rec.games.computer.quake.playing
+
+
+Help Via Snail-Mail
+-------------------
+In the event our technicians determine that you will need to forward
+materials directly to us, please include a brief letter explaining what is
+enclosed and why.  Make sure you include a 'Problem Report' (see below) so
+that we have all the information we need to help us get you a resolution.
+Your mail should be sent to the following address:
+
+GT Interactive Software
+Attn:  TS/QA (Quake)
+1 Nixon Lane
+Edison, NJ  08817
+
+
+Help from Live Technical Support, Automated Support and Fax-Back Services
+-------------------------------------------------------------------------
+For phone assistance, call GT Interactive Software's Technical Support at
+(972) 389-3512.  Live technical support is available Monday through Saturday 
+from 10 AM until 10 PM (CST).  Please note that live Technical Support is
+closed on major holidays.  We ask that you do the following when calling:
+be at your computer; have your system information ready for our technicians -
+please refer to the 'Problem Report' below for the information that we will
+need to assit you with your problem.  This will expedite your handling sig-
+nificantly and help us to provide you with better support.
+
+Our Interactive Voice Response and Faxback system is available 24 hours
+a day, seven days a week.  You can reach it by calling (972) 389-3512 also.
+
+
+===================
+= Game Hints Line =
+===================
+Our game hints line can be reached by either using a credit card and calling
+(800) id-games or by calling (900) call-2-id (the cost will be charged to 
+your phone bill).  Lines are open 24 hours a day, 365 days a year and the
+cost is $0.85 per minute.  You must be at least 18 years of age or have
+parental permission to call (900) call-2-id.
+
+
+==========================================================================
+= Contacting id Software to Say Something Good or Notify Us of a Problem =
+==========================================================================
+
+If you have an unfavorable experience using our services OR you would like to
+tell us about a good experience you've had using our servies, you can send us
+e-mail to 911@idsoftware.com.  However, please keep in mind that this is 
+*NOT* for support or any issues other than reporting a good/bad experience.
+We feel it is necessary to give our customers an avenue by which to reach
+someone at the top, if they feel as if they have not been taken care of
+properly.  DO NOT send technical support questions or other general questions
+to this e-mail address, they will be trashed!
+
+When writing to us about an unsatisfactory event, kindly include your full
+name, address, phone number, and the problem encountered.  We will get back
+to you via e-mail (so be sure to include your e-mail address also) or by
+phone.
+
+Thank you and enjoy the game!
+
+
+==================================================
+==             Quake Problem Report             ==
+==================================================
+
+Date:  
+Name:  
+Phone number:  
+E-mail address:  (please include this, support redirects lots of mail)
+Game Title:  
+Version #: 
+Operating system (i.e., DOS 6.0 or Windows 95):
+Computer type:  
+BIOS date:
+BIOS version:
+Processor type:  
+Processor speed:  
+Amount of RAM:
+Please state the problem you encountered:
+Please state how to reproduce the problem:
+If program crashed with nasty undecipherable techno-garbage, please look for
+the eight-digit hex number which comes after "eip=" and write it down here:
+Please state any screen/error messages that occur:
+
+
+Please include the additional information below depending on the related
+area that you are having troubles with.
+
+------------------------------ Video Related ------------------------------ 
+
+Video Card Manufacturer:
+Video Card Model:
+Chipset Used:
+BIOS Date:
+(If using UniVBE, The above information can be found by running uvconfig)
+
+Did the problem occur while in a VESA mode?
+
+If so, what is the VESA driver and version?  (eg., UniVBE 5.1a,
+built into board BIOS, or manufacturer provided TSR)
+
+------------------------------ Sound Related ------------------------------
+
+Audio card brand and model:  
+
+If DOS or a DOS box, please run the command "set > set.txt" then
+attach "set.txt" to the end of the report.
+
+----------------------------- Network Related -----------------------------
+
+What type of network connection was established when the error occurred?
+(modem, nullmodem, or network)
+If modem, Modem brand and model:
+
+If network, Network card brand and model:
+	    Network protocol/configuration:
+
+Modem brand and model:  (only if modem problem)
+Network card brand and model:  (only if netgame problem)
+Network configuration (eg., NET.CFG file):  (only if netgame problem)
+Drivers, protocol stacks, and versions:  (eg., lsl v2.14, exp16odi
+v2.33, and ipxodi v3.01)  (only if netgame problem)
+
+---------------------------------------------------------------------------
+
+
+									  

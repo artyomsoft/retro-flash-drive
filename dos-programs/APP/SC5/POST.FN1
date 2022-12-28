@@ -1,0 +1,300 @@
+002000300
+0020010
+0020020
+0020031
+0020040008 100 90 80 70 50 35 20 0
+0020050000
+0020060001 1
+0020070001 1
+0020080001
+A 26 800 20 1066 -1
+002009post.out
+002050post.fn2
+002051post.fn3
+*****  Device Commands	*****
+%%DocumentFonts: (atend)
+%%EndComments
+/saveobj save def
+/bdef {  bind def  } bind def
+/reencodedict 5 dict def
+/ReEncode
+{  reencodedict begin
+   /newfontname exch def
+   /basefontname exch def
+   /basefontdict basefontname findfont def
+   /newfont basefontdict maxlength dict def
+   basefontdict
+   {  exch dup dup /FID ne exch /Encoding ne and
+      {  exch newfont 3 1 roll put  }
+      {  pop pop  }
+      ifelse
+   }  forall
+   newfont /FontName basefontname put
+   newfont /Encoding PCDOS put
+   newfontname newfont definefont pop
+   end
+}  bdef
+/PCDOS 256 array def
+PCDOS
+dup 16#00 /tilde put
+dup 16#01 /dagger put
+dup 16#02 /daggerdbl put
+dup 16#03 /heart put
+dup 16#04 /diamond put
+dup 16#05 /club put
+dup 16#06 /spade put
+dup 16#07 /dotmath put
+dup 16#08 /grave put
+dup 16#09 /acute put
+dup 16#0A /circumflex put
+dup 16#0B /macron put
+dup 16#0C /breve put
+dup 16#0D /dotaccent put
+dup 16#0E /dieresis put
+dup 16#0F /cedilla put
+dup 16#10 /hungarumlaut put
+dup 16#11 /ogonek put
+dup 16#12 /caron put
+dup 16#13 /dotlessi put
+dup 16#14 /paragraph put
+dup 16#15 /section put
+dup 16#16 /ellipsis put
+dup 16#17 /perthousand put
+dup 16#18 /arrowup put
+dup 16#19 /arrowdown put
+dup 16#1A /arrowright put
+dup 16#1B /arrowleft put
+dup 16#1C /bracketleftbt put
+dup 16#1D /arrowboth put
+dup 16#1E /endash put
+dup 16#1F /emdash put
+dup 16#20 /space put
+dup 16#21 /exclam put
+dup 16#22 /quotedbl put
+dup 16#23 /numbersign put
+dup 16#24 /dollar put
+dup 16#25 /percent put
+dup 16#26 /ampersand put
+dup 16#27 /quoteright put
+dup 16#28 /parenleft put
+dup 16#29 /parenright put
+dup 16#2A /asterisk put
+dup 16#2B /plus put
+dup 16#2C /comma put
+dup 16#2D /hyphen put
+dup 16#2E /period put
+dup 16#2F /slash put
+dup 16#30 /zero put
+dup 16#31 /one put
+dup 16#32 /two put
+dup 16#33 /three put
+dup 16#34 /four put
+dup 16#35 /five put
+dup 16#36 /six put
+dup 16#37 /seven put
+dup 16#38 /eight put
+dup 16#39 /nine put
+dup 16#3A /colon put
+dup 16#3B /semicolon put
+dup 16#3C /less put
+dup 16#3D /equal put
+dup 16#3E /greater put
+dup 16#3F /question put
+dup 16#40 /at put
+dup 16#41 /A put
+dup 16#42 /B put
+dup 16#43 /C put
+dup 16#44 /D put
+dup 16#45 /E put
+dup 16#46 /F put
+dup 16#47 /G put
+dup 16#48 /H put
+dup 16#49 /I put
+dup 16#4A /J put
+dup 16#4B /K put
+dup 16#4C /L put
+dup 16#4D /M put
+dup 16#4E /N put
+dup 16#4F /O put
+dup 16#50 /P put
+dup 16#51 /Q put
+dup 16#52 /R put
+dup 16#53 /S put
+dup 16#54 /T put
+dup 16#55 /U put
+dup 16#56 /V put
+dup 16#57 /W put
+dup 16#58 /X put
+dup 16#59 /Y put
+dup 16#5A /Z put
+dup 16#5B /bracketleft put
+dup 16#5C /backslash put
+dup 16#5D /bracketright put
+dup 16#5E /asciicircum put
+dup 16#5F /underscore put
+dup 16#60 /quoteleft put
+dup 16#61 /a put
+dup 16#62 /b put
+dup 16#63 /c put
+dup 16#64 /d put
+dup 16#65 /e put
+dup 16#66 /f put
+dup 16#67 /g put
+dup 16#68 /h put
+dup 16#69 /i put
+dup 16#6A /j put
+dup 16#6B /k put
+dup 16#6C /l put
+dup 16#6D /m put
+dup 16#6E /n put
+dup 16#6F /o put
+dup 16#70 /p put
+dup 16#71 /q put
+dup 16#72 /r put
+dup 16#73 /s put
+dup 16#74 /t put
+dup 16#75 /u put
+dup 16#76 /v put
+dup 16#77 /w put
+dup 16#78 /x put
+dup 16#79 /y put
+dup 16#7A /z put
+dup 16#7B /braceleft put
+dup 16#7C /bar put
+dup 16#7D /braceright put
+dup 16#7E /asciitilde put
+dup 16#7F /Delta put
+dup 16#80 /Ccedilla put
+dup 16#81 /udieresis put
+dup 16#82 /eacute put
+dup 16#83 /acircumflex put
+dup 16#84 /adieresis put
+dup 16#85 /agrave put
+dup 16#86 /aring put
+dup 16#87 /ccedilla put
+dup 16#88 /ecircumflex put
+dup 16#89 /edieresis put
+dup 16#8A /egrave put
+dup 16#8B /idieresis put
+dup 16#8C /icircumflex put
+dup 16#8D /igrave put
+dup 16#8E /Adieresis put
+dup 16#8F /Aring put
+dup 16#90 /Eacute put
+dup 16#91 /ae put
+dup 16#92 /AE put
+dup 16#93 /ocircumflex put
+dup 16#94 /odieresis put
+dup 16#95 /ograve put
+dup 16#96 /ucircumflex put
+dup 16#97 /ugrave put
+dup 16#98 /ydieresis put
+dup 16#99 /Odieresis put
+dup 16#9A /Udieresis put
+dup 16#9B /cent put
+dup 16#9C /sterling put
+dup 16#9D /yen put
+dup 16#9E /peseta put
+dup 16#9F /florin put
+dup 16#A0 /aacute put
+dup 16#A1 /iacute put
+dup 16#A2 /oacute put
+dup 16#A3 /uacute put
+dup 16#A4 /ntilde put
+dup 16#A5 /Ntilde put
+dup 16#A6 /ordfeminine put
+dup 16#A7 /ordmasculine put
+dup 16#A8 /questiondown put
+dup 16#A9 /bracketlefttp put
+dup 16#AA /logicalnot put
+dup 16#AB /onehalf put
+dup 16#AC /onequarter put
+dup 16#AD /exclamdown put
+dup 16#AE /guillemotleft put
+dup 16#AF /guillemotright put
+dup 16#B0 /Edieresis put
+dup 16#B1 /Idieresis put
+dup 16#B2 /Aacute put
+dup 16#B3 /Iacute put
+dup 16#B4 /Oacute put
+dup 16#B5 /Uacute put
+dup 16#B6 /Agrave put
+dup 16#B7 /Egrave put
+dup 16#B8 /Igrave put
+dup 16#B9 /Ograve put
+dup 16#BA /Ugrave put
+dup 16#BB /Acircumflex put
+dup 16#BC /Ecircumflex put
+dup 16#BD /Icircumflex put
+dup 16#BE /Ocircumflex put
+dup 16#BF /Ucircumflex put
+dup 16#C0 /Atilde put
+dup 16#C1 /atilde put
+dup 16#C2 /Otilde put
+dup 16#C3 /otilde put
+dup 16#C4 /Oslash put
+dup 16#C5 /oslash put
+dup 16#C6 /fi put
+dup 16#C7 /fl put
+dup 16#C8 /OE put
+dup 16#C9 /oe put
+dup 16#CA /Lslash put
+dup 16#CB /lslash put
+dup 16#CC /cent put
+dup 16#CD /ring put
+dup 16#CE /.notdef put
+dup 16#CF /.notdef put
+dup 16#D0 /.notdef put
+dup 16#D1 /.notdef put
+dup 16#D2 /copyrightserif put
+dup 16#D3 /trademarkserif put
+dup 16#D4 /quotedblright put
+dup 16#D5 /quotesingle put
+dup 16#D6 /quotedblleft put
+dup 16#D7 /Scaron put
+dup 16#D8 /scaron put
+dup 16#D9 /Zcaron put
+dup 16#DA /zcaron put
+dup 16#DB /Ydieresis put
+dup 16#DC /currency put
+dup 16#DD /germandbls put
+dup 16#DE /Rfraktur put
+dup 16#DF /weierstrass put
+dup 16#E0 /proportional put
+dup 16#E1 /beta put
+dup 16#E2 /Gamma put
+dup 16#E3 /pi put
+dup 16#E4 /Sigma put
+dup 16#E5 /sigma put
+dup 16#E6 /mu put
+dup 16#E7 /tau put
+dup 16#E8 /Phi put
+dup 16#E9 /Theta put
+dup 16#EA /Omega put
+dup 16#EB /delta put
+dup 16#EC /infinity put
+dup 16#ED /phi put
+dup 16#EE /element put
+dup 16#EF /intersection put
+dup 16#F0 /equivalence put
+dup 16#F1 /plusminus put
+dup 16#F2 /greaterequal put
+dup 16#F3 /lessequal put
+dup 16#F4 /intergraltp put
+dup 16#F5 /intergralbt put
+dup 16#F6 /divide put
+dup 16#F7 /approxequal put
+dup 16#F8 /degree put
+dup 16#F9 /bullet put
+dup 16#FA /periodcentered put
+dup 16#FB /radical put
+dup 16#FC /.notdef put
+dup 16#FD /.notdef put
+dup 16#FE /.notdef put
+dup 16#FF /.notdef put
+pop
+/font {dup 3 1 roll ReEncode findfont exch scalefont setfont} bdef
+/draw {setlinewidth setgray moveto lineto stroke 0 setgray} bdef
+/shade {setlinewidth setgray moveto lineto stroke 0 setgray} bdef
+%%EndProlog
+0 0 moveto

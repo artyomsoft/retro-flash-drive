@@ -1,0 +1,553 @@
+[Dr.Web] menu contains three commands
+         [DOS shell], [About...], and [Exit].
+
+[Test]   menu contains five commands
+         [Test memory], [Scan], [Cure],
+         [Statistics], and [Report].
+
+[Setup]  menu contains three commands
+         [Desktop], [Options], and [Paths].
+
+[Update] command
+         displays a panel for typing a  search
+         pattern for searching database add-on
+         update files.
+
+Speedkeys:
+
+Alt-X, Alt-F4  - Shell to DOS,
+F1             - Help,
+F5             - Scan (a given file, directory,
+                 drive),
+Ctrl-F5        - Cure (a given file, directory,
+                 drive),
+F9             - Display configuration options
+                 panel,
+F10, Space     - Main menu,
+Tab, Shift-Tab - Move  from  one menu field to
+                 another,
+Esc            - Abort scanning.
+{}
+Unknown error!
+{}
+File not found!
+Specify the pathname correctly.
+{}
+Disk error!
+If this happened  during  writing,
+check whether there is enough free
+space.
+{}
+Memory allocation error!
+Reboot the system and
+repeat the command once again.
+{}
+Insufficient memory space!
+Free the memory and repeat
+the command once again.
+{}
+Dr. Web's environment settings corrupted.
+Possibly, error in memory allocation.
+{}
+File damaged or not compatible with Dr. Web!
+Add-on  files  must  be  purchased only from
+authorized dealers!..
+{}
+Add-on file not compatible with Dr. Web!
+Your Dr. Web is outdated, upgrade it...
+{}
+Disk error! ...,
+probably at physical level!
+Check your disk!
+{}
+Error  reading  REPORT  file!  Probably,
+you  tried  to open a nonexistent REPORT
+file - DON'T CREATE button in the REPORT
+FILE field in OPTIONS panel is selected.
+{}
+Drive not found!
+Type a different drive name letter.
+{}
+[DOS Shell] command
+   temporarily  interrupts  Dr. Web  to  shell to
+   DOS. To resume Dr. Web  session, type EXIT and
+   press RETURN.
+
+[About] command
+   displays information about Dr. Web.
+
+[Exit] command
+   terminates the current Dr. Web session.
+{}
+[Test memory] command
+   scans  computer  memory  for resident  viruses
+   at any time you like in  a  scanning  session.
+
+[Scan] command
+   scans  user-defined  drives,  directories, and
+   files  for   computer  viruses  or  suspicious
+   files.
+
+[Cure] command
+   removes  viruses  from boot sectors and files.
+
+[Statistics] command
+   displays full statistical data for each  drive
+   tested  in  the  most recent scanning mission.
+
+[Report] command
+   opens  the  REPORT file containing the results
+   of testing or curing of memory, boot  sectors,
+   drives and files. Its name is specified in the
+   REPORT FILE text box in the panel displayed on
+   choosing  the  PATHS... command from the SETUP
+   menu.  This  field is operative only if either
+   the  OVERWRITE  or APPEND button in the REPORT
+   FILE  field  in the OPTIONS panel of the SETUP
+   is selected.
+{}
+[Desktop...] field
+   provides  a  few  options  for configuring the
+   screen   display   mode   to    suit    user's
+   preferences.
+
+[Options...] field
+   provides a few options for configuring the way
+   in which scanning progress is reported on  the
+   screen.
+
+[Paths...] command
+   is used to specify the pathnames of files that
+   are  essentional  for  the normal operation of
+   Dr. Web program.
+{}
+The  original  boot  sector  is not found in the
+"hide-out" where the detected virus must conceal
+it. Either  this  virus is a modified version of
+some  known  virus  and  hides  the  boot sector
+elsewhere  or your computer is infected by a few
+boot viruses such that one virus is superimposed
+on  another.  If this is the case, your computer
+cannot  be  booted  from  such an infected disk.
+
+For help, call the technical maintenance service
+of DialogueScience,Inc., Moscow.
+{}
+This  virus  does  not  save  the  original  boot
+sector.  If   you  permit  Dr. Web  to  cure  the
+machine, a standard  boot sector will be restored
+instead  of  the  original  boot  sector  of your
+machine.  DO NOT permit Dr. Web to cure your disk
+if  it  is  formated  by   nonconventional   disk
+administrators  like  ADM,  Disk  Manager, SSTOR,
+etc., otherwise data on your disk may be lost.
+{}
+You  can  suppress  this  prompt by selecting the
+TEST  ONE  FLOPPY  ONLY  check  box  in the panel
+displayed  on  choosing  the DESKTOP command from
+the SETUP menu.
+{}
+The   file  cannot  be  restored  because  it  is
+infected by
+
+(1) an  overwriting virus which does not save the
+original  program  code, or
+
+(2) a companion virus, or
+
+(3) a trojan virus, or
+
+(4) the file is damaged beyond repair.
+
+Delete  the  file  and  restore  it from a backup
+copy.
+{}
+Curing  is  not possible because your computer is
+protected  by  SHERIFF  security system. To clean
+the computer, quit Dr. Web,  disable SHERIFF, and
+then cure your computer.
+{}
+Dr.  Web  has   detected   self-infection.   This 
+happens, as  a  rule, when Dr. Web is infected by
+an  hitherto-unknown virus.   Close   down   your
+computer  and  forward a copy of the infected Dr.
+Web  program  to  its  designer or our authorized
+dealer.  Soon  you  will  receive   a   cost-free
+database add-on file to kill  the  virus  or  the
+next  upgraded  version  capable of detecting and
+eradicating this virus.
+{}
+This message warns you that the file had one size
+prior to  opening  and  a  different  size  after
+opening. Possibly,  memory  contains  an   active
+resident virus that has infected the file. In
+such a case the file size increases. Or there may
+be an active  stealth virus in the memory that is
+trying to hide its copy in the file being tested.
+In such a case the file size decreases.
+
+Close  down  the  computer, reboot from a "clean"
+bootable diskette and test the suspected files.
+{}
+Drive not ready! Insert a diskette into drive
+and repeat the test or abort testing.
+{}
+This panel displays full statistical information
+about the drives checked in the current scanning
+mission.
+{}
+Screen mode
+-----------
+ [X] Expanding windows
+             smoothly  and  gradually  opens menu
+             and message panels.
+
+ [X] Mouse support
+             provides  mouse  support.   Deselect
+             this option  if a nonstandard  mouse
+   driver  not  compatible  with Microsoft  mouse
+   is installed in your machine.
+
+ [X] Load screen font
+             loads  the  generator of English and
+             Russian  screen  fonts  of   Dr. Web
+             program.
+
+ [X] Beep
+             option enables  and  disables  sound
+             alarm on  detecting known viruses in
+   memory, boot sectors or files.
+
+ [X] Autosave setup
+             automatically saves the user-defined
+             settings in  the  configuration file
+   DRWEB.INI  prior  to  ending  a   session   or
+   shelling to DOS.
+
+Additional preferences
+----------------------
+
+ [X] "Snow" prevention
+             If  snow  appears  on  CGA monitors,
+             check this item to suppress the glow
+   of electron beam in its reverse scanning path.
+
+ [X] Screen output via BIOS
+             uses BIOS Int 10h to send the output
+             to  the  screen.  This mode  is very
+   slow  compared to direct access of videomemory
+   which  is the default mode. Check this item if
+   problems  arise  in  outputing  to  screen  by
+   direct access of videomemory.
+
+ [X] Print "Ok" after filename
+             writes "Ok" after the name of a file
+             on the  screen if the file is  found
+   clean in the course of testing.
+
+ [X] Print packer name
+             writes  the  name  of   the  packer,
+             achiver,  or the encoder programs in
+   the  scanning   progress.   This   option   is
+   operative  only  if  the  CHECK PACKED,  CHECK
+   ARCHIVES,  or CHECK E-MAIL box is selected  in
+   the  FILES  field  of  the  panel displayed on
+   choosing the OPTIONS command  from  the  SETUP
+   menu.
+
+ [X] Report for each drive
+             displays  a  panel  containing   the
+             scanning results upon the completion
+   of  scanning  a  logical   drive.  To   resume
+   scanning, click or choose OK.
+
+ [X] Test one floppy only
+             will not  prompt  you  for   testing
+             another  diskette.   Deselect   this
+   option  when  you  want  to test more than one
+   diskette.
+
+Language (if available)
+--------
+   tells  Dr. Web  to  display menus and messages
+   in  the selected language (English or Russian)
+   if an alternative language is supported.
+
+Color Scheme
+------------
+   Choosing one of the six option buttons, adjust
+   color display to suit best your preference:
+
+ () Color 1   Default  color  scheme  of Dr. Web
+               program,
+ ( ) Color 2   This  scheme  is  drawn from Turbo
+               Vision program,
+ ( ) Color 3   This  scheme  is drawn from Norton
+               Utilities,
+ ( ) Color 4   This  scheme  is drawn from  ADinf
+               program,
+ ( ) Mono 1    Both  these  schemes  display  the
+               message in white
+ ( ) Mono 2    against  black background.  Choose
+               the  scheme  best  suited for your
+               monitor.
+
+Screen height
+-------------
+   Vertical size of screen:
+ ()  25 lines
+ ( )  30 lines
+ ( )  45 lines
+{}
+Main settings
+-------------
+   are   the   main   configuration    parameters
+   controlling the operation of Dr. Web.
+
+ [X] Memory test
+             tells Dr.Web to verify the memory at
+             the start  of each scanning session.
+   The memory  range  to  be  tested is  selected
+   in this panel in the MEMORY RANGE field.
+
+Memory range
+------------
+ ( )  640   - conventional memory
+ () 1088   - conventional memory, UMB, and  HMA.
+
+ [X] Boot sector test
+             tells Dr.Web to scan the master boot
+             record and boot sectors of drives.
+
+ [X] Heuristic analysis
+             tells Dr.Web to check files and boot
+             sectors  of  drives  for   new   and
+   unknown  viruses.  In  this  mode Dr. Web will
+   verify whether a program is an executable file
+   or  a virus code. The heuristic analysis level
+   is specified in this panel.
+
+Heuristic level
+---------------
+   must  be  such  that  no  false   alarms   are
+   triggered. The higher the heuristic level, the
+   higher  the  percentage  of  errors  or  false
+   alarms.   The   following   is   a   list   of
+   experimental  data  on  the  determination  of
+   different viruses in 10000 infected files:
+
+ () Minimal    - about 87%,
+ ( ) "Paranoid" - about 89-91%.
+
+   Minimal   level   is  equally   adequate   for
+   heuristic analysis of new files.
+
+ [X] Check for TSR-virus
+             tells Dr. Web  to  check the changes
+             taking places  in the size of a file
+   being  tested  at  the time of opening  and/or
+   searching for files. Many resident viruses try
+   to infect  files at  the  time  of  opening or
+   writing. Stealth  viruses  additionally   hide
+   their  presence  when  an  infected  file   is
+   opened.
+
+Files
+-----
+   field contains check boxes to tell  Dr. Web to
+   verify  packed  files  and  to  cure  infected
+   files.  The cure check box is  operative  only
+   when  the CURE command is chosen from the TEST
+   menu or when its speedkey Ctrl-F5 is pressed.
+
+ [X] Check packed
+             When this  box  is  selected, packed
+             files   will  be   exploded   in   a
+   temporary directory prior to testing. For this
+   purpose  you must specify a drive for creating
+   a temporary directory in the TEMP  DRIVE  text
+   box  in  the panel displayed  on  choosing the
+   PATHS... command from the TEST menu.
+
+ [X] Check archives
+             To check the files inside an archive
+             file created with ARJ,  PKZIP,  RAR,
+             LHA, ZOO, ICE and HA.
+
+ [X] Check E-mail
+             will  check  the  files  encoded  by
+             UUENCODE and MIME utilities.
+
+ [X] Delete damaged
+             When this  box  is selected, Dr. Web
+             will  delete  those  infected  files
+   that do not yield to restoration and the files
+   that are damaged by viruses beyond repair.
+
+ [X] Prompt for cure
+             When this  box  is selected, Dr. Web
+             will ascertain  your intention prior
+   to  curing an infected file. When this box  is
+   deselected,  Dr. Web will automatically remove
+   virus codes from infected files.
+
+Infected files          defines  a   method   for
+--------------------    removing   viruses   when
+                        cure command is selected.
+
+ () Cure               Deletes the  virus  codes
+                        from infected files.
+
+ ( ) Delete             Deletes  infected   files
+                        from the drive.
+
+ ( ) Rename             Renames infected files by
+                        substituting "V" for  the
+                        first   letter   in   the
+filename extension.  Files of extensions COM, EXE
+are  renamed  with  the  default  name  but  with
+extensions VOM and VXE, respectively.
+
+Report file         will  create  a    file   for
+-----------         writting the results of every
+                    scanning mission.
+
+ () Don't create   Report file is not created.
+
+ ( ) Overwrite      The results of every scanning
+                    mission  will  be overwritten
+                    in the report file.
+
+ ( ) Append         The results of every scanning
+                    mission  will  be appended at
+                    the  end  of   the   existing
+                    report file.
+
+The name of the report file is to be specified in
+the  menu box [Setup]|[Paths]|[Report file name].
+If  the  full  pathname  of  the  report  file is
+entered  in  this  box, the results of a scanning
+mission can be viewed through the command [Test]|
+[Report].
+{}
+Add-on files
+------------
+   This panel is used for searching and appending
+   add-on  update  files  to   the   main   virus
+   database.  In  the  text  box,  type a name or
+   search  pattern  for  finding   and  appending
+   add-on  files.  Upon  successful  updating,  a
+   message  to  this  effect  and  the  number of
+   add-on  files  appended  to  the  main   virus
+   database are displayed.
+{}
+Add-on search pattern
+---------------------
+   In the text box, you can type a search pattern
+   for finding  add-on  update  files to the main
+   virus database.  Upon  executing  the   APPEND
+   command in the ADD-ON FILES panel displayed on
+   choosing  the  UPDATE  command  from  the main
+   menu, Dr. Web  will  find  files  matching the
+   search pattern entered in this text box. If an
+   add-on  file  is  found,  it  is automatically
+   appended to the main virus database.
+
+   Add-on update files are released approximately
+   once every  week.  Registered users can obtain
+   them free of cost from our authorized dealers.
+
+Add-on pathname
+---------------
+   In  this  text box,  you  can  type and edit a
+   pathname for finding add-on update files.
+
+Temp drive
+----------
+   In the   text box, type the name letter of the
+   drive where  Dr. Web  can  create  a temporary
+   directory for  exploding  and  testing  packed
+   files. The  TEMP  DRIVE must be READ/WRITE and
+   have enough free space (about 500-1000 Kb) for
+   storing temporary  files.  If  there  is a RAM
+   drive of  sufficient space in your machine, it
+   is  a  good idea to specify it as a TEMP DRIVE
+   as this  will speed up the work.
+
+Report file name
+----------------
+   In the text box under this item, type the full
+   pathname where  you  want  Dr. Web to create a
+   REPORT  FILE  for  writing  the   results   of
+   scanning sessions.
+
+File type
+---------
+   field contains three option boxes for choosing
+   the type of files to be tested:
+
+ ( ) All files    files of any extension,
+
+ () Programs     executable files (COM, EXE,SYS,
+                  BAT, DRV, BIN,  DLL, BOO,  OV?,
+                  DOC, and DOT files).
+
+ ( ) User-defined
+  À *.COM *.EXE  In  the  text  box  under  this
+                  field  you  an  enter  and edit
+                  the  type of  files  and  their
+   filename  extension.  Only  files  of the type
+   specified in this  text  box  will  be  tested
+   and  cured  in  scanning  sessions, unless you
+   type a  different file  specification  in  the
+   panel displayed on choosing  the  SCAN command
+   from the TEST menu. For  example, if the user-
+   defined  files  field  specifies  COM  and EXE
+   files  but you specify BIN files  in  the SCAN
+   command panel, then Dr. Web will  verify  only
+   BIN  files and ignore COM and EXE files in the
+   current session.
+{}
+In the text  field  of the SCAN PATH panel,  type
+the name  of  a drive, directory, subdirectory or
+file for testing and curing. The  pathname can be
+specified,  using  global  file characters; e.g.,
+C:,  C:\DOS, C:\DOS\*, C:\DOS\FILE.*, C:\DOS\*.*,
+... If several paths are specified  concurrently,
+they must be separated by intervening spaces, for
+example, C: D:\FILE.EXE E:\UTIL\UNKNOWN\*.COM.
+
+The global  characters  *  and *: denote that all
+logical drives in the hard disk must be scanned.
+{}
+Insufficient space  in  TEMP  DRIVE for exploding
+this packed  file.  Specify  a  different   drive
+having sufficient  free  space  for  creating   a
+temporary directory  in  the  text box under TEMP
+DRIVE  in the  panel  displayed  on choosing  the
+PATHS...  command from  the SETUP menu. Otherwise
+the  whole  or a part of the file will be skipped
+in scanning.
+{}
+This file  or  the  boot   sector of the drive is
+infected. Unless  you  permit Dr. Web to cure the
+situation, the consequences will be unpredictable
+and disastrous.
+{}
+The add-on file successfully appended to the main
+virus database.  The number viruses which Dr. Web
+can  now  detect and eradicate has been increased
+by the figure shown in the message box.
+{}
+The information from this add-on file was already
+appended to the main virus database.
+{}
+You have typed options that are not valid for the
+Dr. Web command line.  Type  the  command options
+properly and run Dr. Web once again.
+{}
+Memory  seems  to contain  an  active  TSR virus.
+Reboot  the  computer  from  a  "clean"  bootable
+diskette containing the Dr. Web program  and test
+the memory and all drives in your system.
+{}

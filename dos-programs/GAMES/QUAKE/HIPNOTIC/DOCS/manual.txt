@@ -1,0 +1,668 @@
+=============================================================================
+                         QUAKE MISSION PACK #1
+
+	                   Scourge of Armagon
+=============================================================================
+
+Contents:
+
+The Story
+
+Installation
+
+Basics of Play
+   Goal of the Game
+   Skill
+   Getting About
+   Finding Things
+   Commands, Menu, & Console
+
+The Game
+   The Screen
+   Messages
+   Ending a Level
+
+Your New Environment
+   New Weapons
+   New Powerups
+   New Creatures
+   New Environmental Hazzards and Effects
+
+Multiplayer Action
+   Cooperative
+   Deathmatch
+   Team Games
+
+Commonly Asked Questions
+
+Customer Support
+
+Credits
+
+
+=============================================================================
+                               The Story
+=============================================================================
+
+The blood of Shub-Niggurath lingers in the air like a heavy mist.  Chunks of
+putrid flesh lie in piles throughout the subterranean cavern.  Exhausted, you
+stumble along, searching for an exit from this hellhole.  You find a blood-
+spattered slipgate, a strange juxtaposition of  ultra-technology and 
+medieval squalor.  Hoping for either paradise or oblivion, you step through 
+the slipgate, gambling on its unknown destination.
+
+In a flash of light and pain you emerge from the slipgate’s quantum vortex 
+in the shiny-clean environment of a modern military base...your home away 
+from home.  Leaving bloody footprints in your wake, you step away from the 
+slipgate like a man emerging from a car wreck.
+
+Wearily, you look for some semblance of the life and sanity that you remember
+from the time before you heard the name "Quake", but find only emptiness.  
+Despite your recent hellish experience, the strange quiet of the military 
+base is more unsettling than comforting.  In fact, it’s not just shellshock 
+that makes it seem quiet, it’s the absolute absence of any life in a place 
+that should be bustling with military activity.  Readying your trusty 
+shotgun, you begin a stealthy surveillance.
+
+The hum of a nearby computer terminal catches your attention.  Peering 
+closely at the glowing screen, you read the final orders from the base 
+commander: "Quake’s forces have infiltrated the weapons storage facility and 
+are receiving reinforcements through slipgates located at the research 
+center.  All personnel are ordered to proceed with evacuation procedure 
+EVAC-44A."  Your heart sinks as you realize that the commander has ordered 
+the base to be sealed to prevent Quake’s forces from infiltrating further 
+into our realm.  All weapons and vehicles have been removed to reduce any 
+military advantage that could be gained by taking the base.  Any means of 
+escaping or defending yourself are gone.
+
+With the loss of hope comes resolution.  Gritting your teeth, you decide that
+you can either cower here, waiting for Quake’s forces to arrive, or you can 
+take the battle to them, infiltrate the storage facility and take out as 
+many of the bastards as you can.  If you were the cowering type, you wouldn’t
+have survived as long as you have.  Who knows, maybe you can find some way of
+destroying the portal that allows Quake to perpetually send reinforcements.
+
+You go to the slipgate that leads to the weapons facility.  Monitors show 
+that the site has already been overrun with the twisted soldiers that follow 
+Quake.  Hopefully, they won’t be expecting the likes of you.  Gripping your 
+shotgun with both hands, you leap into the gate...Valhalla awaits!
+
+
+
+=============================================================================
+                              Installation
+=============================================================================
+
+Quake Mission Pack #1 (The Scourge of Armagon) requires the full, registered 
+version of Quake to run.  For installation instructions on Quake, refer to 
+the README.TXT on this CD to see the exact procedure recommended for your 
+machine.  
+
+Once Quake has been installed, you can install Quake Mission Pack #1.  For 
+detailed installation instructions, refer to the README.TXT on the Quake 
+Mission Pack #1 CD.  You must install Quake Mission Pack #1 before you can 
+play it.  It will not run off the CD-ROM.
+
+
+
+=============================================================================
+                              Basics of Play
+=============================================================================
+
+-----------------------------------------------------------------------------
+                             Goal of the Game
+-----------------------------------------------------------------------------
+
+Just like Quake, Quake Mission Pack #1 has two basic goals. First, stay 
+alive. Second, get out of the place you’re in. Each level ends in a slipgate. 
+These signify that you’ve entered another dimension.  Unlike Quake, however, 
+Quake Mission Pack #1 is played in a linear fashion, taking you through each 
+of the fifteen levels ultimately leading you to the Boss, Armagon, in the 
+final showdown.
+
+
+
+-----------------------------------------------------------------------------
+                                  Skill
+-----------------------------------------------------------------------------
+
+The Start Level has several different slipgates for each level of Skill you 
+wish to play.  
+
+Easy:      This is meant for little kids and grandmas.
+Medium:    Most people should start Quake at Medium skill.
+Hard:      Here at id Software, we play Hard skill, and we think you should 
+           too, if you can handle it.
+Nightmare: Good luck.
+
+
+
+-----------------------------------------------------------------------------
+                               Getting About
+-----------------------------------------------------------------------------
+
+Walk:      Use the arrow keys or the mouse. To walk steadily forward, hold 
+           down the Forward key (up arrow or right mouse button). Turn left 
+           or right with the left or right arrow key, or by sliding your 
+           mouse in the desired direction. 
+
+Run:       Hold down the shift key to increase your speed. 
+
+Jumping:   Tap the space bar or the Enter key to jump. You jump further if 
+           you’re moving forward at the time, and you jump higher if you’re 
+           moving up a slope at the time. You’ll be surprised at the spots 
+           you can reach in a jump. You can even avoid some attacks this way. 
+
+Swimming:  When underwater, aim yourself in the direction you wish to go, and
+           press the forward key to go in that direction. You have full three-
+           dimensional freedom. Unfortunately, as in real life, you may lose 
+           your bearings while underwater. Use jump (the space bar or Enter 
+           key) to kick straight up towards the surface. Once on the surface, 
+           tread water by holding down jump. To get out of the drink, swim 
+           towards the shore. Once there, use jump to clamber up. If you’re 
+           down a well or you can’t get a grip, you may not be able to climb 
+           out. There is always another way out, but you may have to submerge
+           to find it. 
+
+Shooting:  Tap the Ctrl key or the left mouse button to fire. Hold shoot down
+           to keep firing. 
+
+Use:       Quake has no "use" function. To push a button or open a door, walk
+           up to it or, in some cases, shoot it. To ride a platform up, step 
+           onto it. If a door won’t open or a platform won’t lower, you may 
+           need to do something special to activate it. 
+
+Picking up stuff:  
+           To pick up items, weapons, and power-ups, walk over them.            
+           If you can’t pick up something, it means you already have the 
+           maximum possible. If it is armor, it means the stuff you’re trying
+           to get is worse than what you now have. 
+
+
+
+-----------------------------------------------------------------------------
+                               Finding Things 
+-----------------------------------------------------------------------------
+
+Buttons and Floorplates: 
+           Buttons activate with a touch, and floorplates must be stepped on.
+           If you see a distinctive-looking button in a spot you cannot 
+           reach, it’s probably a shootable button - fire at it. 
+
+Doors:     Most doors open at your approach. If one doesn’t, seek a button, 
+           floorplate, or key.
+
+Secret Doors: 
+           Some doors are camouflaged. Almost all secret doors open when they 
+           are shot or hit with an axe. The rest are opened by hidden 
+           pressure plates or buttons. 
+
+Platforms: Most platforms only go up and down, while some follow tracks 
+           around rooms or levels. Normally, when you step onto a platform, 
+           it rises to its full height, and lowers when you step off. Some 
+           platforms drop when you step onto them, and some don’t work until 
+           you activate them via button or pressure plate. 
+
+Pressure Plates & Motion Detectors: 
+           Invisible or visible sensors can open doors, unleash traps, warn 
+           monsters, etc. 
+
+Uncovering Secrets: 
+           Secrets are hidden in many ways. You might need to shoot a button,
+           kill a monster, walk through a secret motion detector, etc. 
+
+The Secret of Secrets:  
+           All secrets in Quake Mission Pack #1 are indicated by clues. Don’t
+           waste your time hacking at every wall. It’s much more productive 
+           (and fun) to use your brain and your eyes. Look up. An angled 
+           texture, a light shining under a wall, a strange sound...anything
+           might be the clue. Something prominent in a room might be 
+           decoration...or it might be the clue.
+
+TIP: Bouncing a grenade off a shootable button or secret door won’t open it, 
+but if the grenade’s explosion goes off nearby, this may well activate such 
+secrets. 
+
+
+
+-----------------------------------------------------------------------------
+                           Commands, Menu, & Console 
+-----------------------------------------------------------------------------
+
+Keyboard Commands
+Press F1 (the Help key) or select the Help option from the Main Menu to get a
+list of keyboard commands. 
+
+NOTE: Help lists the default keys. If you’ve customized your configuration, 
+Help won’t be totally accurate anymore.
+
+The Main Menu
+Tap the Escape key to pop up the Main Menu. While you are in the menu, the 
+game is paused. The Main Menu is pretty much self-explanatory, but if you 
+have questions, README.TXT explains all. 
+
+TIP: Quake Mission Pack #1 saves your current key configuration when you 
+quit, so that next time you play, you have the same configuration. 
+
+
+Console 
+Tap the ~ (tilde) key to bring down the console. As with the Main Menu, when 
+the console is down, a single player game is paused. A wide variety of 
+esoteric commands can be entered at the console. If your keyboard has no ~ 
+(tilde), the Options submenu from the Main Menu has a "Go To Console" 
+selection. The README.TXT file contains advanced Console commands.
+
+
+Command Line
+For special command line parameters, see the README.TXT file.
+
+
+
+=============================================================================
+                                The Game
+=============================================================================
+
+-----------------------------------------------------------------------------
+                               The Screen
+-----------------------------------------------------------------------------
+
+The large top part of the screen is the view area, in which you see monsters 
+and architecture. Immediately below is the Inventory Bar. Below that is the 
+Status Bar. You can enlarge the viewing area (tap the + key), so much that it
+engulfs first the Inventory Bar and then the Status Bar. The "-" key shrinks 
+the view area.
+
+Inventory Bar: Lists ammo, weapons, deathmatch scores, and power-ups.  The 
+active weapon is lit up. Each weapon has a number by it; type the appropriate
+number key to switch to that weapon. In deathmatch, the top four scores are 
+displayed, along with the color(s) of those players.
+
+Status Bar: A vital part of the screen. When your armor, hit points, or ammo
+gets low, the number turns red. That’s a hint, pal.  While in Multiplayer 
+Mode, pressing TAB shows the normal stuff you would see in Single-player 
+Mode, but over the game screen the entire Rankings List will be displayed 
+(just like when you die in Deathmatch Mode).
+
+Score Bar: Hold down the Tab key to replace the Status Bar with the Score Bar. 
+This lists the proportion of monsters you’ve killed, secrets you’ve found, 
+and time you’ve spent, along with the level name.
+
+
+-----------------------------------------------------------------------------
+                                Messages
+-----------------------------------------------------------------------------
+
+Quake talks to you from time to time. Some messages appear at the top of the 
+screen.  These are non-critical, and tell you that you’ve picked up an 
+object, or you’ve died in an interesting fashion. Ignore these messages if 
+you please.
+
+Certain messages appear in the middle of your view area. These are always 
+important, and you do not want to ignore them!
+
+
+-----------------------------------------------------------------------------
+                              Ending a Level
+-----------------------------------------------------------------------------
+
+Once you finish a level, you’ll find a slipgate, a distinctive archway, or a 
+gaping hole in the ground leading to the next level. Pass through to emerge 
+in a new level. 
+
+You start the new level with the same hit points, armor, weapons, and ammo 
+you had at the end of the previous one. Except that if you have over 100 hit 
+points (due to the mega health power-up), you start the new level at 100. If 
+a power-up was active at the end of the previous level, sadly, it is no 
+longer in effect. Make the best of it. 
+
+
+
+=============================================================================
+                           Your New Environment
+=============================================================================
+
+-----------------------------------------------------------------------------
+                               New Weapons
+-----------------------------------------------------------------------------
+
+Proximity Mine Launcher: 
+           These are definitely not your typical grenade launchers. Gameplay 
+           reaches new heights of strategic intensity with these motion-
+           sensitive mines. Launch them into walls and ceilings and leave a 
+           little surprise for your enemies.
+
+Laser Cannon: 
+           This weapon emits a series of laser blasts that disintegrates 
+           anything in its path. The laser canon will have the ability to 
+           bounce off an inanimate object at least once; in tight quarters, 
+           maybe twice.
+
+Mjolnir:   This is THOR’s War Hammer.  Electrical by nature, when hammered to
+           the floor it sends out a scattered electrical force along the 
+           ground. An ear-piercing clap of thunder will sound when the 
+           opponent is struck. The electrical current can spread from one 
+           opponent to the next. 
+
+TIP: The proximity mines stick to walls and floors.  Use them strategically 
+to lay waste to your enemies.
+
+Switching Between Weapons:  
+           If you are firing a weapon and run out of ammo, Quake auto-
+           matically switches you to another weapon. It will never switch to 
+           the grenade launcher or rocket launcher, however, for reasons that
+           ought to be obvious. So if you’re firing away happily and suddenly 
+           switch to the axe, it doesn’t mean you’re out of ammo...you 
+           probably still have grenades. But Quake requires you to switch to 
+           these dangerous explosives on your own.
+
+
+-----------------------------------------------------------------------------
+                               New Powerups
+-----------------------------------------------------------------------------
+
+Horn of Conjuring: 
+           Upon activation, a random creature is spawned in to protect you. 
+           This creature will fight by your side and help you destroy all of 
+           your enemies. The creature will continue to fight for you until he 
+           is killed. Be careful though, you can accidentally kill your 
+           servant creature.
+
+Empathy Shield:  
+           When this magic shield is activated, all damage received by the 
+           player is split between the player and the attacker. "Feel my 
+           pain, buddy!"
+
+Wetsuit:   Provides immunity to all lightning attacks. Also, allows player 
+           better underwater propulsion and the ability to fire electrical 
+           weapons underwater without damage to himself.
+
+
+-----------------------------------------------------------------------------
+                               New Creatures
+-----------------------------------------------------------------------------
+
+Gremlin:   These creatures travel in packs attacking like a swarm of bees to 
+           steal your weapons and feast on the bodies of your slain enemies. 
+ 
+Centroid:  These armor-plated, techno-advanced scorpion creatures are huge 
+           and pissed.  They carry dual nail guns for claws to get your 
+           attention, but get too close and you'll have a stinger in your 
+           face. 
+
+TIP: Some weapons are better vs. particular monsters than others. If a new 
+monster seems real tough, switch weapons. 
+
+
+-----------------------------------------------------------------------------
+                     New Environmental Hazards and Effects
+-----------------------------------------------------------------------------
+
+Fallaway/Exploding Walls: 
+           These floors fall away instantly when stepped on or create an 
+           earth-splitting QUAKE. 
+
+Spike Mines: 
+           Floating mines of flesh and steel that wander the levels and 
+           unleash a devastating shower of spikes when in proximity of a 
+           player. If you keep your eyes on the mine they will charge at you 
+           slower, but turn your back and they will destroy you. Use the 
+           spike mines to your advantage by leading them into other 
+           creatures.
+
+Lightning Traps: 
+           The Surgeon General recommends that these periodic bursts of 
+           lightning are hazardous to your health. Avoid them "If you can!"
+
+Falling Rocks: 
+           Some areas have rocks or boulders that will damage unsuspecting 
+           players.
+
+
+
+=============================================================================
+                            Multiplayer Action
+=============================================================================
+
+Quake Mission Pack #1 (Scourge of Armagon) fully supports multiplayer mode.  
+There is one new level designed specifically for multiplayer. 
+
+When you are using the console or Main Menu in multiplayer, the game does not
+pause. Irresponsible players and monsters can freely shoot you, and your only
+recourse is bloodthirsty vengeance. The Talk function is useful here. When 
+you talk, the message appears at the top of all players’ screens, preceded 
+by the speaker’s name. 
+
+To set up, run, or join a multiplayer game, use the Main Menu Multiplayer 
+option. README.TXT contains details that may be useful if your network or 
+modem needs special configurations.
+
+
+-----------------------------------------------------------------------------
+                               Cooperative
+-----------------------------------------------------------------------------
+
+In a co-op game, you and your friends work together to finish the level. When
+one person exits, everyone else exits too, wherever they might be. If you are
+killed in co-op, you reappear at the start area, and have to catch up to your
+buddies. Use Talk to find out where they are. See the Multiplayer options on 
+the Main Menu for more info. 
+
+
+-----------------------------------------------------------------------------
+                                Deathmatch
+-----------------------------------------------------------------------------
+
+In a deathmatch, play is totally cutthroat.  No monsters exist, and when you 
+are killed, you reappear in a random spot. After you pick up an item, it 
+respawns (i.e. pops back into existence) after a while. (Some items take 
+longer to respawn than others.) Every time you kill someone, you get a Frag. 
+The person with the most Frags wins, so wreak slaughter amongst your pals!
+
+If you kill yourself, whether intentionally or by accident, you lose a Frag. 
+This includes drowning, getting crushed, and so forth. See the Multiplayer 
+options on the Main Menu for more info.
+
+
+-----------------------------------------------------------------------------
+                                 Team Play
+-----------------------------------------------------------------------------
+
+Team play is a cool combination of co-op and deathmatch. Each team picks a 
+"uniform" and everyone on that team changes their color to the team color. 
+The team with the most Frags wins. 
+
+TIP: If you have the Team Color Rules set to No Friendly Fire, your weapons 
+won’t hurt other players wearing the same color pants as you. (You can still 
+have differently colored shirts.) Your shots still wear away their armor, and
+your own grenade and rocket explosions still hurt you, but not them. 
+
+
+
+=============================================================================
+                           Commonly Asked Questions
+=============================================================================
+
+Q:	Why do creatures summoned by the Horn of Conjuring often act really 
+        stupid?
+A:	The conjuring process often affects the feeble minds of the creatures
+        adversely.  As a result, the creatures often have a difficult time 
+        performing.   Conjured creatures are commanded to follow you whenever
+        they are not fighting another creature.  You can use that to your 
+        advantage by leading the charmed creature to an enemy you are trying 
+        to destroy.
+
+Q:	How do I stop Gremlins from stealing my weapon?
+A:	Gremlins are crafty little devils, but they do have their limits.  A 
+        Gremlin will not steal your Mjolnir, standard shotgun or axe.  By 
+        switching to one of these weapons, he won't be able to steal your 
+        weapon.
+
+Q:	Who is Hipnotic Interactive? A bunch of washed up hypnosis experts?
+A:	Hipnotic Interactive is made up of some of the most talented game 
+        designers in the industry.  Previously they have worked on such 
+        titles as Duke Nukem 3D, Final Doom, Rise of the Triad, Master Levels
+        for Doom 2 and Terminal Velocity.  They are dedicated to making the 
+        best 3D action games in the industry.
+
+Q:	I liked the "Scourge of Armagon." What are you guys going to do next?
+A:	They are currently working on a game to be out early '98.  To find out
+        about updates and what they are up to, check them out at: 
+        http://www.hipnotic.com.
+
+
+
+
+=============================================================================
+                              Customer Support
+=============================================================================
+
+Before contacting customer support, please consult the technical help file. 
+It contains the answers to some of our most frequently asked questions and 
+may quickly and easily provide a solution to your difficulty. If after 
+reviewing the technical help file you are still experiencing problems, 
+please feel free to contact us through any of the online services listed.
+
+Quake Mission Pack #1 (Scourge of Armagon) technical support is available 
+through our online services only. If you are experiencing difficulty with 
+your original version of Quake, please contact id Software technical support.
+
+Due to the complex nature of network games, please provide the following 
+information when requesting technical support:
+
+1.	Complete product title.
+2.	Exact error message reported (if any) and a brief description of the 
+        problem.
+3.	What operating system is each player using (e.g., Windows 95 or DOS)?
+4.	What kind of processor does each machine have (e.g., Intel Pentium®  
+        90)?
+5.	What kind of video and soundcards do the machines have (e.g., Diamond
+        Stealth 64 video, Sound Blaster)?
+6.	Are you using a joystick? If so, what brand and model? What is it 
+        using as a game port (e.g., soundcard, dedicated game port)?
+7.	How much free disk space do you have?
+8.	How much RAM is in each machine?
+
+In addition, please note whether you are using a modem or LAN to play Quake 
+Mission Pack #1 and have the following information available.
+
+If you are using a modem:
+1.	What kind of modem is on each end (brand, model, speed, internal or 
+        external)?
+2.	Do you have more than one modem?
+3.	On which port is each configured?
+4.	Does Hyperterminal (or any other terminal program) work with your 
+        modem? This is an easy way to test whether or not your modem is 
+        configured correctly.
+5.	At what speed are you connecting?
+6.	Have you made sure data compression, error detection, and flow 
+        control is turned OFF?  Refer to your modem’s manual to do this.
+
+If using an external modem:
+1.	What kind of serial card is being used?
+2.	Do you have a seven-wire serial cable?
+
+If you are on a LAN:
+1.	Can you see other computers on the network?
+2.	What is your network configuration?
+3.	What brand of network card do you have?
+4.	What network software are you running? What version number?
+
+
+Online Services with Activision Forums, E-Mail and File Library Support:
+
+America Online:  Use keyword "Activision" to locate the Activision forum.
+CompuServe:      76004,2122 or [GO GAMBPUB] GO ACTIVISION
+Activision BBS:  (310) 479-1335  Up to 28,800 Baud; Settings: 8 Bits, 
+                 No Parity, 1 Stop Bit (8, N, 1)
+
+Internet:        support@activision.com  or  www.activision.com
+Fax:             (310) 479-7355, 24 hours a day
+FaxBack:         (310) 473-6453, 24 hours a day
+Snail Mail:      Activision
+                 Customer Support
+                 P.O. Box 67713
+                 Los Angeles, CA  90067
+Phone:           Call our 24-hour automated voice-mail system for answers 
+                 to our most frequently asked questions at (310) 479-5644. 
+
+
+
+
+=============================================================================
+                                 Credits
+=============================================================================
+
+-----------------------------------------------------------------------------
+                               id Software
+-----------------------------------------------------------------------------
+
+Programming:  John Carmack, Michael Abrash, John Cash
+
+Design:       Sandy Petersen, American McGee, Tim Willits
+
+Art:          Adrian Carmack, Kevin Cloud
+
+Biz:          Todd Hollenshead, Paul Steed, Donna Jackson, Barrett Alexander
+
+
+
+-----------------------------------------------------------------------------
+                           Hipnotic Interactive
+-----------------------------------------------------------------------------
+ 
+
+Programming:  Mark Dochtermann, Jim Dosé
+
+Art:          Robert M. Atkins, Michael P. Hadwin
+
+Design:       Richard "Levelord" Gray, Tom Mustaine, Mike Wardwell and Jim 
+              Dosé
+
+Biz:          Harry A. Miller IV
+
+Additional Design:  
+              Matthew Hooper, Mackey McCandlish and Jimmy Sieben
+
+Special Thanks to:
+              Sheilia, Marianna, id Software and many of our friends for 
+              supporting the launch of Hipnotic.
+
+
+
+-----------------------------------------------------------------------------
+                               Activision
+-----------------------------------------------------------------------------
+ 
+
+Marketing:    Henk Hartong, Barbara Matias
+
+Production:   Steve Stringer, John Cibulski, Kelly Rogers
+
+Quality Assurance:  
+              Tim Vanlaw, John Tam
+
+Additional QA:  
+              Woody Grafing, Rick Omori, Steve Rosenthal, Kelly Wand
+
+Original Music by:        
+              Jeehun Hwang
+
+Installer:    Mark Lamia, Adam Goldberg, Frankie Tam
+
+Creative Services: 
+              Denise Walsh, Mike Rivera
+
+
+Special Thanks to:
+Biz:          Mitch Lasky and Bill Anker for doing the deal.
+
+id Software:  Todd, Bear, Tim, Adrian and everyone else for making this go 
+              smoothly.
+
+Hipnotic:     Harry, Mark, Richard, Jim and all the rest for their amazing
+              work.
+
+Music:        Rob Patterson for Additional Guitar Work
+
+And:          Page & Mitch.  "Thank you."
+

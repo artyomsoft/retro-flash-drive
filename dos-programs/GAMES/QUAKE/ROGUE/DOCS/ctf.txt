@@ -1,0 +1,120 @@
+=============================================================================
+                         QUAKE MISSION PACK NO. 2
+
+	                 DISSOLUTION OF ETERNITY
+=============================================================================
+
+                             CAPTURE THE FLAG
+
+
+Capture the Flag (CTF) offers an exciting variation on team play.  It gives 
+meaning to base defense along with offensive positioning and strikes.
+
+The basic premise is:  attack the enemy base, grab their flag, and take it 
+back to your base.  
+
+Mission Pack No. 2 offers three variations to CTF:  normal, one flag, and 
+three team.  This document gives a general overview to each type of play.  
+
+
+PLEASE NOTE:  It is possible to select multiplayer combinations in the 
+Mission Pack No. 2 front-end, such as Co-operative Tag, that cannot be 
+played.  Although an interesting "unsupported feature," it can be confusing 
+to be in Tag mode with Co-operative play options and monsters.  If you find 
+yourself in a CTF game with monsters, you should restart the level with 
+teamplay set to "no teamplay."
+
+
+-----------------------------------------------------------------------------
+                               CTF:  Normal
+-----------------------------------------------------------------------------
+
+1. Two areas of the map are designated as base encampments.
+
+2. When you join the game, you are assigned to a team.  Depending on the 
+   configuration of the server, you may change teams; if you are allowed to 
+   change, you will lose your frag count when changing.  You are spawned at 
+   your team's base.  If you die, you are not spawned at the base, but at one 
+   of the deathmatch start spots.  This way, you don't kill a guy defending 
+   his flag at the enemy base and he comes back to life immediately in the 
+   same spot.
+
+3. The flags are based on the medieval key models.  If you pick up the enemy 
+   flag, you must return to base and touch your flag in order to score.  
+   Note that if you get back to the base, your flag might not be there if 
+   the other team has it!  Get the rest of your team to go frag the enemy 
+   player and get your flag back!
+ 
+4. When a player carrying the enemy flag touches his own flag, he will 
+   complete a successful capture.  He gets a bonus of 15 points.  Everyone 
+   else on his team gets 10 points.
+
+5. If you kill an opposing team player who has your flag, he drops it, and 
+   you also get 2 points.   If you touch your flag, it will teleport back to 
+   your base.  You also get one point as a recovery bonus.  This gives base 
+   defenders a reward for guarding their flag.   Defending the flag carrier 
+   (your teammate) from an attack counts as an assist worth 3 points, and 
+   returning it to base garners you an extra point.
+
+6. Since everyone starts at their base after each level change (or upon 
+   joining the game), the team will have to work out who is going to go 
+   offensive and try to get the enemy flag, and who will play defense by 
+   staying at base and guarding the flag.  Yes , this is camping, but it is 
+   camping with a cause!
+
+7. You can communicate with teammates by binding "messagemode2" to a key.
+
+
+
+-----------------------------------------------------------------------------
+                               CTF:  One Flag
+-----------------------------------------------------------------------------
+
+Both the Red and the Blue teams will start in their base camps.  Neither team
+will have a flag at their camp. The flag starts out in a designated "one 
+flag" start spot on the map. Both teams must then try and reach the flag 
+before their opponents.  Once they gain control of the flag, the object is 
+not to return to your own camp, but to the OTHER team's base camp.
+
+Scoring: All of the regular rules for CTF would apply. The points awarded for 
+the flag capture, killing opposing team members, dispatching threats to your 
+flag carrier, and the rest would apply.
+
+
+
+-----------------------------------------------------------------------------
+                              CTF:  Three Team
+-----------------------------------------------------------------------------
+
+There will be three teams at spawn time: the two normal Red and Blue teams, 
+as well as a third Grey team. The Blue and Red teams initially spawn at their 
+normal base sites; the members of the Grey team will spawn in random 
+deathmatch start locations.
+
+Scoring: The rules for teams Red and Blue stay exactly the same.  Grey team 
+members can pick up either color flag and must run it to the other color’s 
+base camp to score.   The rest of the scoring rules still apply to the Grey
+team, but the points are halved to compensate for the ability to grab either 
+flag. The other scoring works the same.  
+
+
+-----------------------------------------------------------------------------
+                            The Grappling Hook
+-----------------------------------------------------------------------------
+
+In CTF games, toggling the "1" key will switch your axe to an enhanced 
+grappling hook created especially for Quake Mission Pack No. 2.  The 
+grappling hook is an integral part of Capture the Flag and, when used 
+strategically, can be a powerful aid.  To use the hook, fire as you would any 
+other weapon but hold the fire key down.  The hook will launch and attach 
+itself to a wall or another object.  When you hold down the fire key, the 
+grappling hook will pull you along. 
+
+
+-----------------------------------------------------------------------------
+                             One more thing...
+-----------------------------------------------------------------------------
+
+Thanks to Dave "Zoid" Kirish for writing the CTF enhancements for us.  Many 
+sections of this document were taken from his CTF page at 
+http://www.threewave.com.  

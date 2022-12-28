@@ -1,0 +1,144 @@
+
+
+           Welcome to EVAfont: EGA/VGA font designer v2.03
+           _______________________________________________
+
+                                                         January, 1989
+
+
+
+   Overview
+   ________
+
+      EVAfont utility  provides you with ability to customize your EGA
+   or VGA  text fonts. These very short notes will help you to get the
+   job done.
+      Bit-mapped font is a binary representation of characters you see
+   on the  computer screen.  And, unless  you're a  hexadecimal number
+   cruncher, it's  a little  bit tricky to create or modify such fonts
+   without the  appropriate tools.  That's what  EVAfont was developed
+   for.
+      The internal  structure of  a bit-mapped  font is  quite simple:
+   each row  of dots  is represented  with the  bits of a single byte,
+   thus each  character in  a bit-mapped  format is  composed of 'row'
+   bytes, and complete font length is 256 x 'rows-in-character' bytes.
+      EVAfont can  handle fonts  of size  8x8, 8x14  and 8x16  pixels,
+   exactly to  match needs for CGA, EGA and VGA video cards. Fonts are
+   stored in  the files  (usually with  extension .FNT) with length of
+   2048, 3584  and 4096 bytes respectively. In most cases you load the
+   font from  disk or  grab it from the screen, then modify it to your
+   taste, and  when you  see the  font you like, single key press will
+   produce executable  file with  .COM extension. If you choose it for
+   everyday use,  simply run  this file from your AUTOEXEC.BAT file to
+   make driver active every time your computer boots up.
+      
+      
+      
+   Starting EVAfont
+   ________________
+      
+      Command line to start EVAfont looks something like that:
+      
+      EVAFONT [filename][/C][/M][/K][/A]
+      
+      Options are:
+         
+         filename - optional font file name to load immediately upon
+                    start. If omitted, on EGA or VGA system, EVAfont
+                    picks up current screen font from video RAM
+                    (unless you specify an /A switch).
+         /C       - force color mode.
+         /M       - force monochrome mode.
+         /K       - disable Microsoft mouse.
+         /A       - use INT 10h subfunction User Alpha Load instead of
+                    direct video RAM font update.
+         
+      Specify /C  or /M  switches if  you want  to override  automatic
+   color selection.  If omitted,  EVAfont uses color palette for color
+   monitors and black-and-white for monochrome.
+      Disable mouse operations using /K switch. This is useful only if
+   your mouse driver initially responds as Microsoft Mouse Driver, but
+   then behaves not fully compatible.
+      Use /A  switch if you feel that EVAfont gets into trouble during
+   direct  read/write   operations  with   text   fonts   video   RAM.
+   Usually machine hangs up, screen flashes etc. Be aware that in this
+   case your EGA or VGA card is not register-level compatible with Big
+   Blue's one.
+      
+      
+      
+   Mouse hints
+   ___________
+   
+      You have  full  control  over  EVAfont  functions  using  either
+   keyboard or  Microsoft  compatible  mouse.  Left  and  right  mouse
+   buttons acts  exactly like  <Enter> and <Escape> keys respectively.
+   Dragging mouse  (moving while  holding down  either button) effects
+   like Shift + arrow keys combination.
+      
+      
+      
+   Font files
+   __________
+   
+      For your convenience there are several font files on the
+   diskette:
+         
+         CGA!FONT.FNT  - 8x8 font, (great for 43/50 line modes).
+         EGAIBMAT.FNT  - standard IBM EGA 8x14 font.
+         EGARFONT.FNT  - enlarged 8x14 font, Russian characters.
+         EGA!FONT.FNT  - enlarged 8x14 font, Helvetica & Russian
+                         characters.
+         VGAPS260.FNT  - standard IBM VGA 8x16 font.
+         VGARFONT.FNT  - VGA 8x16 font, Russian characters.
+         VGA!FONT.FNT  - VGA 8x16 font, Helvetica & Russian
+                         characters.
+         
+      
+      
+      
+   PUTFONT utility:
+   __________________________
+      
+      The new utility is included in the package with version 2.03. It
+   is intended for use with previously loaded screen drivers produced
+   with EVAfont and allows you update fonts on-the-fly without loading
+   new copy of the driver and wasting you extremely expensive RAM.
+      
+
+
+   General Information
+   ___________________
+      
+      EVAfont will  run on  any IBM/PC  or  PS/2  compatible  computer
+   equipped with  EGA, VGA or MCGA video card under DOS 2.0 and above.
+   Using another  video cards  you can't  use the  text font  download
+   facility, but yet editing is possible.
+      
+      
+      If you  have any  questions, comments,  or you notice any compa-
+   tibility problems  with some  software or hardware products, please
+   call:
+          
+          Moscow,
+          tel. 297-91-87, 395-90-77
+          Pete I. Kvitek
+          
+          
+          
+   License
+   _______
+   
+   Copyright (C) 1988,1989 by Pete I. Kvitek, All Rights Reserved.
+   
+     You are free to use, copy and distribute EVAfont for
+     noncommercial use if:
+               
+               no fee is charged for use, copying or distribution.
+               
+               it is not modified in any way.
+   
+   Note:
+   This program  is provided  AS IS without any warranty, expressed or
+   implied, including  but not  limited to  fitness for  a  particular
+   purpose.

@@ -1,0 +1,2 @@
+cd ..
+gl.bat -rogue

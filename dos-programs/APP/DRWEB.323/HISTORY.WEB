@@ -1,0 +1,720 @@
+ Версия,│ Дата и │  Изменения в программе или добавление новых вирусов
+ вирусы │ размер │
+────────┼────────┼────────────────────────────────────────────────────────────
+1.00    │20.07.94│ Dead.790,CeCe.1994,CommanderBomber,DrWhite.1027,2403,
+        │        │ DSME.Connie.1761,DSME.Connie.2708,DSME.Teacher.3197,
+        │        │ Dbec.990,Dread.774,Khizhnjak.586,608,696,Natas.4744,
+        │        │ Lenin.943,MIREA.1766,MIREA.2087,MIREA.2177,MIREA.4156,
+        │        │ MtE.CoffeeShop,MtE.DarKStaR,MtE.Dedicated(1,2),MtE.Fear,
+        │        │ MtE.Encroacher,MtE.Groove(1,2),MtE.Insuff(1,2,3),MtE.LC92,
+        │        │ MtE.Metal,MtE.Mother,MtE.Pogue,MtE.Questo,MTZ.971,MTZ.1907,
+        │        │ MTZ.Overkill.1191,MTZ.Overkill.1308,MTZ.Overkill.1385,
+        │        │ MTZ.Overkill.2624,MTZ.PinkPanther.4510,MTZ.PinkPanther.5081,
+        │        │ Maaike.250(1),Metallica.1739,Anarchy.9382,NotAX.825,
+        │        │ OneHalf.3544(1),3577,Porridge.1061(1,2),Porridge.1384,
+        │        │ Phantom1.7000(1,2),Satanbug.FruitFly,ExeHeader.Pure.441(1),
+        │        │ SMEG.Pathogen.3732,SMEG.Queeg.3756,Small.307,Satanbug(1,2),
+        │        │ TPE.CivilWar.1979,TPE.CivilWar.1994,TPE.CivilWar.1997,
+        │        │ TPE.CivilWar.2049,TPE.Girafe(1,2),TPE.PoetCode,TV.1919,
+        │        │ Uruguay.2313,Uruguay.2379,Uruguay.2456,Uruguay.2623,Brain,
+        │        │ Uruguay.4268,Uruguay.4879,Uruguay.6262,Uruguay.6344,DenZuk,
+        │        │ TPE.Bosnia,Sept13.440,Ripper,Rostov,Stoned,YMP,Neko.2697.
+        │        │
+1.01    │02.08.94│ Keypress.1728,Helicopter.777,Priest.1416,MangeTout.1099,
+        │        │ Cannibal.1312,Sara.1214,Haifa.2352(1,2),Dinky.66.
+        │        │ Проверка файлов, упакованных LZEXE 0.91, PKLITE 1.12,
+        │        │ 1.12extra, 1.13extra, 1.14, DIET 1.10 для COM-файлов,
+        │        │ DIET 1.20, 1.45f, CryptCOM (B) и файлов, вакцинированных
+        │        │ CPAV и CPAV2.
+        │        │ Исправлена ошибка (странное время создания для MBR и BOOT).
+        │        │
+1.02    │16.08.94│ NG.1036,Teacher.2000,CrazyBoot,Girls.1829,
+100 vir.│        │ HLLP.Birthday.5824.
+        │        │ Проверка файлов, иммунизированных CPAV 1991 года для COM-
+        │        │ файлов.
+        │        │
+1.03    │09.09.94│ Dinky.65,Michelangelo(1),Procuror,HLLP.7808(1),Sayha.Watpu,
+112 vir.│        │ Trivia.319,SMEG.Trivia.2437,DAME.Lame,Predator.1072(1),
+        │        │ Sl.200,DAME.Trigger,MemLapse.787.
+        │        │ Проверка файлов, упакованных EXEPACK 3.60, 4.05, 5.31.009,
+        │        │ DIET 1.00, LZEXE 0.90.
+        │        │ Введены новые режимы: /O - вывод сообщения "Ok" для неинфи-
+        │        │ цированных файлов, и /V - контроль за заражением тестируемых
+        │        │ файлов резидентным вирусом.
+        │        │
+1.04    │26.09.94│ NED.Tester,NED.ItsHard,Predator.1063,Predator.1137,
+175 vir.│        │ Predator.1148,Predator.1154,Predator.1195,Tony.338,Fly.1769,
+        │        │ Predator.1072(2),Predator.2448,Freddy.1870,Carbuncle,Tremor,
+        │        │ Peach.887,Grog.Bog.233,Simulation,Moctezuma.2228,Yom.529,
+        │        │ Moctezuma.2416,Riot.Evil.769,CivilDefence.3B,Invisible.2926,
+        │        │ Invisible.3223,Bingger.489,Monkey(1,2),MVF.1896,Beda.338,
+        │        │ Lycee.944,MVF.1866,Emmie.2604,Emmie.2620,Emmie.2702,Form(1),
+        │        │ Emmie.2823,Emmie.3097,Todor.1993,Ginger.2691,Ginger.2774,
+        │        │ NYB,CheckSum.1232,CheckSum.1233,Ice.659,Ice.734,DEI.1456,
+        │        │ Slovakia.3584(1-2),DEI.1526,DIE.1634,DEI.1792,COMx,NearDark,
+        │        │ Vaucher,Uruguay.4906,Uruguay.6396,BadBuffer,Copy77,IntFF,
+        │        │ Gelendzhik,MBR77,Mikola,HLLP.Rsw.5846.
+        │        │ Введен файл конфигурации WEB.INI. Проверка файлов,
+        │        │ упакованных DIET 1.44.
+        │        │ Введена возможность задания пути и масок тестируемых файлов.
+        │        │ Добавлен режим /L - вывод сообщений на другом языке.
+        │        │
+1.05    │18.10.94│ Dron.1024,Anarchy.2048,Mirror.4130(1),MacGyver.2803(1),
+233 vir.│        │ Digger.1000,1475(1),1512,1800,Khizhnjak.776,Locust.1456,
+        │        │ MayDay.419,Angelina,Scale,Cpsu.680,SqL.953,Lycee.1975,
+        │        │ Lycee.1950,Holiday.2900,SillyRC.140,538,588,855,1079,
+        │        │ Tsh.2UP.6000,TaiPan.438(1),XAM.278,MGUL.1962,Dread.2163,
+        │        │ Microsof.1024,3APA3A(2),HLLP.Rsw.8304,SillyRE.666,
+        │        │ Poruchik.2774,Dinky.64,80,86,TPE.Kela.4546,SillyO.247,
+        │        │ Dsu.1414,Kommuna.800,DEI.1948,SatanBug.1568,IOerror.516,
+        │        │ July29(1),Sh.254,MangeTout.1091,Collor.878,Switch.855,
+        │        │ Worry.556,BackSlash,Itv.449,Khizhnjak.642,Cannibal.1261,
+        │        │ Andrew(1),Victim.600,SillyE.1264,Wizard.897,Digger.600.
+        │        │ Изменен алгоритм сканирования памяти компьютера.
+        │        │ Добавлены режимы /Z - взаимодействие с комплексом Sheriff,
+        │        │ и /D - удаление файлов, восстановление которых невозможно.
+        │        │ Проверка файлов, упакованных PKLITE 1.03 для COM-файлов,
+        │        │ PKLITE 1.15 для COM-файлов, PKLITE 1.20extra, EXEPACK 4.00.
+        │        │
+1.06    │28.10.94│ MrD.1536,SillyE.511,EA.Asmodeous.1444,Gentry.1570,Aija,
+270 vir.│        │ Radio101.1000,Galya.500(1),SillyRC.3000,Avatar.Dichotomy,
+        │        │ STan.1700,Murphy.Tormentor,J&M,Amse(1),BootExe.443,
+        │        │ CivilDefence.38,Emm.4870,DSCE.Demo,CLME.Ming.1528,AntiCMOS,
+        │        │ MGen.Garden,MGen.HiTek,MGen.Agent.1310,MGen.Agent.1337,
+        │        │ MGen.Agent.1656,MGen.Agent.1715,MGen.Agent.1118,MGen.Secret,
+        │        │ MGen.Agent.1466,V2Px.V2P6.1993,Trivial.46,MGUL.950,Million,
+        │        │ MGUL.1953,AntiEXE(1),Cat.2770,Bloody(1,2).
+        │        │ Проверка файлов, упакованных PKLITE 1.00с (COM, EXE, extra).
+        │        │ Исправлена ошибка лечения July29.
+        │        │
+1.07    │15.11.94│ Boot.437,HideNowt,SGWW.Maverick.1536,JuneTunes.1784,
+325 vir.│        │ Crepate.2910,Holms.6161,VCL.Mom.974,3nop,Ping-Pong.512(1),
+        │        │ HLLP.Vova.10960,HLLP.Vova.11312,HLLP.Vova.12560,Havoc(1,2),
+        │        │ HLLP.Vova.12704,HLLP.Vova.13168,HLLP.Vova.12240,Natas.4746,
+        │        │ HLLP.Vova.10448,HLLP.Vova.10896,BackUSSR,BootExe.451(1),452,
+        │        │ Abs-3,Doodle.1760,1805,1909,2568,2680,2756,2772,2932,2885,
+        │        │ 2901,BackFormat.2000(1,2),SerNo.1471,Lycee.930,1788(1,2),
+        │        │ 1800,1832,1888(1),Basilisk.1639,Wizard.802,Grog.4ever.1200,
+        │        │ Trident.346,Pixel.299,342,345,457,550,740,847,877.
+        │        │ Добавлена процедура восстановления жесткого диска, зашиф-
+        │        │ рованного вирусами OneHalf.3544, OneHalf.3577.
+        │        │ Проверка файлов, упакованных PKLITE 1.05 (EXE, extra).
+        │        │
+1.08    │28.11.94│ Mst.322,Sh.983,SillyWilly.2256,Ruchawi.2548,Cock.451,
+380 vir.│        │ Cock.512,CLME.Ming.1952,Baobab.731,Baobab.1635,Baobab.2304,
+        │        │ CoffeeShop.1568,Necros.1164,DHeart.452,Fascist.442,
+        │        │ Khizhnjak.469,Khizhnjak.715,Vienna.534(1,2),Megawatt.249,
+        │        │ Dinky.122,Dinky.126,Dinky.128,SillyRC.143,Danish.163,
+        │        │ SillyRC.144,SVC.1689(1,2),NoFrills.835,NoFrills.843,
+        │        │ NoFrills.Dudley,Vienna.458,Coito.644,Crazy.1402,Crazy.1445,
+        │        │ RaseK.1489,RaseK.1490,RaseK.1492,Leprosy.Sandra.1809,
+        │        │ Walker.3846,Scoundrel.3323,HLLO.ShadowGard,Polska.4004,
+        │        │ Cholera.1497,SillyRC.169,Tu28II.535,MrD.1569,Minsk.1075,
+        │        │ Trivial.42(1),HelloUser.545,Chaos.1181,Reverse.948,
+        │        │ Kysia.1536,Sarov.1200(2),Exterminate.1632,November17.768.
+        │        │ Введены коды возврата (errorlevels) для командных файлов.
+        │        │ Исправлены ошибки: 1) При распаковке упакованных файлов на
+        │        │ устройстве, защищенном от записи или на диске, на котором
+        │        │ было недостаточно места - открытые файлы не закрывались.
+        │        │ 2) При тестировании Boot-сектора диска C: под Windows
+        │        │ появлялось сообщение - "ошибка записи!". 3) Некорректное
+        │        │ сообщение при устаревании программы.
+        │        │
+1.09    │17.12.94│ HelloUser.402,Faerie.276,Kohntark.268,Mnemonix.LoTek.856,
+480 vir.│        │ VComm.637,PlayGame.2000,Microbe,Dron.995,Kipa.1084,Die.666,
+        │        │ Anarchy.2048(2),Daemaen.1894,Daemaen.2048,Sh.988,Eddie.651,
+        │        │ Eddie.1800(1,2,3),Eddie.2000,Eddie.2100,Tiny.134,Tiny.138,
+        │        │ Tiny.143,Tiny.154,Tiny.156,Tiny.158,Tiny.159,Tiny.160,Flame,
+        │        │ Tiny.167,Tiny.198,TPE.Gambit.2259,Doom.752,HeadMonth.473,
+        │        │ OkYes.1257,Phalcon.BobRoss.1117(1),1133,Printerceptor,
+        │        │ Diamond.1024,MadSatan.Abba,Ontario.512,Bupt.1363,Ninja.1376,
+        │        │ Baba.353,Shiny.918,Shiny.921,Shiny.934,VCL.BeePoP.587,
+        │        │ FaXFree.Abstract,Australian.Kuang,Vienna.533,Vienna.626,
+        │        │ EncePhalyt,Wizard.2502,Ieronim.1596,XorAA,Tequila,Pixel.846,
+        │        │ CloneWar.228,246,261,546,923(1),Kak.391,Ekaterinburg,Bitch,
+        │        │ Pixel.851,Pixel.739,Pixel.1268,Angry.393,Vienna.565,604,
+        │        │ Trurl.846,Milan.Naziskin.270,Kohntark.Kali.641,GoldBug(1-5),
+        │        │ Kohntrak.Kaos.697,Vienna.507(1,2),Vienna.534(3,4),Viv.513,
+        │        │ Viv.524,Viv.771,Vienna.645(1,2),Lout.805,Virogen.ASeXual,
+        │        │ Vengeance.723,Marauder.860,Dinamo,Damcdoom,Devil(1),Duran,
+        │        │ Baba.350.
+        │        │ Исправлена ошибка лечения November15.
+        │        │
+1.10    │31.12.94│ Union.1449,Renegade.1176,Seat.1614,Seat.2389,Paul.1536,
+555 vir.│  56580 │ Alabama.1560,Kvartirus.2000(1,2),Kvartirus.1499,Doodle.1049,
+        │        │ Magdzie.1114,Eddie.2000(3),Couf.239,254(1,2),Wormsign.1710,
+        │        │ VBasic(1),Vinchuca.925,Marzia.2048,WBoot(1),SillyRCE.374,
+        │        │ AntiEXE(2),ReedCat.916,Freddy.2271,3APA3A(3),ExeHeader.I03,
+        │        │ Goddamn.302,Tequila.5volt,HLLC.April1st,ExeHeader.Clust2,
+        │        │ Ieronim.512,560,600,1020,1024,1082,1166,1492,1591,Tiny.122,
+        │        │ ExeHeader.222,223,227,396,440,ExeHeader.Hobbit,ComeOut.3624,
+        │        │ ExeHeader.Mike.252,ExeHeader.SkidRow.415,Face.414,MGTU.273,
+        │        │ Vienna.483,535,547,613,618,621,623,625,644,648,716,998,1006,
+        │        │ 1239,Amz.789,Kuku.448,Adolf.475,Alex.368,818,SillyC.258,
+        │        │ Hzp.512,Jabber.334,Cobra.400,ExeHeader.SkidRow.432.
+        │        │ Проверка файлов, упакованных PKLITE 1.03 (EXE, extra),
+        │        │ 1.10extra, 1.14extra, 1.15extra, COMPACK 4.4.
+        │        │
+2.00    │18.01.95│ SillyO.82,Anarchy.469,AntiTrace.2122,Dicker.400,Dret.1710,
+610 vir.│  59565 │ Cyanide.705,Jerusalem.Canary.1970,4on.1346,Virogen.PinWorm,
+        │        │ Mnemonix.A-Bomb,Aiw.572,AnsiBomb,,Blink.501,Metallica.500,
+        │        │ Ash.280,737,Mnemonix.Sugar,Burger.382,Leprosy.Busted.572,
+        │        │ Cartier.1056,Virogen.Offspring.711,1130,1294,Mnemonix.Esp,
+        │        │ Nocopy.3695,Fantomas.432,ExeHeader.Kibina.398,A1B2.478,
+        │        │ Anarchy.9594,Milan.Naziskin.335,AnalSex.178,Rmns.651,736,
+        │        │ SGWW.Maverick.1536(2),Kvs.836,ExeHeader.Em,Konstantin,
+        │        │ Voronezh.600,Catholic.1129,Virogen.BombTrack,Billboard.835,
+        │        │ ExeHeader.Dragon,Khizhnjak.560,632,751,812,847,875,Atas.384,
+        │        │ Forever.930,Acv.1342(1),SillyRC.335,Freddy.1663,VCode.2540,
+        │        │ Not.397.
+        │        │ Усовершенствован алгоритм тестирования объектов. Введены
+        │        │ 3 уровня эвристического анализа: минимальный, оптимальный,
+        │        │ "параноический". В режиме эвристического анализа введен
+        │        │ метод определения вирусного расшифровщика - CRYPT.Virus.
+        │        │ Добавлен режим /B - вывод сообщений в режиме монохромного
+        │        │ монитора. Проверка файлов, упакованных PKLITE 1.13.
+        │        │
+2.01    │31.01.95│ Sl.142,155,181,Sign.615,Marzia.WW(1),Watshira.2048(1),
+675 vir.│  62820 │ Goblin.1759,Sayha.DieHard(1),Companion.101(1,2),Maaike.164,
+        │        │ Bastard.1979,PHB.4315,Pit.611,Asprin.2515,Yard.448,Fm.765,
+        │        │ Aman.10716,Balashiha.271,Khizhnjak.155,Taz.987,1041,Kkv.923,
+        │        │ Trivial.102,Riot.Enemy.757,Bandersnatch,Kkv.923,Kvs.1942,
+        │        │ Polimer.512,SillyRC.484,Evc.161,HLLP.Inna.5260,Phx.965,
+        │        │ Dead.945,ArjVirus,Jack.416,Leprosy.Seneca.493,Seat.1868,
+        │        │ Riot.Marked.354,Mithrandir.450,Miras.640,Sylvia.1321,Zu.473,
+        │        │ MacGyver.4645,SysLock.Cookie,Phalcon.Dcool,Phalcon.Maria,
+        │        │ Frodo.4096(1,2),CivilDefence.11,33,SillyRC.419,SillyO.1792,
+        │        │ Lokjaw.Zwei.808,894,HLLP.Viper.7792,Smile.4320,Tune.544,
+        │        │ Flex.491,Hider.1782,Vlad.Mummy,Vlad.Sister,NoHope.257,
+        │        │ Turn.557,571.
+        │        │ Исправлены ошибки: 1) При лечении или восстановлении (/UW)
+        │        │ упакованных файлов, не сохранялось время создания файлов.
+        │        │ 2) При удалении инфицированных упакованных файлов, данные
+        │        │ файлы не удалялись.
+        │        │
+2.02    │14.02.95│ ErasePT.512,GCAE.Demo,Eddie.Alexander.1951,Possessed.2175,
+745 vir.│  66110 │ Swabia.2411,Papercut.2717,Grog.2075,2825,Bug.920,Vienna.776,
+        │        │ SillyC.103,Danish.284,Dead.1362,1364,Khizhnjak.649,
+        │        │ Grog.495,Grog.Hop,HellSpawn.1141,Khizhnjak.759,Kkv.1074,
+        │        │ Grog.Metafora,Phalcon.Psychosis,Stardot.979,Grog.Sempre,
+        │        │ SillyOR.76,88,94,97,101,Wasp.1655,Wisconsin.815,Pixel.1271,
+        │        │ TenBytes.1411,1514,Vlad,Ping-Pong.512(2),Punisher.1632,
+        │        │ Vlad.Antipode,Yerg.120,126,Jerusalem.Kylie,Crusher,Lev.693,
+        │        │ AT.132,Tiny.114(1),118,Phx.823,SGWW.Nostardamus.2247,
+        │        │ Veronika.1549,SGWW.Maverick.2048,Lokjaw.Firefly.1106,
+        │        │ Kuku.886,Wrong,Penetrator.491,Beda.352,883,FrodoSoft.590,
+        │        │ Junior.224,Australian.Grue,MemLapse.Glitch,Malmsey.Habitat,
+        │        │ EA.Asmodeous.882,Wvp.352,382,Voronezh.370,650,Minsk.1447,
+        │        │ Globus.1742,Burma.442(1).
+        │        │ Введено ограничение по времени тестирования файлов в
+        │        │ зависимости от типа используемого процессора.
+        │        │
+2.03    │21.02.95│ Forever.896,EA.Satana.666,Bitch.252(1),Pixel.852,Int13,
+760 vir.│  66610 │ Cracky.546,Flagyll.349,369,Mnemonix.BW.1027,Vlad.Hemlock,
+        │        │ Lokjaw.Firefly.1087,VCL.Timothy,ChinBomb.1492,MP.1024,
+        │        │ Cossiga.859(1).
+        │        │
+2.04    │01.03.95│ Fair.2083(1,2),Digger.1475(2),Galya.500(2),Khizhnjak.377,
+810 vir.│  68710 │ Tiny.114(2),Ieronim.570,SillyRE.323,334,ExeHeader.394,
+        │        │ ExeHeader.Mike.256,ExeHeader.Vvm.204,205(1,2),207,Tet.409,
+        │        │ Bitch.252(2),3APA3A(4),Marzia.VDS,Locust.2486,SillyC.316,
+        │        │ Rock.1076,Marzia.Baracuda,Marzia.Pasiphae,Marzia.Pisello,
+        │        │ Marzia.SZ,Marzia.DV(1,2),Marzia.FaXFree,Marzia.Demian,
+        │        │ Kohntark.Kali.641(2),Vienna.547(2),Phalcon.BobRoss.1110,
+        │        │ Flagyll.316,Natas.4774,Syrian.241,Twist.290,294,Vlad.Daddy,
+        │        │ ExeHeader.SkidRow.418,Riot.Multiplex,Mnemonix.Neuropath,
+        │        │ Beside.200,Avatar.Narcosis,Wally.1029,LSD.1600,Kkv.1077,
+        │        │ CloneWar.923(2),SillyE.756,SillyO.81.
+        │        │ Добавлены режимы: /UN - отключение вывода на экран названий
+        │        │ программ, с помощью которых упакованы файлы; /P[имя файла] -
+        │        │ запись протокола работы в указанный пользователем файл.
+        │        │
+2.05    │05.03.95│ Sandrine.445,Riot.309,Piter.529,Amz.1100,Pieck.2016.
+815 vir.│  68930 │ Исправлена ошибка, появившаяся в версии 2.04 - неправильное
+        │        │ тестирование MBR и Boot-сектора, зависание под MS-Windows.
+        │        │
+2.10    │19.03.95│ Doom.666,Karol.1000,OhLaLa.1895,Specified.2048,SVC.4661,
+875 vir.│  73090 │ SVC.4644(1,2),SillyRC.178,SGWW.Rattler,SillyC.439,
+        │        │ Blava.787,Emm.LionKing,Raving.2300,BadSectors.3422,3428,
+        │        │ MadSatan.19033,MadSatan.Ruei,Viking.59,Leandro,Marzia.WW(2),
+        │        │ Warlock.1817,2879,Yankee.1202,Marzia.VDS(2),Parity(1-3),
+        │        │ Chukcha.554,838,Oops.600,Nigeb.890,Kaka.863,928,Darv.1024,
+        │        │ HLLP.NotFound.6176,Sampo,AntiEXE(3),Megadeth.3973,Ai.1759,
+        │        │ Neurobasher.Alpha,Alia.1300,Fans.500,560,Beer.645,2473,
+        │        │ 2620,2794,2850,2984,3164(1,2),3192(1,2),3307,3399,3490(1,2),
+        │        │ Vienna.23693,Eddie.Alexander.1843,2104.
+        │        │ Введена возможность поставки файлов-дополнений (add-ons)
+        │        │ к основной вирусной базе без изменения кода самой программы.
+        │        │
+2.11    │02.04.95│ Hhhh.246,Possessed.2367,2438,2443,2446(1,2),Puppet.487,MrHu,
+945 vir.│  76240 │ Neurobasher.N8Fall.527,5081,ExeHeader.Funked(1,2),Manu4096,
+        │        │ MrTwister.12288,16384,Waria.479,Riot.Demand,Hydra.1162,1649,
+        │        │ Pixel.Hydra.340,342,343,368,372,391,403,495,736,BAT.Naive,
+        │        │ VS.612,1000(1-3),2790,3900,4000,SillyRC.200,Small.128(1),
+        │        │ HLLC.Dope.4870,5219,Jerusalem.Cvex.5120(1-10),6144,6400,
+        │        │ Phantom1.7160,Cruncher.2092,4000,4800,Bishop.2855,4517,
+        │        │ Vienna.502,Cornucopia,Jerusalem.Distrutto,Natas.4740,
+        │        │ Jerusalem(1,2),Jerusalem.Skism,Jerusalem.Sunday,Vojager.512,
+        │        │ Face.2521,Khizhnjak.255,Jerusalem.Czech.
+        │        │ Добавлен режим /NB - отключение тестирования Boot-секторов.
+        │        │
+2.12    │16.04.95│ Evolution.2761,2770,Grog.Razor,Mammoth.6000,HLLC.Dosinfo,
+1025 vir│  80455 │ RDA.Fighter.5871,5969,Vinnitsa.1207,1620,1658,Freedom.2560,
+        │        │ SillyRE.991,Morgot.823,BuptBoot,Grog.NTA,Grog.WildCards,
+        │        │ Grog.Miami,Dalien.1052,Keypress.1000,Armagedon.1079,Tic.109,
+        │        │ SillyO.276,IronE,Cybercide.2299,LeapFrog(1,2),BootCom.Max,
+        │        │ BootCom.Peanut.445,Worry.562,BigMouse.900(1,2),998,Die.385,
+        │        │ Monarch.1040,CeCe.1998,Khizhnjak.306,BootCom.Light,Bones,
+        │        │ Flip.2153,2343,2365,SillyRCE.1320,SillyRC.125,403,HLLO.Tyst,
+        │        │ IVP.April,Democracy.3806,MISiS(1-4),Helloween.1063,1182,
+        │        │ 1227,1288,1376(1,2),1384,1447,1839,1888,2470,Tormentor.358,
+        │        │ 360,Leprosy.Hellraiser,Mickie.1100,Kaczor.4444,Plague.2647,
+        │        │ Caterpillar(1-11),Temptation.
+        │        │ Изменен алгоритм разбора пути и маски тестируемых объектов.
+        │        │
+2.13    │22.04.95│ VirusConstructor.based(IVP,PS-MPC,G2,VCL),Khizhnjak.based,
+1040 vir│  81510 │ Vienna.based,Pixel.based,KeyOff.400,Ox.475,Rogue.1208,
+        │        │ Hypervisor.3120,3128,AntiCMOS(2),4res.1049,Quox.
+        │        │
+2.14    │15.05.95│ Sh.1333,SillyRCE.972,Problem.734,845,856,863,ExeHeader.3E,
+1085 vir│  84140 │ SillyRC.212,Prohibit.1500,SillyC.857,Wizard.812,SillyRC.613,
+        │        │ Beda.1301,1530,Apparition.254,700,XAM.797,Future.3180,A&A,
+        │        │ Megadeth.Sepultura,Find.229,512,600,Find.BigX,Vienna.Twer,
+        │        │ NRLG.based,Traven.515,Bubble.656,SVC.1064(1,2),1740,4677,
+        │        │ 3103(1-3),RDA.Fighter.7408,VICE.One13th,Boroda,Tib.708,
+        │        │ SGWW.Train,Xyz.1561,EA.Birthday.488,ExeHeader.Louse,
+        │        │ Wart.559,Khizhnjak.419.
+        │        │
+3.00    │10.06.95│ Amse(2),Form(2),EA.Asmodeous.1343,Avl.352,Manitoba,Fy.338,
+1140 vir│ 104720 │ Cpw.1459,1527,OneHalf.3570,Dac.1582,1600,PeaceKeeper.3820,
+        │        │ Leprosy.Sandra.1356,Slovakia.Kill,Search.4148,Singapore.521,
+        │        │ Neurobasher.Avalanche,DataLock.920(1,2),1043,1150,3APA3A(1),
+        │        │ Trivial.Destroer.49,AWME.AD.1267,Sb.645,Ade.1024,AntiC.1000,
+        │        │ Jerusalem.Invader(1-10),Leprosy.Rythem.808,RDA.Fighter.7802,
+        │        │ Swamp.1394,SGWW.Nostardamus.2078,SGWW.Tchechen.1914,
+        │        │ Viking.Mixtura,Koko.1780,Tiny.129,Ash.712,Cheolsoo,Vet.1377,
+        │        │ Leprosy.Skism.1992,Folks.618,Gotcha.605,Nutcracker.AB5.2725,
+        │        │ Cruel(1),Yankee.2561,Obid.555.
+        │        │ Изменен интерфейс программы. Добавлена возможность
+        │        │ одновременного подключения к основной вирусной базе
+        │        │ неограниченного количества внешних файлов-дополнений.
+        │        │
+3.01    │29.06.95│ Dinky.132,Jerusalem.Wanderer,MacGyver.2803(2),Thc.1058,
+1155 vir│ 106325 │ Khizhnjak.639,Danish.Kennedy,Wormsign.1547,Michelangelo(2),
+        │        │ SillyRE.814,Favour.2608,Veronika,HLLP.Ceib.4629,Sch.461,
+        │        │ SGWW.Tchechen.1912,Leprosy.Strain.666(1).
+        │        │ Изменен формат ключей и опций программы. Проверка файлов,
+        │        │ упакованных PKLITE 1.50.
+        │        │
+3.02    │28.07.95│ SillyRE.488,EA.Asmodeous.1160,1359,Devil(2),HLLO.M&M,
+1210 vir│ 110550 │ Tsh.Banana.2413,Warlock.1802,CivilDefence.39,Darkness.1125,
+        │        │ Jerusalem.VTech,PrtSc.1024(1,2),Jolter.2197,Jerusalem.Glory,
+        │        │ SGWW.Nostardamus.2184,Lobotomy.821,Inoculation.1786,
+        │        │ 1819,Zarin.669,Khizhnjak.832,839,DarthVader.344(1),Urod.662,
+        │        │ 773,Vtb,Warlock.666,Weirdo.555,Kkyyzz.1413,Verify,Hi.460,
+        │        │ 892,895,924,Wreck.92,462,Andrew(2),BGU.1298,Tune.663,
+        │        │ Virogen.Offspring.1555,Phonix.927,Riot.Pollution,Split.250,
+        │        │ Riot.RatBoy,Midnight,AntiEXE(4),Singapore.534,Em.1303,
+        │        │ Spruce.976,AntiPascal.400,605,Sarov.1000,1140,Cli&Hlt.1345,
+        │        │ Jerusalem.933,PHB.4461.
+        │        │
+3.03    │16.08.95│ DiS.1024,Jumper(1),FFC.1000,Harmless.1082,Sarov.1200(2),
+1275 vir│ 114260 │ Lycee.1901,AntiEXE(5),SGWW.Nostardamus.2500(1),BAT.ZeP,
+        │        │ Neurobasher.N8Fall.4518(1),Assassin.952,NTU.L'amour,IntAA,
+        │        │ Rex.1637,HLLC.Hambre,Areopag.480,Sentinel.5173,Poro.1257,
+        │        │ Michelangelo(3),Voronezh.1536(1-3),1584,1600(1,2),Ear.Shame,
+        │        │ Ebola.3000(1-3),Abraxas.1304,Riot.RatBoy.513,671,Horse.1776,
+        │        │ Timid.526(1,2),Leprosy.Seneca.483,BAT.Winstart.297,BAT.XoP,
+        │        │ DarthVader.200,255(1-3),344(2),409,BAT.Batman,Burma.442(2),
+        │        │ BAT.282,BAT.Skul,BAT.Zop(1),MtE.Ludwig.2778,TPE.Dgme,
+        │        │ Cascade.1621,1661(1,2),1701(1,2),1704,1706,OneHalf.3544(2),
+        │        │ BAT.Pot,Batman.237,CivilDefence.3A,Dir-II(1),Dir-II.TheHndV,
+        │        │ Mask.3060.
+        │        │ Добавлен ключ /DA - проверка раз в сутки.
+        │        │
+3.05    │20.09.95│ Tarakah.4064,ExeHeader.192,Dir-II(2),SillyRCE.2145,Anthrax,
+1345 vir│ 122505 │ Acv.1342(2),Keypress.Samsoft,Rmb,Bambr.431,PifPaf.760,Wet,
+        │        │ Cvka.1024,Aga.1500,SGWW.Nostardamus.2308,ExeBug(1-5),
+        │        │ HLLP.Moonlight.4389,Adder.1467,Solar.100,102,122,Xtac.1564,
+        │        │ CivilDefence.10,Avl.110,Lycee.737,Khizhnjak.542,Spirit.1710,
+        │        │ BackFormat.2320,Zmiana.1024(1),1224,ZzTop.340,Fish#6(1-5),
+        │        │ Natas.4988,Sword.794,LordZer0.372,OneHalf.3544(3),HLLC.CP,
+        │        │ WordMacro.Concept(1),MtE.based,TPE.based,Vinnitsa.1046,
+        │        │ SMEG.based,NoFrills.1422,WordMacro.Nuclear.1332,Sily.745,
+        │        │ WordMacro.Nuclear(1),Maximum.1198,Ambulance.796(1,2),Chigi,
+        │        │ Chaos.1241,HLLC.Runme,Girl.1036,Cicada,BitAddict.979,1190,
+        │        │ 1459,1601,Commando(1,2),Slava.492,500,Nutcracker.AB2.3472,
+        │        │ V2Px.1260.
+        │        │ Добавлены режимы удаления и переименования инфицированных
+        │        │ файлов. Изменен формат вирусной базы. Проверка файлов,
+        │        │ упакованных TINYPROG 3.3.
+        │        │
+3.06a   │26.10.95│ AntiFortran.1110,Badless.494,HLLP.Legs.7000(1,2),Noon.1163,
+1390 vir│ 138880 │ Rain,SGWW.Tchechen.1909,3604,Watshira.2048(2,3),IntC1,
+        │        │ Ccc.381,VirCheck.2161,Skew.445,469,Vienna.660,Freedom.2448,
+        │        │ Nutcracker.AB2.2990,Nutcracker.AB6(1),Favour.2576,Zz.412,
+        │        │ AntiParity,Reset.607,RDA.Fighter.7868,Day14.789,Manzon.1414,
+        │        │ Morgot.841,Cat.2898,Xuxa.1656,BrPI.555,MIPhT.905,Spook(1,2),
+        │        │ Phalcon.984,Ieronim.2000,Nutcracker.AB1.2244,2620,Murky,
+        │        │ Demonhyak.272,Murphy.1008,OldYankee.Bandit,Mirror.482,
+        │        │ Solar.512,Leprosy.BadBrains.570,Dir.691.
+        │        │ Добавлены новые режимы /AR - проверка файлов в архивах ARJ и
+        │        │ PKZIP;
+        │        │ поддержка длинных имен файлов Windows'95, /SF - отключение
+        │        │ вывода на экран данных длинных имен.
+        │        │
+3.07b   │05.12.95│ AmkCvc.1024,BlackMonday.1055,PhisDept.6294,Pcbb.J4j.833,
+1426 vir│ 146180 │ Lost.596,Iceland.848,Marian.700,TPE.Lamer,Khizhnjak.509,
+        │        │ Check.282,Anarchy.6503,EA.Satana.665,Innoxious.1351,MiniMax,
+        │        │ Locust.735,Mmca.505,Midnight(2),Katya.732,Platov.1644,1700,
+        │        │ CMOSDense.807,GCAE.Vimg,Alex.1287,SillyRC.152,Ogwo.446,Bite,
+        │        │ Khizhnjak.1101,Anarchy.2048(3),Sayha.DieHard(2),Bishkek.559,
+        │        │ GreenMonster.711,Union.1531,Kpi.329,Cunning.1997,JumpBoot,
+        │        │ ExeHeader.Gregory.
+        │        │ Значительно усовершенствован алгоритм эвристического
+        │        │ анализатора, процент определения неизвестных вирусов в
+        │        │ минимальном режиме составляет около 86-87%.
+        │        │ Добавлена проверка файлов внутри архивов RAR. Исправлена
+        │        │ ошибка сканирования подкаталогов.
+        │        │
+3.08    │26.12.95│ AntiExe(6),Dima.325,Turner.3276,HLLC.5000,Zhengxi.7271,7307,
+1450 vir│ 153200 │ 7313,Verwolf.3502,SillyRCE.1277,Kaka.911,Joker.1918,Wxyc(1),
+        │        │ HLLC.Lab5,Pixel.Flea.1577,1647,Kvs.Crusade,July29(2),
+        │        │ Markiz.1972,2660,EA.Asmodeous.1450,Nutcracker.AB7(1),Spirit,
+        │        │ Gluck.761,Kavaklar.743.
+        │        │ Исправлены некоторые ошибки при работе с архивными файлами.
+        │        │ Добавлен ключ /@[+]<имя файла> для проверки объектов,
+        │        │ указанных в файле взаимодействия с ревизором диска ADinf
+        │        │ (начиная с версии ADinf 10.04).
+        │        │
+3.09b   │09.02.96│ OneHalf.3544(4-6),AP,Brownie.688,Naive.1647,HLLP.Sarka,
+1628 vir│ 163490 │ Snowfall.5000(1),Ukraine.3201(1,2),Vienna.462,HLLP.ChSU,
+        │        │ AntiCMOS.726,NuKE.Pox.609,Funky.692,Grace.1346,Lunch.404,
+        │        │ Dir-II.October(1),Dir-II.Dragon(1,2),Dos-1.184,Jack.436,
+        │        │ Fog.AirRaid.1728,1731(1,2),Avatar.Positron,Andrey.932,
+        │        │ Destructor.264,SVC.Svetlana.1110,2060,3410,4734,Click.375,
+        │        │ Debilas.2000,Dir-II.Hippies,Shirley.4096,Barrotes.1310,
+        │        │ Inferno.781,Small.128(2),Khizhnjak.558,AntiEXE(7),Noki.448,
+        │        │ Peel.334,EA.Dictexe,EA.Asmodeous.1833,Angel.661,1571,ByeBye,
+        │        │ Virgin.281,Vienna.318,HLLO.Hacks,SillyC.175,192,Ssr.1945(1),
+        │        │ Zmiana.1024(2),GreenMonster.784,839,Farside.3008,Rush.681,
+        │        │ DieLamer.1090,WBoot(2),MIPhT.460,FinnPoly.2179,Omega.440,
+        │        │ BAT.Winstart.296,Tornado,BadSectors.3627,Zappa,Joshi,Al.797,
+        │        │ BlackSun.2372,BerlinHQ.434,HLLP.Maniac,HLLP.Unsteady(1,2),
+        │        │ SillyOR.49,SwissArmee(1-3),Phantom1.7000(3,4),7100,Gullich,
+        │        │ Finnish.709,Unskip.1909,Trooper.2259,Whale.9216,Sochi.703,
+        │        │ HLLO.Vs&W.3017,3836,Dir-II(3),VCC.based,Flaco.1330,Cruel(2),
+        │        │ Beer.Kalinka.2920,Manuel.2209,Uddy.2617(1,2),RushHour(1-3),
+        │        │ Zabootovka,HLLO.Not,BadBoy.1000(1-7),HLLP.5872,HLLC.Bolek,
+        │        │ Vlad.Fame,Traka.1471,Varna.1536,Emperor.FitW.7918(1,2),
+        │        │ Feint(1),Survivor,Fanthomas.1443,HLLP.4641,Saratov.1790,
+        │        │ Win.Lamer,Win.Vir1.4,Enola.1183,Mmca.879,Notice.974,Am.1061,
+        │        │ Mipt.602,Pantera.400,Batman.2844,Baby.83,100,Bowl.737,
+        │        │ HLLC.Vs&W.5936,Vacsina.634,1206,1212,1269,1339,Tiso.1279,
+        │        │ Cordobes.3334,SUPD.Cryptor.2169,2582,HLLC.Unvisible(1,2),
+        │        │ ArcHub,Explosion.1000,Michelangelo(4),Demon.4767,5670,Fisu,
+        │        │ BAT.Ditty,HLLP.FireLove,Otti.937,BAME.Demo,HLLC.Pokusny,
+        │        │ Q.8Ball(1),Riot.Flood,Scroll.600(1),7thSon.440,Problem.857,
+        │        │ Trivial.29(1),Q.Shimmer(1,2),HLLO.Zalman,Horsa.1185,Q.IOwe,
+        │        │ Lucifer(1,2),Terra.1027,SillyOR.67,71,Mururoa.2464,
+        │        │ BAT.Zop(2),Fsmm.2971,HLLP.Vs&W.5175.
+        │        │ Исправлены некоторые ошибки распаковки архивных файлов.
+        │        │ Добавлены ключи: /ND - тестирование файлов только в корневом
+        │        │ или указанном каталоге, /SD - поиск и тестирование файлов
+        │        │ во всех вложенных каталогах. Добавлены режимы: изменения
+        │        │ цветовой схемы программы, повторного тестирования памяти
+        │        │ компьютера. Добавлена проверка загрузочных секторов на всех
+        │        │ жестких дисках компьютера.
+        │        │
+3.10    │11.03.96│ Nutcracker.Snowfall.1015(1,2),Nutcracker.AB7(2),UnGame.823,
+1715 vir│ 168180 │ Nutcracker.AB4,Nutcracker.AB5.2900,Nutcracker.AB6(2-4),
+        │        │ Nutcracker.AB3,Dracula.1370,BrPI.511,BGU.1295,Hiroshima.826,
+        │        │ Maaike.250(2),Trivial.26,29(2),AsmVirus.238,Karnavali.1972,
+        │        │ Donbass.444,Quish.303,305,330,HLLP.Ceib.5000,Gorinich.776,
+        │        │ LivingDeath.3757,3766,Mirror.4130(2),ExeHeader.Pure.427,
+        │        │ 441(2),ExeHeader.Renegade,HLLC.Vs&W.3966,HLLP.Vs&W.5062,
+        │        │ Tie.619,710,Trust.867,Nessuno.2170,Companion.Caro,VCL.466,
+        │        │ ExeHeader.SkidRow.427,ExeHeader.Nla,Evgenich.161,DeadFace,
+        │        │ Mao.1465(1,2),Nuker.Trance.1688,1982,Avalgasil.666,Qawo.719,
+        │        │ Device.2000,BootExe.444,Microb.431,BAME.Saboteur,Zyx.5739,
+        │        │ Cli.1313,ExeHeader.Andryushka(1,2),Trakia.561,570,653,1070,
+        │        │ Mh.792,1432,1438,1481,1503,1538,First.3032,3173,Dir-II(4-7),
+        │        │ LBrother.393,HLLO.Oj,Nuker.Excess,Lycee.703,HLLP.Hello(1),
+        │        │ Mipt.2000,Sayha.DieHard(3),Burglar.1150,Snowfall.5000(2),
+        │        │ WereWolf.Beast.1208,WereWolf.FullMoon,WereWolf.Scream.1152,
+        │        │ RP(1),Abbas.5660.
+        │        │
+3.11    │12.04.96│ Birthday.512,BAT.BatVir,HLLP.Jojo,SUPD.Voyager,Fafb.948,
+1865 vir│ 185610 │ Burma.666,Q.8ball(2),Jester.700,EA.Asmodeous.1829,Snap.228,
+        │        │ Zherkov.1922,2435,DiskWasher,Azusa(1,2),HLLP.Legs.7234,
+        │        │ Scroll.600(2),SGWW.Tchechen.1919,Small.137,HDDError,Kl(1),
+        │        │ Fumble.867,Znosko.509,1311,1372,1380,1418,1730,SillyRC.274,
+        │        │ Wasp.1312,Dennis.539,656,689,1000,Diamond.RockSteady(1,2),
+        │        │ Galicia,Oxana.1419,1555,1653,1654,1702,RedArc.Helga.666,
+        │        │ SGWW.Nostardamus.2560,Beer.Kalinka.3225,3612,Ha.798,Ester,
+        │        │ HLLP.BelGUT,Renegade.4509,Cherry.2266,Cuareim.800(1),Bravo,
+        │        │ HLLP.Bishkek.4170,4240,Vs&W.507,Wg.728,Panda.1062,1070,
+        │        │ Vienna.481,IVP.814,Kuku.1111,Dva.445,749,Elaine.1127,Hi.802,
+        │        │ Gosha.1831,July29(3,4),Warlock.1672,Alia.1023,UFO.1468,
+        │        │ Hymn.1865,1962(1,2),2144,HLLO.AIDS.13952,HLLC.AIDS.8064,
+        │        │ Datacrime.1168(1,2),1280(1,2),1480,1514,Als.335,Sirius.1081,
+        │        │ CMOSDead.3618,BootExe.Stalker.310,320,BlackJec.231,232,235,
+        │        │ 236,247,252,267,272,276,281,287,292,301,307,358,363,369,374,
+        │        │ 378,427,440,441,Mad.2631,Nutcracker.AB2.3021,Mephisto.1235,
+        │        │ Wxyc(2),DecMem,Neurobasher.N8Fall.4518(2),5770,MemLapse.293,
+        │        │ ZhugeLiang.4784,LR1.2884,DarkLord.based,DotEater.944(1-3),
+        │        │ Sylvia.1332(1-3),BootExe.451(2),Virus90.857,Virus101.2560,
+        │        │ SillyRC.131,Seat.2419,UVScan.1633,HLLC.Halley,NTU.Cawber,
+        │        │ HLLO.Joker.10000,11000,HLLO.Kamikaze,ExeHeader.TheRat,
+        │        │ ExeHeader.Ming,MacGyver.4112,BootExe.Platov,Internal.1381,
+        │        │ 1459,Ice.746,Itavir.3187.
+        │        │ Добавлен режим проверки файлов в архивах LZH, ZOO, HA.
+        │        │ Введена поддержка видеорежимов: 80x25, 80x30, 80x45.
+        │        │
+3.12    │18.06.96│ Destage.1200(1),Fellow.1019,MME.Ssr.18273,18364,19071,
+2025 vir│ 197050 │ Strike,Day14.792,Lycee.1888(2),Ukraine.3201(3),3537,3627,
+        │        │ Holera.1488,Fab.1755,Trivial.42(2),EA.Asmodeous.1437,
+        │        │ Ksm.473,VirusConstructor.based(BW),Beer.3192(3),SillyRC.302,
+        │        │ Fisher.1100,2420,Sov.1193,1205,Aga.3000,SGWW.Penthouse,
+        │        │ SGWW.Nostardamus.2500(2),5995,SGWW.Tchechen.3338,3370,
+        │        │ 3420,3436,SGWW.Killer.3072(1-3),SGWW.Ace,OneHalf.3666,
+        │        │ Dragon.414,Ambulance.2124,Beer.Kalinka.3434,MPhTI(1-3),
+        │        │ HLLC.Chs.6208,HLLP.Chs.6549,Dumb.4722,Fair.2340,Pest.2743,
+        │        │ Sds.1906,Murcia.4651,DarkAngel,DarkAngel.3250,SillyC.638,
+        │        │ HLLP.Metal.7929,13040,Nutcracker.Snowfall.945,Kranty.255,
+        │        │ RedArc.Vesna.1000(1,2),1724,1833,WeekDay.1614,Alia.1200,
+        │        │ Slovakia.3584(3),Vxt.550,Sms.480,Nsd.266,SUPD.Cryptor.3612,
+        │        │ 3728,Mask.2389,Dnepr.377,DarkRevenge.1032,Djifx.2372,Sly,
+        │        │ FATAvenger,Morgot.948,Strafer,Major.1644,Jain.1614,Jump.466,
+        │        │ Srp.2248,Assassin.959,CorpLife.1929,1937,Blah.3379,3385,
+        │        │ Eddie.1530,Alpha.794,HLLP.Zenit,Mmca.1131,Mad.3732,Mw.278,
+        │        │ HLLP.4665,Sierra(2),Fist.709,HLLP.Bishkek.3990,DrDemon.4292,
+        │        │ Ffff.432,UNashamed(1,2),Khizhnjak.1112,Rift.480,Pojer.4028,
+        │        │ ExeHeader.388,Nameless.3000,Emperor.Hare.7610,Nki.3477,
+        │        │ WordMacro.Atom(1),WordMacro.Boom,WordMacro.Colors,Als.339,
+        │        │ WordMacro.Hot,WordMacro.Nop,WordMacro.Wazzu(1),RedLaugh.607,
+        │        │ WordMacro.Wieder,WordMacro.Xenixos,WordMacro.Concept(2,3),
+        │        │ WordMacro.Nuclear(2),LittleBoy.944,Sibylle.858,BlackJec.230,
+        │        │ ExeHeader.Bob,WordMacro.Divina(1),WordMacro.DMV,Gripe.1985,
+        │        │ Russel.3072,Digital.3547,VICE.Code,Alive.4000,Kit.2384,
+        │        │ WordMacro.Telefonica,WordMacro.Date,Dma.1024,Tib.713,
+        │        │ Ms.1006,SillyC.96,165,VarWorm.913,MiME.Demo,MiME.WhoNo,
+        │        │ WordMacro.Polite,WordMacro.Imposter,WordMacro.Phantom,
+        │        │ Harlot.738,5632(1,2),Terrorist.1740,Tet.365,393,474,733,
+        │        │ SGWW.Nostardamus.1870,OldYankee.1961,WhiteAwe.2675,
+        │        │ HLLP.Grunt,Vlad.Lapis,Defo(1),Wg.2413.
+        │        │ Добавлен режим эвристического анализа и удаления известных
+        │        │ вирусных макросов из инфицированных документов WinWord.
+        │        │
+3.13    │31.07.96│ Ukraine.3300,Qmu.1513,Khizhnjak.1134,Leech.1014,VCL.662,
+2085 vir│ 201050 │ Leprosy.Strain.666(2),Srp.2380,Lemming.2247,HH&H.4091,4093,
+        │        │ 4115,Emperor.Hare.7786,Form(3,4),Demiurg.3061,Baba.366,Tubo,
+        │        │ Apparition.5959,Jouce.1608,Sova.4060,Bishkek.319,HLLP.Feci,
+        │        │ ExeHeader.Dina,HLLP.Satyricon,Sierra(1,3),Ieronim.2539,
+        │        │ Cool.929,Burger.560,Danish.310,FifteenYears(1,2),Viros.429,
+        │        │ Chance(1-4),ChineseFish,DaBoys(1,2),Harrier.4602,Mad.1288,
+        │        │ WordMacro.KillDll,WordMacro.Doggie,WordMacro.Concept(4),
+        │        │ WordMacro.Friend,Zherkov.2968,2970,KingSize.493,823,Int10,
+        │        │ Nutcracker.AB2.6425,6500,6727,DiskKiller,BAT.Batalia.491,
+        │        │ Dragon,Frankenstein,Jumper(2),Kampana(1).
+        │        │ Исправлены ошибки сканирования документов WinWord.
+        │        │
+3.14    │06.08.96│ WordMacro.Concept(5,6),WordMacro.Irish,WordMacro.MDMA(1),
+2095 vir│ 201540 │ WordMacro.Pcw,WordMacro.Satanic,Uniform,Claudia.8772,Nice,
+        │        │ Casino.2330.
+        │        │ Исправлена ошибка лечения документов WinWord.
+        │        │
+3.15    │16.09.96│ Pojer.1941,HLLP.Legs.6988,Select.1112,Avispa.2048(1-5),
+2150 vir│ 205080 │ Alfons.1344,1536,Dream,Bug70,Srp.2296,Pamyat.2000(1,2),
+        │        │ Sabotager.3133,Fricker.395,SillyRC.414,BAT.Xop.367,Dead.852,
+        │        │ WordMacro.NJ.based,Emperor.Hare.7750,SillyRCE.754,SheHas,
+        │        │ MME.Ssr.19834,Sum.1441,Aforia.656,Trivial.37,HLLO.Termit,
+        │        │ Ninja.1195,Wherex.1688,WordMacro.Concept(7-9),WordMacro.Nf,
+        │        │ WordMacro.GoldFish,WordMacro.Reflex,WordMacro.Daddy,Lx.1358,
+        │        │ WordMacro.Extra,WordMacro.Nop(2),WordMacro.Alliance,Mongol,
+        │        │ WordMacro.Buero,WordMacro.Dietzel,WordMacro.Hassle,
+        │        │ WordMacro.MadDog(1),WordMacro.NPad,WordMacro.Parasite(1,2),
+        │        │ WordMacro.Tedious,ExcelMacro.Laroux,MusicBug,Ocsana.692.
+        │        │
+3.16    │14.10.96│ Mad.279(1),3544,3734,VCL.Companion,Phalcon.BobRoss.1117(2),
+2200 vir│ 207780 │ HLLP.Grosser,HLLP.Doggy.6606,6667,6685,6686,8421,Swedish,
+        │        │ HLLP.Forever,Khizhnjak.556,768,HH&H.4087,Kampana(2),DrS.678,
+        │        │ Cuareim.800(2),Ear.Leonardo,RedArc.Vesna.1614,1751,Defo(2),
+        │        │ Pamyat.2000(3),Truxested.based,SillyRCE.947,Mefl.625,V-Sign,
+        │        │ Exp.1617,SillyC.215,681,Halfive.512,WordMacro.Wazzu(2-5),
+        │        │ SGWW.Killer.3584(1),Demon.4313,Salman.2000,HLLP.Happy,
+        │        │ Tiny.141,WordMacro.Concept(10),Dwbomk.607,Milan.Prodigy,
+        │        │ CMOSDead.3622,3710,Rennie.2106,Paulus.1804,Satria,Mad.7321.
+        │        │
+3.17    │19.11.96│ Mad.279(2,3),4268,4340,AntiEXE(8),Bomzh.3809,Grosser.607,
+2270 vir│ 210900 │ HLLP.Doggy.6202,9535,LightNing.2366,4251,Ply.based(Ply.3360,
+        │        │ 3486,3759,3768,4224,4722,5133,5175),Demonhyak.284,LeftShift,
+        │        │ Antiwin.2320,BAT.Highjaq,Pamyat.2000(4,5),Karina.850,
+        │        │ ExeHeader.ATCorp,NoGraph.784,UnGame.645,Mosquito.768,SeeYou,
+        │        │ Ukraine.3215,Dir-II.October(2),Lobotomy.966,HLLP.Xenia,
+        │        │ Sstr.717,Witching.1400(1,2),Apparition.1248,Urphin.1621,
+        │        │ Sentinel.4636,Mefl.700,HLLP.7808(2),HLLP.Myxa,CityFire.1679,
+        │        │ Wra.512,RedArc.AD.243,436,Alcon,HLLP.BeginPas,Yeke.1204,
+        │        │ 1706,2425,HLLP.RedAlert,Lucy.5286,5505,HLLC.Chainik,
+        │        │ Mixx.570,Michelangelo(5),Cease.382,WordMacro.Outlaw(1,2),
+        │        │ CodeDa.1289,WordMacro.Concept(11,12),WordMacro.Wazzu(6-8),
+        │        │ WordMacro.Stryx.
+        │        │
+3.18    │30.12.96│ Mad.5054,Lewd.4455,DarkElf.2200,OneHalf.3544(7),Sebo.2048,
+2340 vir│ 214830 │ Unbidden.507,Freedom.3600,TaiPan.Hooze,ExeHeader.Kibina.390,
+        │        │ Gremlin.1405,DiskSpoiler.1308,Breaking.1000,Login.2071,
+        │        │ TVPO.3783,Radio101.2076,Antiwin.465,Fynov.4309,HLLP.Izvrat,
+        │        │ Thunder.1543,Win.Tentacle.1958,RedArc.Stinger,SGWW.Freemun,
+        │        │ SGWW.Never.1000,Sosun.232,Gloomy.2000,SGWW.Amber.1408,2724,
+        │        │ SGWW.Simbioz,SGWW.Zoo,SGWW.Happy,SGWW.Killer.3584(2),Diablo,
+        │        │ BAT.Batalia.2011,Spanska.1120(1),Ukraine.3633,Alias.6943,
+        │        │ Win95.Boza(1-4),RedArc.Drunk,Yale(1-3),WordMacro.Showofxx,
+        │        │ ExeHeader.Pure(2,3),Nutcracker.AB2.2890,4540,7008(1),
+        │        │ 7033(1),WordMacro.Concept(13),WordMacro.CountTen,
+        │        │ WordMacro.Lunch(1),WordMacro.Waverley,WordMacro.Rapi,EA.Hs,
+        │        │ HLLC.Sputnic,Nutcracker.512(1,2),Nutcracker.AB1.1924,
+        │        │ Nutcracker.AB5.3139,Win.Twitch(1,2),Win.Wintiny,Kill.578,
+        │        │ WordMacro.Helper,Win.Vik(1,2),DarkLord.1085.
+        │        │
+3.19    │15.02.97│ OS2.First,OS2.Jiskefet,Artemiev.2165,Mariner.5000,Mad.2748,
+2410 vir│ 221910 │ Wg.2423,HLLP.Wood,WereWolf.Wulf(1,2),WereWolf.Scream.1168,
+        │        │ SillyE.714,Win.Tentacle.10634,RedArc.Lmd,Tentacle.10496,
+        │        │ Meht.1317,Lx.1996,Win.CyberRiot,Awake.1099,Lego.1000,LZR,
+        │        │ DarkElf.3692,Win95.Companion,Win95.Punch,Haharin,Getto.2000,
+        │        │ Nutcracker.AB2.5375,5413,5440,5589,6082,6100,6982,6996,7034,
+        │        │ Lewd.3526,4456,Dir-II.KillDll,Fence.2089,BootExe.Olga,
+        │        │ SillyRC.509,HLLP.Wbrb,ExeBug(6),Kl(2),Dada.786,BG.1348,
+        │        │ HLLP.Frontier,Massacre.775,Win.Apparition(2),DrJohn.2000,
+        │        │ Jdc.5421,MacroExcel.Delta,MacroExcel.Sofa,WordMacro.Italian,
+        │        │ WordMacro.Divina(2),WordMacro.Lunch(2),WordMacro.Apparition,
+        │        │ WordMacro.MDMA(2),WordMacro.Minimal(1),WordMacro.Smiley,
+        │        │ WordMacro.Wazzu(9),WordMacro.Concept(14),WordMacro.Johnny,
+        │        │ WordMacro.MadDog(2),WordMacro.Atom(2,3),WordMacro.Hybrid,
+        │        │ WordMacro.Magnum,WordMacro.Nuclear(3),WordMacro.Paper,
+        │        │ WordMacro.Outlaw(3).
+        │        │ Увеличена скорость тестирования объектов. Добавлен режим
+        │        │ лечения инфицированных документов Microsoft Excel.
+        │        │
+3.20    │02.04.97│ GraveLion.2250, Lewd.34907, 34918, NextGen.2304,SillyRE.525,
+2520 vir│ 227470 │ RP(2),Nutcracker.AB2.7033(2),Oxana.747, 819, NoRemorse.1319,
+        │        │ Win.Apparition(1,3),  SGWW.Beast.1216,  1347,  SGWW.Pantera,
+        │        │ Vpk.1430,  HLLP.7508,  18078,  BootExe.Dogcher, OS2.Arelocs,
+        │        │ Win.Winsurf.1171, 1432,  Win.Vik(3),  WordMacro.Daniel(1,2),
+        │        │ WordMacro.Kerranga,  WordMacro.Snickers,  WordMacro.Bandung,
+        │        │ WordMacro.Twno(1-8),   WordMacro.Hellgate,  WordMacro.Chaos,
+        │        │ WordMacro.MDMA(3),WordMacro.Kompu,WordMacro.Alien,Sierra(4),
+        │        │ WordMacro.Archie,   WordMacro.GreenFury,   WordMacro.Nikita,
+        │        │ WordMacro.Grunt,WordMacro.Anarchy,WordMacro.Weather,Mad.223,
+        │        │ 5131,WordMacro.Theatre,WordMacro.Look,WordMacro.ShareFun,PG,
+        │        │ WordMacro.Zero, CriCri.4300, 4616, Linux.Bliss.17982, 18604,
+        │        │ ExcelMacro.Legend,  ExcelMacro.Robocop,  ExcelMacro.Yohimbe,
+        │        │ WordMacro.Wazzu(10),  WordMacro.Concept(15),  WordMacro.Dzt,
+        │        │ WordMacro.Minimal(2), WordMacro.CeeFour, WordMacro.KillProt,
+        │        │ WM.Switch(1), WordMacro.Gable, WordMacro.Target,  VCS.based,
+        │        │ WordMacro.Cap,  BW.AOS.based,  Harrier.14058,  Warrior.1024,
+        │        │ Sayha.DieHard(4), Pande.1520, Malatinec.2396,  WpcBats.3072,
+        │        │ Mururoa.3443, Tmc.4829, Dotter.3961, Checkbox.936, Fist.927,
+        │        │ Mipt.879,Alla.1325,Hadi.6153,Trout.6804,Jdc.7474,Vienna.486,
+        │        │ SillyRCE.1055,Elcn.374,424,Antiwin.1342,Raiden.1433,Nax.858,
+        │        │ HLLP.Daemon, Filler(1-3), Agiplan.1536,  Sibylle.853, Palma,
+        │        │ Jerusalem.Mabuhay.2660(1,2),2695,Promiscuo.2725.
+        │        │
+3.21    │29.04.97│ SGWW.Light,Sailor.785,SillyRC.341,438, Shish.1002, Nax.1402,
+2645 vir│ 233040 │ Kela.1207,PM.Wanderer,SillyC.488,Mipt.748, Feint(2),Tie.713,
+        │        │ HarmWare.3716,    Mf.3564,   Bobby.613,   Swine.3000  (1,2),
+        │        │ WordMacro.Appder,  WordMacro.Orhey,  WordMacro.Wazzu(11-14),
+        │        │ WordMacro.Minimal(3),WordMacro.Doggie(2),WordMacro.Imposter,
+        │        │ WordMacro.No-F, WordMacro.NPoly, WordMacro.Quevi,  Ida.1490,
+        │        │ WordMacro.Baby,    WordMacro.Eraser (1,2),   WordMacro.Dave,
+        │        │ WordMacro.Puritan,WordMacro.Muck, WordMacro.Test, CNTV.2630,
+        │        │ Likeness.3551, Net.4340, SillyC.101,365, Elcn.550,First.343,
+        │        │ SillyRCE.2101,W97M.Concept,W97M.Wazzu, W97M.Minimal, TV.730,
+        │        │ WordMacro.Zoolog,  HLLP.Sauron,   Andromeda.725,   Geek.734,
+        │        │ Phx.1289,Explorer.3037,3063,Dementia.4207,Vxh.462, Arg.1206,
+        │        │ Smvb.708,1023,1100, Xak.3132, Jerusalem.Aytuba, Russel.1235,
+        │        │ Dir-II(8,9), Quish.304, Slovakia.2387,VBasic(2),SillyRC.130,
+        │        │ Supervisor.1039, Rescue.3423, NinetyTwo.1148,HLLP.Vova.8896,
+        │        │ 9904,  Night.2048, HLLP.10304, Tabulero.2048(1), Arara.1375,
+        │        │ Amoeba.1392, HLLP.Ukazna, HLLP.Finger, Bjk.2814, SillyOR.50,
+        │        │ Proto-T.CivilWar,Mayak.2370,ExeHeader.Bosco(1-3), TPVO.3654,
+        │        │ Pixel.Areill,YouH.577,Intruder.459,1319,1326,1331,1336,1347,
+        │        │ 1353,  1355, 1413, 1440, 1555, 1967, 1988, 2048, 2051, 2336,
+        │        │ RusTiny.119, 123, 130, 131,132,145(1,2),146,150,157,162,163,
+        │        │ 185,208,409.
+        │        │ Добавлен режим тестирования документов MS-Office'97.
+        │        │
+3.22    │08.06.97│ ExeHeader.Dina.271,SatanBug(3),Win.VKIT.650,1241,DREG.based,
+2945 vir│ 244280 │ Win.Gollum,Win95.Jacky,W97M.Wazzu(2),W97M.Appder,W97M.Kompu,
+        │        │ W97M.Lunch,Eumel.381,HLLP.4536,Rescue.3423(2),3774,Aav.8224,
+        │        │ 1698,Timishoara.2132, Piaf.1859, SillyC.104, HLLP.WarHeader,
+        │        │ VCS.Manta, Rescue.3774, Slovakia.1056, Andromeda.1024 (1-3),
+        │        │ Jerusalem.Mabuhay.2660 (3),  Oolong.1386,  Tutanchamun.1034,
+        │        │ Coconut.1940,2015,2071,2099, 2324, Odium.613, Terronia.2538,
+        │        │ Jovial.503, 506, Yosha.275, 975, Assignation.653, Moose.353,
+        │        │ Shire.143,155,210, Euskara.811,HLLP.Oeba,CorpLife.1935,1943,
+        │        │ 1947,1957,1961, Malatinec.1554,Lunch.783,Inch.534,DOS-1.185,
+        │        │ Eliza.1282,ExeHeader.AntiArj(1,2),Jerusalem.Junio, WM.Andry,
+        │        │ Vienna.822, HLLP.Dupalec,  RedHack.1405,  Russel.3072 (2,3),
+        │        │ Lesson.239,240,Meihua.1959, HLLP.Nixda,ExeHeader.Clust(2,3),
+        │        │ Kaliostro.1752,2098, WM.Bertika, WM.Concept(16), WM.Goggles,
+        │        │ WM.Hilight, WM.Minimal (4-7),  W97M.NightShade, WM.Surabaya,
+        │        │ WM.WallPaper,WM.Wazzu(15),WM.Cebu(1), WM.Armadillon,WM.CVCK,
+        │        │ WM.Cheezhed, WM.DarkSide (1-3),  WM.Date(2),  WM.Bandung(2),
+        │        │ WM.Eraser(3-5),WM.Fuzzy,WM.Haggis,WM.Lazy,WM.Lemon, WM.Mota,
+        │        │ WM.NoMercy(1),  WM.Mtf, WM.NoPrint, WM.Talon(1,2), Tmc.5440, 
+        │        │ Hypnotiser.1784,HLLP.8832,Barrotes.1303, DM.310,330,BG.3084,
+        │        │ Eddy.1309,1316,1326,1333, 1482, 1551, Andromeda.713, G2.306,
+        │        │ Fantasma.1000,Assignation.426,HLLP.9072,VLAD.Systa,Abal.758,
+        │        │ Arara.1391,  Die.352, 487, 800, Headache.269, 624, Xed.2869,
+        │        │ ExeHeader.313,Jerusalem.Baby,Pindonga.3652,HLLP.Cookie.7360,
+        │        │ 7392,  Alabama.1560 (2),  HLLP.Halloween, Tabulero.2048 (2),
+        │        │ HLLP.Bobas, Inquis.2653, Infec.736, HLLP.7940, Madwill.2400,
+        │        │ Buendia.816,Dupa.725,BootExe.331,Storyteller.3184, Phx.1295,
+        │        │ 1336,  Lockup.2969,  HLLP.Vova.12560,  ExeHeader.Funked (3),
+        │        │ Polifemo.906,Viking.1024(1,2),Amt.4000, Quish.239, UVR.3919,
+        │        │ Vienna.435,Cossiga.859,Arara.1038, Granada.2765, SCV.C(1,2),
+        │        │ SCV.Pascal,LV.477, Vbasic(3,4), XA1.1539 (1,2), DM.310, 330,
+        │        │ Hypnotiser.1784,  HLLP.8832,  Barrotes.1303,   Spanska.1000,
+        │        │ 1120(2),1500,SillyRCE.428,Vienna.520,576,757,833, Meht.1258,
+        │        │ WM.Demon(1),WM.Sunbeam,HLLP.Destroy, Mipt.439,Khizhnjak.810,
+        │        │ Zabootovka(2),Secretary,Lonely.1000,RedArc.Fraud, Maybe.664,
+        │        │ Lviv.600,  Kela.1253, 1473,  NG.695, Zibbert.1315, ACDC.494,
+        │        │ Avalon.814,Helloween.1160,Finnish.378,Vlad.Republic,BG.3084,
+        │        │ Vlad.Neither, Vlad.Idle, Vlad.Insert, NoFrills.1358,Loz.677,
+        │        │ Toothless.873,Beer.3047,Morgot.1017, Auspar.387,Scitzo.1337,
+        │        │ Horror.1173, Lapi.768, Lavi.1464, SillyRC.120, 215, 291,402,
+        │        │ Destage.1200 (2),  TCE.Persecute,  PME.based,   PME.Burglar,
+        │        │ Implant.6182,HarmWare.3516,Bleah(1-3),Larry.491, TaiPan.437,
+        │        │ XPEH.3600,3840,3872,4048(1,2), 4752, 4768, 5488, 5792, 5840,
+        │        │ Unlucky.1943,Moloch, Ssr.1945(2), Anarchy.6093, SillyRE.528,
+        │        │ SillyC.557, WereWolf.Howl.2662, 2845, WAVE.based, Alla.1407,
+        │        │ Babilon.1000, Doshunter.483, Nexivder.4224, 4286, Lame.2304,
+        │        │ SGWW.StoneHeart,WM.Slow, WM.Jakutsk, Mao.1000, Nanjing.1284,
+        │        │ 2976, Wadimka.481,  Gallery.631, HLLP.Weed.4080, Shish.1142,
+        │        │ Jdc.6891,  7616, HLLP.Hello(2), Maiden.1726,  HLLC.Murmansk, 
+        │        │ DarkElf.1800,WereWolf.Beast.1192,FaXFree.Fam, Penguin.based,
+        │        │ WereWolf.Scream.1158,Airwalker.based,Snafu.based,Vole.based,
+        │        │ Vortex.based, Vortex.Pig.based, Hellfire.based, Jacov.based,
+        │        │ Gregory.996.
+        │        │ 
+3.22a   │10.06.97│ Исправлена ошибка лечения инфицированных документов Word for
+2945 vir│ 244260 │ Windows, сохраненных в формате "fast save".
+        │        │ 
+3.23    │25.07.97│ Edwin,BG.2135,Hoodoo.4456,Trivial.22,133,Ninja.1181,Mf.3490,
+3030 vir│ 249630 │ 4270,4625,ExeHeader.379, HLLP.Weed.5850, WM.Demon(2), IntCE,
+        │        │ Legion.3274, Izhevsk.3474, YADEKA.Demo,Small.125,SillyC.490,
+        │        │ 544,Lucas.1871, Anarchy.3153,HLLP.Nazi,TaiPan.438(2),WM.Lox,
+        │        │ BootExe.174, SillyRC.936,  HLLP.UPI, Nutcracker.AB2.7008(2),
+        │        │ HLLP.RedArc,Win95.Mad,Win95.Memorial,Luce.4619,RedArc.based,
+        │        │ Pamyat.3000(1,2), Khizhnjak.1912,NoDBF.1000,Baran.3294,4968,
+        │        │ WM.Chandiga, WM.Concept(17), WM.NoMercy (2-4), WM.Minimorph,
+        │        │ WM.Randomic, WM.Shuffle, WM.Simple, WM.Skammy, WM.Switch(2),
+        │        │ WM.Testarea,  WM.UglyKid,  WM.Anak, WM.Eraser(6), WM.Attack,
+        │        │ WM.Cebu(2),WM.Chaka,WM.CVCK(2),WM.Czech,WM.Dakota,WM.Donoso,
+        │        │ WM.Emperor(1,2), WM.GoldSecret,WM.Harkone,WM.Hiac,WM.Inside,
+        │        │ WM.Mark, WM.Nop(3), WM.Ordo, WM.Oval, WM.Pesan, WM.Pig(1,2),
+        │        │ WM.Quick, WM.Killer, WM.Safwan, WM.Sok, WM.Tear,  W97M.Rapi,
+        │        │ W97M.Frenzy,X97M.Laroux,Avs.301.
+        │        │ Добавлен  режим  /ML  -  сканирование  и проверка "почтовых"
+        │        │ файлов, закодированных утилитами UUENCODE и MIME.
+        │        │ 

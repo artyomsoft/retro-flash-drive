@@ -1,0 +1,210 @@
+Here is a brief explanation  of all the legal mumbo jumbo contained in the
+various license agreements that may or may not be part of this package.
+
+(This document was designed to be a quick overview of our license terms.
+You must refer to the full text of the license for a complete listing of 
+terms and conditions.)
+
+CONTENTS:
+
+1. QUAKE SHAREWARE END USER LICENSE (slicnse.txt) or
+   What You Can and Cannot Do With the Shareware Version of Quake.
+ 
+2. QUAKE REGISTERED VERSION END USER LICENSE (rlicnse.txt) or
+   What You Can and Cannot Do With the Registered Version of Quake.
+ 
+3. THE SIMPLE RULES REGARDING THE SALE OF USER DEVELOPED QUAKE 
+   LEVELS AND/OR UTILITIES
+ 
+4. MADE FOR QUAKE LOGO LICENSE
+ 
+5. COMMERCIAL EXPLOITATION LICENSE 
+
+
+1. QUAKE SHAREWARE END USER LICENSE (slicnse.txt) or
+   What You Can and Cannot Do With the Shareware Version of Quake.
+
+CAN DO:
+-- Play & Enjoy the single player game 
+-- Setup a shareware version based server on a not-for-profit basis
+
+CANNOT DO:
+-- Run the game with user developed levels.  
+-- You may not commercially exploit the shareware version in any way
+        This specifically excludes retail distribution of the shareware 
+        version. Do not call or e-mail to ask if you can be a retail 
+        distributor of the shareware version -- the answer is no! 
+-- Commercially exploit any id copyrighted and/or trademarked property. 
+        Example: Game names, logos, graphics, etc.
+
+
+2. QUAKE REGISTERED VERSION END USER LICENSE (rlicnse.txt) or
+   What You Can and Cannot Do With the Registered Version of Quake.
+
+CAN DO:
+-- Play & Enjoy the single player game
+-- Setup a registered version based server on a not-for-profit basis
+-- Develop new levels and/or level creation utilities.  
+-- Play the game and/or setup a Registered Version based server using
+   a user-developed level.
+
+CANNOT DO:
+-- Commercially exploit the Registered  Version of Quake in any way;
+   see commercially exploitation license info below.
+-- Commercially exploit any id copyrighted and/or trademarked
+   property. 
+        Example: Game names, logos, game graphics, etc. 
+-- Sell user-developed levels and/or tools
+
+
+3. THE SIMPLE RULES REGARDING THE SALE OF USER DEVELOPED QUAKE 
+   LEVELS AND/OR UTILITIES:
+
+-- User-developed/user-modified maps & utilities can only work with 
+   the registered version.  (Just to be crystal clear on this point:
+   user-developed/user-modified maps & utilities cannot work with the 
+   shareware version of Quake.) 
+
+-- If the map/utility contains id data (other than the id code John 
+   Carmack released to the world)  it cannot be sold.  The registered 
+   version end-user license will give you the limited right to develop 
+   maps/utilities that use id data...this limited right does not include 
+   the right for anyone to sell anything that includes id data 
+   (other than the id code John Carmack released to the world).
+
+-- If you create a map/utility that does not use any id data (other than 
+   the id code John Carmack released to the world)...it is your map/utility.  
+   You may copyright it, give it away, sell it, etc.
+
+-- You may not use any of our trademarked or copyrighted properties (game 
+   gfx, logos, names, etc.) to market your game.  In other words...you cannot 
+   name your product something like QuakeEd .  "qed", "an editor that works 
+   with Quake" would be OK.  Marketing your product with a 1/4 page ad in 
+   a game magazine that shows screenshots from Quake is not allowed.  Any use 
+   of the Quake, id, or NIN logo (except the placement of NIN ammo boxes into 
+   levels that cannot be sold) is not allowed. 
+
+-- We cannot authorize the use of the NIN logos, sound effects and music 
+   outside the game.  Do not ask for permission to use and more importantly do 
+   not use or abuse these properties outside the game.  The good folks at NIN 
+   will not be happy.
+
+(We've developed a very cool "Made For Quake" logo that may be licensed for 
+product that works with Quake.  The terms of this license are listed in the 
+"Made For Quake" license section below.)
+
+
+4. MADE FOR QUAKE LOGO LICENSE:
+
+-- License is granted on a per-product basis. 
+
+-- id must review and approve of the logo's use on the product being licensed.  
+   Id reserves the right to refuse license on any product it deems 
+   inappropriate for any reason.
+
+-- Royalty structure: 
+
+        If the licensed product is scheduled for a release into the 
+        traditional retail channels:   
+                Advance: $10,000 (ten thousand dollars) The advance is 
+                recoupable but not refundable.
+
+                Royalty: 10% product's net revenue (net is defined as gross 
+                less only reasonable manufacturing and shipping expenses)
+
+        If the licensed product is scheduled for release into the shareware 
+        channel (try before you buy): 
+                Advance: 0 (zero)
+                Royalty: 10% product's gross revenue payable after the product 
+                has generated over $5,000 (five throusand dollars) in gross 
+                shareware sales,  (Example: An id royalty is not payable until 
+                after the licensed product has generated $5,000 in gross 
+                sales. At that point id is due a royalty payment of $500.00 
+                and 10% of gross shareware sales thereafter. 
+
+-- If a licensed product goes from a shareware offering to a full retail 
+   offering the advance/royalty structure changes accordingly.  
+
+To get into bed with us on this deal you MUST send a sample of the product you 
+would like the Made for Quake logo to be associated with your request for the 
+Made For Quake logo license to:
+
+                id Software
+                18601 LBJ #666
+                Mesquite, TX  75150
+                Attn: MFQ License Request.
+
+We will do our best to reply to all requests within 4 weeks.
+
+(Please make sure your company name, contact name, address, phone, fax, 
+e-mail, the product's shareware/registered status are clearly detailed.  If 
+this info is not included with the MFQ logo request or is not listed in a 
+legible form we will not be able to reply to the request.)
+ 
+UNAUTHORIZED USE OF THE MADE FOR QUAKE LOGO WILL NOT BE TOLERATED. 
+
+
+5. COMMERCIAL EXPLOITATION LICENSE 
+(comexp.txt -- accompanies Quake registered version only)
+
+If you are interested in trying to make money using the registered version
+of Quake (this sort of thing is not allowed using the shareware version) you
+must sign our easy-to-digest Commercial Exploitation License.  This license 
+is to be used by folks looking to use the registered version of Quake to set 
+up pay-per-play (location based or arcade centers) stations, for profit 
+online servers, or any other application where the actual code from the 
+registered version of Quake is used for profit.  
+
+This is a royalty free license that allows you to run Quake for a profit
+through a certain monthly gross profit range. If your Quake-related business
+becomes successful the agreement brings id into the revenue stream.
+
+Basic terms of the commercial exploitation license:
+
+-- License grants a royalty free commercial exploitation right for the
+   registered version of Quake as a whole so long as Quake's monthly gross
+   revenue is below $5,000.00
+
+-- License provides for a 12.5% royalty to be paid to id Software in months
+   where the licensee's Quake related monthly gross revenue is above 
+   $5,000.00
+
+-- Royalty is based off net income.  The term "Net Income" shall mean
+   all revenue received by Licensee from the commercial use of Quake, 
+   less only actual, reasonable documented costs relating directly to 
+   such use
+
+-- License expressly prohibits commercial exploitation via the sale (retail
+   or otherwise) of the shareware or registered versions of Quake.
+
+-- License expressly prohibits advertising/marketing use of our copyrighted
+   and/or trademarked properties.
+
+-- This license is not intended for use by folks developing Quake maps and/or 
+    utilities.   Please reference the section titled "The simple rules for 
+    Quake map/utility distribution:" for info on this subject.
+
+To get into bed with us on this deal you must print two (2) copies of the
+document named comexp.txt. (You should find comexp.txt somewhere on the
+registered version CD.)  Sign/fill in the blanks of both copies where
+indicated and mail both to:
+
+                id Software
+                18601 LBJ #666
+                Mesquite, TX  75150
+                Attn: ComExp License
+
+We will then countersign the documents and mail one back to you.
+
+Two items worth noting here:
+
+A: It is VERY IMPORTANT that the information you enter in the signature
+block be legible. We prefer it if you enter the info into the blanks before
+printing your two copies. If we cannot read your information we will not be
+able to return the documents to you.
+
+B: The terms of this document are not subject to negotiation. If you cannot
+live with the terms spelled out in the agreement do not engage in any
+commercial exploitation of Quake and do not sign the document.
+
+

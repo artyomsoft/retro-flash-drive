@@ -1,0 +1,48 @@
+:Base .\quake.hlp
+:Title Quake Help
+:Index Quake Help=./quake.hlp
+1 The Story=TheStory
+1 Getting Quake Running
+2 System Requirements=SystemRequirements
+2 Installing Quake=Installation
+2 Running Quake=RunningQuake
+1 The Basics of Play
+2 Goal of the Game=BasicsOfPlay
+2 Skill=SkillLevels
+2 Episode=Episodes
+2 Getting About=GettingAbout
+2 Finding Things=FindingThings
+1 Controls
+2 Keyboard Commands=KeyboardCommands
+2 Console=Console
+2 Command Line=CommandLine
+2 Cheat Codes=CheatCodes
+2 The Main Menu
+3 Main Menu=TheMainMenu
+3 Single Player Menu=SinglePlayerMenu
+3 MultiPlayer Menu=MultiPlayerMenu
+3 Options=Options
+3 Help/Ordering=HelpOrdering
+1 The Game
+2 The Screen=TheScreen
+2 Messages=Messages
+2 Ending a Level=EndingALevel
+2 Ending a Dimension=EndingADimension
+1 Your New Environment
+2 Firepower=Firepower
+2 Ammo=Ammo
+2 Power-ups=Power-ups
+2 Bad Guys=BadGuys
+2 Environmental Hazards and Effects=EnvironmentalHazards
+1 Multiplayer Action
+2 Multiplayer Action=MultiplayerAction
+2 Coorperative=Cooperative
+2 Deathmatch=Deathmatch
+2 Team Games=TeamGames
+1 Commonly Asked Questions
+2 Commonly Asked Questions=CommonlyAskedQuestions
+1 Tech Support
+2 Tech Support=TechSupport
+2 Game Hints and id Merchandise=GameHints
+1 License Agreement
+2 License Agreement=LicenseAgreement

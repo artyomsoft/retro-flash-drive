@@ -1,0 +1,510 @@
+____________________________________________________________________________
+
+MATRIX SCODL (QVP) SYSTEM
+____________________________________________________________________________
+
+FILENAME : MTXSCODL.SYS
+
+DEVICE TYPE : CAMERA
+
+    NOTE: driver outputs SCODL opcodes for MATRIX QVP graphics processor. 
+    QVP can output to several different devices, the most common of which are 
+    cameras. Because this driver does not know the eventual graphics device,
+    the device driver itself does not support non preserve aspect ratio mode. 
+    If you wish non preserve aspect ratio mode, you must modify the QVP 
+    dimensioning appropriately. SCODL arcs, circles, and text may not work 
+    as expected if the aspect ratio is not preserved.
+
+    The exact output method used by the driver is controlled by the environ-
+    ment variable "mtxs_out". Data can be sent directly to the QVP0: device,
+    a file (explicitly or automatically named), or to the current VDI COM:
+    port.
+
+    Please see additional notes on operation for specific setups for the
+    MVP and QVP/SA (stand alone) processors.
+
+    FEATURES SUPPORTED
+
+    POLYLINES
+
+    Lines and arcs can be drawn with the six line styles as listed below:
+
+     1   _____________________________________    Solid
+     2   __________          __________           Long Dash
+     3   .    .    .    .    .    .    .    .     Dotted
+     4   ________      .     ________     .       Dash Dotted
+     5   _____     _____     _____     _____      Medium Dashed
+     6   _______    .    .   ________    .    .   Dash with two dots
+
+    Line widths can be from 4 to 8192 NDC coordinates. The actual line width
+    depends on the device. For a 1536 by 2048 device like the  MATRIX QCR or 
+    MATRIX PCR, the actual line widths will vary from 1 to 512 pixels.
+
+    GRAPHICS TEXT
+    The system supports fully scaleable sizes from 1 to 32767 in NDC space. 
+    The default graphics text cell size is 408 in NDC space. The number of 
+    fonts supported depends on the number of fonts loaded into the MATRIX QVP.
+    This driver does not assume the existence or absence of any fonts except 
+    for the default SCODL font (0).
+
+    NOTE: It is possible to reference nonexistent fonts. This will cause SCODL
+    errors. Since SCODL fonts are numbered beginning at zero and VDI fonts are
+    numbered beginning at one, the font numbers requested through the VDI will
+    correspond to the SCODL font numbered one lower.
+
+    The default SCODL font used may be set via the environment variable 
+    "mtxs_font". The value of "mtxs_font" corresponds to the SCODL font, 
+    so the VDI font number will be one higher.
+
+    Graphics text may be rotated in tenth degree increments.
+
+    GRAPHICS MARKERS
+    The system supports six markers, as follows:
+
+      1 = small Box
+      2 = Cross
+      3 = Star (asterisk)
+      4 = Box   
+      5 = X
+      6 = Diamond
+
+    Markers have five sizes as listed below in NDC coordinates:
+
+                           Preserve Aspect 
+              Size            Ratio Mode 
+       
+                1                316
+                2                628
+                3                940
+                4               1252
+                5               1564 
+
+    FILLED AREAS
+    Filled areas, bars, pie slices and circles are all drawn using the 
+    current fill area attributes of color, interior style, and style index. 
+    The interior styles of Hollow, Solid, and Hatch are all supported by this 
+    device.  The interior style of Pattern is mapped to the hatch interior 
+    style.  Six different styles are supported for the hatch interior style:
+     
+      1 = Narrow diagonal
+      2 = Medium diagonal
+      3 = Wide diagonal
+      4 = Narrow crosshatch
+      5 = Medium crosshatch
+      6 = Wide crosshatch
+
+    COLOR
+    The system supports 255 colors. By default, eight colors are defined by 
+    the driver:
+
+              RGB values
+       Index   Red    Green   Blue     Color
+      
+        0       0        0      0     Black
+        1    1000     1000   1000     White
+        2    1000        0      0     Red
+        3       0     1000      0     Green
+        4       0        0   1000     Blue
+        5    1000     1000      0     Yellow
+        6       0     1000   1000     Cyan
+        7    1000        0   1000     Magenta
+    
+    Note that these are all saturated colors and do not compensate for the
+    film used if the output device is a camera. The environment variable
+    "mtxs_lutc" may be used to select the type of color LUT compensation.
+
+    The remaining indices from 8 to 254 default to white.
+
+    It is possible to preset the SCODL color map in the normal SCODL fashion. 
+    Setting the environment variable "mtxs_cmap" to "preset" will prevent
+    the driver from setting the default color map. The color map will only
+    be set via explicit requests through the VDI.
+
+    PIXEL OPERATIONS
+    This driver supports the CGI OUTPUT BYTE PIXEL ARRAY opcode.
+
+    RASTER WRITING MODES
+    Only replace is supported.
+
+    
+    CURSOR ADDRESSABLE TEXT
+    not supported
+
+    
+    ALPHA TEXT
+    Alpha text can be positioned anywhere on the output page. Alpha text may
+    be scaled in multiples of 408 NDC units from 1*408 to 20*408 units. The
+    SCODL font used may be set via the environment variable "mtxs_font". 
+
+    Alpha text provides two versions of the user set font. Alpha text fonts
+    between 1 and 256 reference SCODL fonts between 0 and 255. If the alpha
+    text font is between 257 and 512, a bold (thickened) version of the font 
+    numbered 256 lower will be used. Thus, selecting alpha text font 3 would
+    cause alphatext to use SCODL font 2. Selecting alphatext font 259 would 
+    yield a boldened SCODL font 2.
+
+    The default alpha text font is set by the environment variable 
+    "mtxs_font",just as it is for graphics text. The default is SCODL font 0, 
+    which is VDI font 1.
+
+    Alphatext line spacing, overstrike, underlining, and superscript modes
+    are all supported.
+
+    NOTES:
+    This driver uses a SCODL virtual space of -4096 to +4095. All user set
+    SCODL scaling, etc. will be affected by this.
+
+    SCODL GSF(tm) mode is reset at the end of every image. If GSF mode has
+    been preset, it will only affect the first image.
+
+    Alphatext pass through mode is available to insert raw SCODL commands
+    into the output stream.
+
+    All SCODL output is in binary form.  This mode must be set if using the
+    Stand Alone unit.
+          
+    SPECIAL INFORMATION
+
+    This driver uses several environment variables to control various aspects
+    of it's operation. Some have been mentioned previously as they pertained
+    to particular features being described.
+
+-------------------------------------------------------------------------------
+NAME : MTXS_OUT
+
+VALUES : "QVP", "qvp", "COM", "com", filename
+
+DEFAULT : undefined (implying automatically named file)
+
+DESCRIPTION   
+    This environment variable controls the output device. If "QVP" or
+"qvp", the QVP0: device will receive all data from the driver as it is gen-
+erated. MTXSCODL will assume the QVP channel is set up appropriately
+(binary mode). The QVP driver must be installed and operating correctly as
+MTXSCODL cannot check this.
+
+    If "COM" or "com", the current port will be opened and all driver data 
+will be sent to it. Again, the driver assumes the port's mode will be preset
+correctly. By default, the current port is COM1:. The user may change this
+using the standard GSS-DRIVERS method of doing a SET MTXSCODL=COMn, where
+n is the new default COM number.
+
+    If anything other than these four values, the string will be taken
+as a filename to use unless it is null. If it is null, a filename will be
+automatically generated (see MTXS_FNUM, below). If the file already exists,
+it will not be used, and another filename will be automatically generated.  
+The filename may include the full file path, including the drive specification.
+Note that an extension of ".SCD" is always provided.
+
+NAME : MTXS_FNUM
+VALUES : 0 to 9999
+DEFAULT : 0
+
+DESCRIPTION   
+    This environment variable controls the initial numeric portion of an
+automatically generated filename used for driver file output. The format of an
+automatically  generated filename is "VDInnnn.SCD", where "nnnn" is a unique
+number. This environment variable controls the initial value the driver will 
+attempt to use to generate a filename. If undefined, "VDI0000.SCD" will be 
+the first filename tried.
+
+    If the filename generated already exists, the driver will try the
+next numerically higher filename until the desired filename is unique to
+the current directory. This filename will then be used.
+
+NAME : MTXS_FONT
+VALUES : 0 to 255
+DEFAULT : 0
+
+DESCRIPTION   
+    This environment variable controls the default text font. If the user
+does not specify a font through the VDI, this is the font that will be used. 
+Note that since the driver does not know the number of fonts, it cannot test
+this value for validity. SCODL will fail if an unknown font is referenced.
+
+NAME : MTXS_TXSP
+VALUES : "K", "k", "B", "b", "P", "p"
+DEFAULT : "K"
+
+DESCRIPTION
+    This environment variable controls the graphics text spacing. "K" sets
+kerned spacing, "B" sets block spacing, and "P" sets proportional spacing.
+
+NAME : MTXS_CMAP
+VALUES : "PRESET", "preset"
+DEFAULT : undefined (implies driver is to set default color map)
+
+DESCRIPTION   
+    This environment variable controls whether or not the driver auto-
+matically sets the default VDI color map. If "PRESET", the driver assumes the 
+user has already set up the color map and does not set any color map entries 
+except by explicit VDI request. If other than "PRESET", the driver sets up 
+the default VDI color map of black, white, red, green, blue, yellow, cyan, 
+and magenta for the first 8 entries. All other entries are set to white.
+
+NAME : MTXS_DEV
+VALUES : 1 to 255, 0 to 255 (example: 1,0)
+DEFAULT : undefined- device not set or changed by driver
+
+DESCRIPTION
+    This environment variable is provided for advanced use and controls 
+the SCODL output device. If defined, the output device, dimensions, etc. are 
+set. If null or undefined, the output device will not be set. The first 
+number determines the device; the second number controls the device mode. If 
+the comma and the second value are omitted, a mode of 0 will be assumed. 
+The current limits on these values are enforced, and no SCODL opcodes are
+sent if the device is not one of those currently supported (1, 2, 3, 4, 5, 8,
+and 12).
+
+    The SCODL opcodes sent are the same as those in the standard "switch"
+files swiq2.scd, swiq4.scd, swidiabl.scd, switekl.scd, swiseik.scd, 
+switecq.scd and swittl.scd with the "set virtual screen maximum dimensions" 
+opcode (249) modified to match the 8192 virtual space used by this driver. 
+Note that this does not allow for several of the possible output formats; 
+if presently unsupported devices or other output formats are required, 
+use "mtxs_swif","mtxs_xdim", "mtxs_x1", etc. to output the desired SCODL 
+commands.
+
+     VALUE      DEVICE
+       1        Null device (default)
+       2        QCR or PCR film recorder
+       3        Xerox 4020 or Diablo C-150 ink-jet printer
+       4        Tektronix 4696 or 4695 ink-jet printer
+       5        (not yet SCODL defined)
+       8        Tecmar graphics master disply adapter
+      12        Matrix TT200 thermal transfer printer with color ink sheet
+
+NAME : MTXS_SWIF    
+VALUES : file name of switch file
+DEFAULT : null (nothing done)
+
+DESCRIPTION
+    This environment variable allows you to name a switch file to be
+inserted in the SCODL opcode stream when the driver is opened. A full DOS
+pathname, including drive, is acceptable.
+
+    This feature may be used to support any device and any output format.
+It has precedence over "mtxs_dev", but it is not recomended they be used
+at the same time.
+
+NAME : MTXS_XDIM, MTXS_YDIM
+VALUES : 2 to 32768
+DEFAULT : not set/changed
+
+DESCRIPTION 
+    These environment variables are provided for advanced use and control 
+the virtual screen maximum dimensions. The values provided to these 
+environment variables are placed directly into SCODL opcode 249, subcommand 1.
+If either of these environment variables is undefined or out of range, the
+driver will assume XDIM and YDIM have been set up via a switch file and will 
+not send a SCODL opcode 249.
+
+    Note that the driver ALWAYS uses coordinates from -4096 to 4095 and that
+the virtual dimension scaling only has to scale from this space down to the
+device space and does not have to scale the entire SCODL +-16383 space down to
+device space. 
+
+    These environment variables have precedence over "mtxs_dev" and
+"mtxs_swif". The opcodes produced are sent after those from "mtxs_dev" and
+"mtxs_swif".
+
+NAME : MTXS_X1, MTXS_X2, MTXS_Y1, MTXS_Y2
+VALUES : -32766 to +32766
+DEFAULT : not set/changed
+
+DESCRIPTION   
+    These environment variables are provided for advanced use and are used
+to set the X1, X2, Y1, and Y2 values used by SCODL opcode 250. If any of these
+environment variables are undefined or out of range, the driver will assume 
+X1, X2, X3, and X4 have been set with a switch file. Note that the driver will
+not supply SCODL with coordinates < -4096 or > 4095.
+
+    These environment variables have precedence over "mtxs_dev" and
+"mtxs_swif". 
+
+NAME : MTXS_LUTC
+VALUES : 0 to 255
+DEFAULT : not set/changed
+
+DESCRIPTION   
+    This environment variable controls the subcommand byte to SCODL
+opcode 215. LUT compensation is automatically turned on using SCODL opcode
+211.
+
+EXAMPLES OF ENVIRONMENT VARIABLE USE
+
+Suppose you have a MATRIX PCR you wish to make slides on from an applications
+program using the VDI. If you don't have or want to use a SCODL switch file, 
+the proper environment variable setup would be:
+
+NOTE: these image dimensions do not take into account scaling necessary to
+keep image inside slide mount.
+
+set mtxs_dev=2,0        select QCR (PCR), 2K mode - mode only avail. for PCR
+set mtxs_dev=2          select QCR (PCR), default 2K mode
+
+Other possible settings:
+
+set mtxs_xdim=7800      set XDIM smaller to get slide inside mount
+set mtxs_ydim=7800      set YDIM smaller to get slide inside mount
+
+set mtxs_x1=-500        set x1, x2, y1, and y2 to get smaller output
+set mtxs_x2=500         area
+set mtxs_y1=500
+set mtxs_y2=-500
+
+set mtxs_out=qvp        send data directly to qvp0:
+set mtxs_out=com        send data to remote QVP via com port
+
+set mtxs_out=b:\images\test.scd send data to named file on drive b
+set mtxs_out=local.scd      send data to named file in current directory
+set mtxs_out=           send data to automatically named file in current
+                directory
+
+set mtxs_fnum=30        start auto filenames at 30
+
+set mtxs_font=5         set default font to preloaded SCODL font 5
+                (VDI font 6)
+
+set mtxs_txsp=p         set proportional spaced graphtext
+set mtxs_txsp=b         set block spaced graphtext
+
+set mtxs_cmap=preset        use preset SCODL color map
+
+set mtxs_swif=c:\qvp\util\swi_new.scd  send this switch file when driver opened
+set mtxs_lutc=2         select Polaroid 559 color map compensation
+
+_____________________________________________________________________________
+
+Additional Notes on Operation.
+_____________________________________________________________________________
+
+QVP/SA.
+
+     If the stand alone version of the QVP is being used rather than the
+internal (QVP0) version, there are several precautions and operational
+procedures that should be noted.
+
+  Setup.
+
+     Once the QVP is physically connected via serial communations port, a
+configuration file must be sent to setup communications and output device.
+(Note it is understood that the newer version of the QVP, the MVP, does not
+require a setup file, but has physical switches for appropriate setup
+parameters.)  The QVP establishes proper baud rate, data and stop bits, and
+parity by analyizing a stream of characters sent to it from the serial port.
+After proper communications are setup, a configuration record is sent to 
+set other specific parameters, such as output device and date type.  In order
+to send this file to the QVP, the serial port must recognize that the QVP is
+attached and ready to except data.  
+
+If the QVP is connected to COM1, no write errors ("ERROR WRITING TO DEVICE
+COMn; Abort, Retry, Ignore?") may occur while copying the file to the port,
+and if so, they may be  corrected by simply powering down both the PC and the
+QVP and powering up again, PC first.  However, if the QVP is connected to
+an AST or similar board that contains COM2, write errors may not be corrected
+unless physical modifications are made to the board.  These modifications are
+simply forcing  both the CTS (clear to send) and DSR (data set ready) inputs
+on the serial port to be TRUE.  It should also be noted that both inputs
+(pins) 2 and 3, RxD, and TxD are flipped for proper communications with the
+QVP.
+
+  The Lock-in file.
+
+     The lock-in file (setup file) is sent to the QVP by simply copying it
+to the appropriate serial port with the DOS copy command.  The lock-in file
+contains a stream of the characters 0, 1, and 2 that allow the QVP to
+configure itself with the proper communications and a configuration record at
+the bottom of the file which sets up specific parameters.  The configuration
+record may be modified by the user to suit specific needs.
+
+             LOCK-IN FILE:  QVPLOCK.DAT
+                 LOCATION:
+
+     The configuration record consists of 16 bytes, 12 which represent setup
+parameters given in hexadecimal format converted from a binary representation
+of setup options.
+
+     Record format:  _N3F0F05010802.J
+
+     First two bytes: 'space'N   -   signals configuration follows
+     Last two bytes : .J         -   signals configuration complete
+
+     Twelve bytes between are defined as follows:   
+
+     HEX  BINARY        Possible settings (each represents on/off or yes/no
+     ---  ---------            with binary 0 or 1, n/a=not applicable)
+     3F   0011 1111   (selects current data bits, parity, and stop bits)
+     0F   0000 1111   (selects current baud rate)
+     05   0000 0101   (n/a), PSE/N, MSG TERM/N, MSG HOST/N, CTS/N, IGN/Y,
+                      DTR/N, XON/Y    (communications)
+     01   0000 0001   First byte - n/a, Output device mode; QCR and PCR
+                      resolution only: 0001 for 4k and  0000 for 2k
+     08   0000 1000   First byte - n/a, BINARY data, RPT/N, WAIT,N, +BGN/N
+     02   0000 0010   First byte - n/a, Output device (see below)
+
+     Communications may be changed if serial port being used may utilize
+     CTS and DTR.
+
+     Driver outputs SCODL code in BINARY format.
+
+     Possible output devices:
+
+                           0000  Null device
+                           0010  PCR film recorder
+                           (see the QVP User's guide for other devices)
+
+     DO NOT change first two and last two bytes ( ' N' and '.J').
+
+     Please consult your QVP User's guide for more information regarding
+     communications and setup parameters.
+
+
+  Output device dimensions.
+
+     For the PCR film recorder the optimal screen dimensions, specified
+by the environmentals MTXS_XDIM and MTXS_YDIM, were found for both 2k and
+4k resolution.
+
+        Resolution      MTXS_XDIM     MTXS_YDIM
+
+            2k            7500          7500
+            4k            15000         15000
+
+     Note:  MTXS_XDIM must equal MTXS_YDIM to preserve the aspect ratio.
+            These values are written directly in to SCODL opcode 249
+            subcommand 1.
+
+
+  Sending image to the QVP.
+
+     As noted in the discussion of the environmental MTXS_OUT, the file
+generated may be sent to any of three locations; the internal QVP0, to
+a serial port, or to a file.  This is treated just like any other output
+device, allowing for immediate printing, later spooling, or batch printing.
+However several precautions should be taken to insure proper processing of
+output file.  If CTS or DTR communications are not established between the
+serial port and the QVP, only ONE file may be processed at a time.  This
+means that batch processing and spooling of more than one file will cause
+undesirable results.
+     If image is sent to a file, the file must be copied to the serial port
+with the binary option, '/b'.
+
+         COPY IMAGE.SCD COM2: /B
+
+________________________
+
+MVP and MVP/SA.
+
+  Driver modifications.
+
+     If the vector processor being utilized is the newer version of the QVP,
+the MVP, the MTXSCODL driver must be modified for proper operation.  This 
+modification is made simply by running a routine in the same directory as the
+driver.  This routine toggles the change and notes what device the driver
+is set up to recognize.
+
+    To change driver:  Copy MTX.EXE from the INSTALLATION diskette into the
+    same directory as MTXSCODL driver and type 'MTX'.  
+ata and stop bits, and
+parity by ana

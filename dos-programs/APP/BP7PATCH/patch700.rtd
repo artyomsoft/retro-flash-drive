@@ -1,0 +1,39 @@
+зддддддддддддддддддддддддддддддд©
+Ё  .RTPATCH DOCUMENTATION FILE  Ё
+юддддддддддддддддддддддддддддддды
+
+   Date Created : 08:18:97
+   Time Created : 13:31:17
+
+   Patch File   : PATCH.RTP (Created)
+
+
+
+зддддддддддддддддддддддддддддддддддд©
+Ё  PATCH PROGRAM BEHAVIOR SETTINGS  Ё
+юддддддддддддддддддддддддддддддддддды
+
+   Backup Affected Files      : OFF
+   Ignore Missing FIles       : ON
+   Print  Error Messages      : ON
+   Search PATH for Files      : OFF
+   Search Subdirectories      : OFF
+   Global Patch Undo on Error : ON
+   User Level                 : BACKUP
+   Information Display Level  : VERBOSE
+   Password Protection        : OFF
+
+
+
+зддддддддддддддддддддддд©
+Ё  FILES TO BE PATCHED  Ё
+юддддддддддддддддддддддды
+
+                                                                     Pct    
+  Action   Entry Name     Old Name       New Name      Patch Size  Reduced  
+зддддддддбддддддддддддддбддддддддддддддбддддддддддддддбддддддддддбддддддддд©
+Ё MODIFY Ё TPP.TPL      Ё TPP.TPL      Ё TPP.TPL      Ё     531  Ё   99%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё TURBO.TPL    Ё TURBO.TPL    Ё TURBO.TPL    Ё     522  Ё   98%   Ё
+юддддддддаддддддддддддддаддддддддддддддаддддддддддддддаддддддддддаддддддддды
+

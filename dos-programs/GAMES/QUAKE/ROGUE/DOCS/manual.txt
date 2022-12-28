@@ -1,0 +1,711 @@
+=============================================================================
+                         QUAKE MISSION PACK No. 2
+
+	                   Dissolution of Eternity
+=============================================================================
+
+Contents:
+
+The Story
+
+Installation
+   Starting a Game
+
+Basics of Play
+   Goal of the Game
+   Skill
+   Getting About
+   Finding Things
+   Commands, Menu, & Console
+
+The Game
+   The Screen
+   Messages
+   Ending a Level
+
+Your New Environment
+   New Weapons
+   New Powerups
+   New Creatures
+   New Environmental Hazards and Effects
+
+Multiplayer Action
+   Cooperative
+   Deathmatch
+   Team Games
+
+Commonly Asked Questions
+
+Customer Support
+
+Credits
+
+
+=============================================================================
+                                The Story
+=============================================================================
+
+You're alive, and aware, and in one piece. "Thank God for simple favors," 
+but... "What in Hell happened?"
+
+Ages ago you defeated Armagon; yet it seems as if it happened in the last 
+instant. The Rift Portal was sealed and the slipgate effect deposited you 
+back at HQ.
+
+Command is quiet-too damn quiet! You exit Command Central to scan the dimly 
+lit corridor beyond.
+
+Sprawled face down in a stagnant mire, is a... Grunt? An Enforcer? Who could 
+tell; what's left of him is mangled! His backpack has emptied into the red-
+tinged muck. Among the spattered effects are the bent leather covers of a 
+charred book, its bindings tooled with a familiar symbol. "No... that wasn't 
+there before!"
+
+Ripped from the text and floating in the muck, a particular leaf of stained 
+parchment stabs for your attention. In a perfect hand-hewn typeface the 
+passage reads:
+
+The Book of Common Prayer
+Let it be known that in that moment our Master brought forth, from the void 
+of order and light, a new existence of glorious darkness. His mighty hands 
+fashioned this world of chaos, violence and pain.
+
+Our past, our present and our future are moulded by the seeds that He has 
+sewn. Through His wisdom He has given us Ancient Guardians to tend the Chain 
+of Time. Their suffering is our link and lineage throughout all time and 
+forever.
+
+In honoured service we come before Him to pay our age-old debt. We whisper 
+this humble prayer with the knowledge that He will hear our thanks for what 
+He has brought to pass.
+
+Oh Master Quake, we kneel before the Mark, upon this day, this hour, and this 
+moment, to proclaim your dominion and celebrate The Day of Dissolution.
+                                                             Day 57, 1215 A.Q.
+
+"GOD FRIGGING DAMN! This can't be happening!"
+
+You scramble across the body for the shotgun, dragging the remnants of the 
+backpack behind. At the end of the darkened passage a slipgate comes into 
+focus.
+
+One thought becomes your obsession as you step onto the slipgate platform: 
+"THIS TIME IT WILL END!"
+
+
+=============================================================================
+                              Installation
+=============================================================================
+
+Quake Mission Pack No. 2 (Dissolution of Eternity) requires the full, 
+registered version of Quake to run.  For installation instructions on Quake, 
+refer to the README.TXT on this CD to see the exact procedure recommended for 
+your machine.  
+
+Once Quake has been installed, you can install Quake Mission Pack No. 2.  For 
+detailed installation instructions, refer to the README.TXT on the Quake 
+Mission Pack No. 2 CD.  You must install Quake Mission Pack No. 2 before you 
+can play it.  It will not run off the CD-ROM.
+
+-----------------------------------------------------------------------------
+                             Starting a Game
+-----------------------------------------------------------------------------
+
+As with Quake, this Mission Pack offers a variety of play options. The 
+options below can be entered at a DOS prompt, although each option below is 
+installed either as a Shortcut in your Start Menu if you installed the 
+Mission Pack through Windows 95 or as a *.bat file if you installed through 
+DOS.
+
+Note: You must change to the directory where Quake is installed (i.e., 
+c:\quake), then from the command prompt run the following commands. 
+
+Single Player:  quake -rogue
+Dedicated Server:  quake -rogue -dedicated # +map start
+Listen Server:  quake -rogue -listen #
+
+The # sign indicates the number of players to be allowed into the 
+multiplayer game.
+
+Enhanced Multiplayer Deathmatch Options:  
+
+Note:  Add the following commands to either the Dedicated or Listen Server 
+commands listed above (e.g., quake -rogue -dedicated 8 +teamplay 5). This 
+would run an eight player, dedicated, One Flag game.
+
+Tag:  
++teamplay 3 +map start
+
+Capture the Flag:  Normal
++teamplay 4 +map r1m1
+
+Capture the Flag: One Flag
++teamplay 5 +map r1m1
+
+Capture the Flag: Three Team
++teamplay 6 +map r1m1
+
+
+=============================================================================
+                              Basics of Play
+=============================================================================
+
+-----------------------------------------------------------------------------
+                             Goal of the Game
+-----------------------------------------------------------------------------
+
+Each level ends with a distinctive door or exit to the next level. Unlike 
+Quake, however, Quake Mission Pack No. 2 is played in a linear fashion, 
+taking you through each of the two episodes (15 levels) leading you to 
+discover the ultimate depths of Quake's evil scheme in the final level-Source 
+of Evil.
+
+
+-----------------------------------------------------------------------------
+                                  Skill
+-----------------------------------------------------------------------------
+
+The Start Level has several different slipgates for each level of Skill you 
+wish to play.  
+
+Easy:      This is meant for little kids and grandmas.
+Medium:    Most people should start Quake at Medium skill.
+Hard:      Here at id Software, we play Hard skill, and we think you should 
+           too, if you can handle it.
+Nightmare: Good luck.
+
+
+
+-----------------------------------------------------------------------------
+                               Getting About
+-----------------------------------------------------------------------------
+
+Walk:      Use the arrow keys or the mouse. To walk steadily forward, hold 
+           down the Forward key (up arrow or right mouse button). Turn left 
+           or right with the left or right arrow key, or by sliding your 
+           mouse in the desired direction. 
+
+Run:       Hold down the shift key to increase your speed. 
+
+Jumping:   Tap the space bar or the Enter key to jump. You jump further if 
+           you're moving forward at the time, and you jump higher if you're 
+           moving up a slope at the time. You'll be surprised at the spots 
+           you can reach in a jump. You can even avoid some attacks this way. 
+
+Swimming:  When underwater, aim yourself in the direction you wish to go, and
+           press the forward key to go in that direction. You have full three-
+           dimensional freedom. Unfortunately, as in real life, you may lose 
+           your bearings while underwater. Use jump (the space bar or Enter 
+           key) to kick straight up towards the surface. Once on the surface, 
+           tread water by holding down jump. To get out of the drink, swim 
+           towards the shore. Once there, use jump to clamber up. If you're 
+           down a well or you can't get a grip, you may not be able to climb 
+           out. There is always another way out, but you may have to submerge
+           to find it. 
+
+Shooting:  Tap the Ctrl key or the left mouse button to fire. Hold shoot down
+           to keep firing. 
+
+Use:       Quake has no "use" function. To push a button or open a door, walk
+           up to it or, in some cases, shoot it. To ride a platform up, step 
+           onto it. If a door won't open or a platform won't lower, you may 
+           need to do something special to activate it. 
+
+Picking up stuff:  
+           To pick up items, weapons, and power-ups, walk over them.            
+           If you can't pick up something, it means you already have the 
+           maximum possible. If it is armor, it means the stuff you're trying
+           to get is worse than what you now have. 
+
+
+
+-----------------------------------------------------------------------------
+                               Finding Things 
+-----------------------------------------------------------------------------
+
+Buttons and Floorplates: 
+           Buttons activate with a touch, and floorplates must be stepped on.
+           If you see a distinctive-looking button in a spot you cannot 
+           reach, it's probably a shootable button - fire at it. 
+
+Doors:     Most doors open at your approach. If one doesn't, seek a button, 
+           floorplate, or key.
+
+Secret Doors: 
+           Some doors are camouflaged. Almost all secret doors open when they 
+           are shot or hit with an axe. The rest are opened by hidden 
+           pressure plates or buttons. 
+
+Platforms: Most platforms only go up and down, while some follow tracks 
+           around rooms or levels. Normally, when you step onto a platform, 
+           it rises to its full height, and lowers when you step off. Some 
+           platforms drop when you step onto them, and some don't work until 
+           you activate them via button or pressure plate. 
+
+Pressure Plates & Motion Detectors: 
+           Invisible or visible sensors can open doors, unleash traps, warn 
+           monsters, etc. 
+
+Uncovering Secrets: 
+           Secrets are hidden in many ways. You might need to shoot a button,
+           kill a monster, walk through a secret motion detector, etc. 
+
+The Secret of Secrets:  
+           All secrets in Quake Mission Pack No. 2 are indicated by clues. Don't
+           waste your time hacking at every wall. It's much more productive 
+           (and fun) to use your brain and your eyes. Look up. An angled 
+           texture, a light shining under a wall, a strange sound...anything
+           might be the clue. Something prominent in a room might be 
+           decoration...or it might be the clue.
+
+TIP: Bouncing a grenade off a shootable button or secret door won't open it, 
+but if the grenade's explosion goes off nearby, this may well activate such 
+secrets. 
+
+
+
+-----------------------------------------------------------------------------
+                           Commands, Menu, & Console 
+-----------------------------------------------------------------------------
+
+Keyboard Commands
+Press F1 (the Help key) or select the Help option from the Main Menu to get a
+list of keyboard commands. 
+
+NOTE: Help lists the default keys. If you've customized your configuration, 
+Help won't be totally accurate anymore.
+
+The Main Menu
+Tap the Escape key to pop up the Main Menu. While you are in the menu, the 
+game is paused. The Main Menu is pretty much self-explanatory, but if you 
+have questions, README.TXT explains all. 
+
+TIP: Quake Mission Pack No. 2 saves your current key configuration when you 
+quit, so that next time you play, you have the same configuration. 
+
+
+Console 
+Tap the ~ (tilde) key to bring down the console. As with the Main Menu, when 
+the console is down, a single player game is paused. A wide variety of 
+esoteric commands can be entered at the console. If your keyboard has no ~ 
+(tilde), the Options submenu from the Main Menu has a "Go To Console" 
+selection. The README.TXT file contains advanced Console commands.
+
+
+Command Line
+For special command line parameters, see the README.TXT file.
+
+
+
+=============================================================================
+                                The Game
+=============================================================================
+
+-----------------------------------------------------------------------------
+                               The Screen
+-----------------------------------------------------------------------------
+
+The large top part of the screen is the view area, in which you see monsters 
+and architecture. Immediately below is the Inventory Bar. Below that is the 
+Status Bar. You can enlarge the viewing area (tap the + key), so much that it
+engulfs first the Inventory Bar and then the Status Bar. The "-" key shrinks 
+the view area.
+
+Inventory Bar: Lists ammo, weapons, deathmatch scores, and power-ups.  The 
+active weapon is lit up. Each weapon has a number by it; type the appropriate
+number key to switch to that weapon. In deathmatch, the top four scores are 
+displayed, along with the color(s) of those players.
+
+Status Bar: A vital part of the screen. When your armor, hit points, or ammo
+gets low, the number turns red. That's a hint, pal.  While in Multiplayer 
+Mode, pressing TAB shows the normal stuff you would see in Single-player 
+Mode, but over the game screen the entire Rankings List will be displayed 
+(just like when you die in Deathmatch Mode).
+
+Score Bar: Hold down the Tab key to replace the Status Bar with the Score Bar. 
+This lists the proportion of monsters you've killed, secrets you've found, 
+and time you've spent, along with the level name.
+
+
+-----------------------------------------------------------------------------
+                                Messages
+-----------------------------------------------------------------------------
+
+Quake talks to you from time to time. Some messages appear at the top of the 
+screen.  These are non-critical, and tell you that you've picked up an 
+object, or you've died in an interesting fashion. Ignore these messages if 
+you please.
+
+Certain messages appear in the middle of your view area. These are always 
+important, and you do not want to ignore them!
+
+
+-----------------------------------------------------------------------------
+                              Ending a Level
+-----------------------------------------------------------------------------
+
+At the end of Episode One/Hell's Fortress, you will find a slipgate. Climb 
+onto the gate platform to pass through to the next episode. You will notice, 
+unfortunately, after you 'materialize' in Episode Two/The Corridors of Time, 
+that you are stripped of the armor and weapons you had acquired to this point. 
+"Quake is aware of your victory, and wishes to even the odds." 
+
+
+=============================================================================
+                           Your New Environment
+=============================================================================
+
+-----------------------------------------------------------------------------
+                               New Weapons
+-----------------------------------------------------------------------------
+
+Lava Nails:
+           Lava nails are armor piercing 'hot shots' from the Nailgun. They 
+           inflict more damage than regular nails. They're something to be 
+           avoided! A small box equals five nails.
+
+Multi Grenades:  
+           These 'split off' into five distinct grenades for an increased 
+           damage radius. The explosive effect is... stunning! A small box 
+           equals five grenades.
+
+Multi Rockets:
+           These fire as one rocket, then 'split' into four to locate 
+           separate targets. A small box equals five rockets.
+
+Plasma Cells:
+           We've 'beefed up' the Thunderbolt to fire a plasma energy ball. 
+           The shot 'grounds out' on target, impacting with powerful 
+           tendrils of lightning. This alternate mode is great for recon! 
+           A small box equals six charges.
+
+
+Switching Between Weapons:  
+           If you are firing a weapon and run out of ammo, Quake auto-
+           matically switches you to another weapon. It will never switch to 
+           the grenade launcher or rocket launcher, however, for reasons that
+           ought to be obvious. So if you're firing away happily and suddenly 
+           switch to the axe, it doesn't mean you're out of ammo...you 
+           probably still have grenades. But Quake requires you to switch to 
+           these dangerous explosives on your own.
+
+
+-----------------------------------------------------------------------------
+                               New Powerups
+-----------------------------------------------------------------------------
+
+Anti Grav Belt:  
+           The theory is simple here; it counters the force of gravity and 
+           allows the player to make difficult jumps.
+
+Power Shield:  
+           This 'little gem' significantly decreases the damage you receive 
+           from most enemy attacks. In Deathmatch, try out the RAM attack to 
+           send your opponents flying.
+
+
+-----------------------------------------------------------------------------
+                               New Creatures
+-----------------------------------------------------------------------------
+
+Phantom Swordsmen:  
+           A disembodied spectral sword that will slash the player at many 
+           turns.
+
+Electric Eels:  
+           These little guys are power-packed and more menacing than the 
+           Rotfish.
+
+Statues:  
+           They're 'poised' to take you out.
+
+Hell Spawn:  
+           A deadly upgrade to Quake's spawn.
+
+Multi-Grenade Ogres:  
+           Turnabout is fair-play; at least for the Ogres, that is. 
+           Occasionally you will find that these guys can toss a Multi 
+           Grenade at you, too.
+
+Wrath:  
+           These are the Overlord's evil minions. Smaller, but just as 
+           deadly.
+
+Overlord:  
+           This robed skeletal figure ominously floats with the 
+           environment. His attack? A ball of energy which tracks the 
+           player and detonates on impact.
+
+Guardians:  
+           Stationed in the past to execute Quake's evil plan. These 
+           demi-gods' 'surprising' entrance will shock you.
+
+A Surprising End Game Boss:  
+           Everyone's been screaming for this enemy. He'll have you 
+           screaming too!
+
+
+-----------------------------------------------------------------------------
+                     New Environmental Hazards and Effects
+-----------------------------------------------------------------------------
+
+Pendulums:  
+           They're set to slice the player to shreds... when they least 
+           expect it!
+
+Lightning Shooters:  
+           Well, these shoot lightning and can be directed at any angle. 
+           Sizzle!
+
+Lava Nail Shooters: 
+           Let's see... these shoot Lava Nails. Need we say more?
+
+Buzz Saws:  
+           Compact. Cordless. And... completely gib-o-matic. Watch out!
+
+Earthquakes:  
+           Level areas that tremble with seismic activity. Now the player 
+           can literally...quake!
+
+
+
+=============================================================================
+                            Multiplayer Action
+=============================================================================
+
+Quake Mission Pack No. 2 (The Dissolution of Eternity) fully supports multi-
+player mode.  There is one new level designed specifically for multiplayer. 
+When you are using the console or Main Menu in multiplayer, the game does not 
+pause. Irresponsible players and monsters can freely shoot you, and your only 
+recourse is bloodthirsty vengeance. The Talk function is useful here. When 
+you talk, the message appears at the top of all players' screens, preceded by 
+the speaker's name. 
+
+To set up, run, or join a multiplayer game, use the Main Menu Multiplayer 
+option. README.TXT contains details that may be useful if your network or 
+modem needs special configurations.
+
+
+-----------------------------------------------------------------------------
+                               Cooperative
+-----------------------------------------------------------------------------
+In a co-op game, you and your friends work together to finish the level. When 
+one person exits, everyone else exits too, wherever they might be. If you are 
+killed in co-op, you reappear at the start area, and have to catch up to your 
+buddies. Use Talk to find out where they are. See the Multiplayer options on 
+the Main Menu for more info. 
+
+
+-----------------------------------------------------------------------------
+                                Deathmatch
+-----------------------------------------------------------------------------
+
+In a deathmatch, play is totally cutthroat.  No monsters exist, and when you 
+are killed, you reappear in a random spot. After you pick up an item, it 
+respawns (i.e. pops back into existence) after a while. (Some items take 
+longer to respawn than others.) Every time you kill someone, you get a Frag. 
+The person with the most Frags wins, so wreak slaughter amongst your pals!
+
+If you kill yourself, whether intentionally or by accident, you lose a Frag. 
+This includes drowning, getting crushed, and so forth. See the Multiplayer 
+options on the Main Menu for more info.
+
+
+-----------------------------------------------------------------------------
+                    New Team Games in Mission Pack No. 2
+-----------------------------------------------------------------------------
+
+Team play is a cool combination of co-op and deathmatch. As players join the 
+game, the computer places them on teams, with different color uniforms. The 
+team with the most Frags wins. See MANUAL.TXT for details.
+
+Tag:  It's the game you played as a kid, with a few changes, such as-weapons 
+of mass destruction! Grab the Tag Token and you will be rewarded with three 
+Frags for every 'kill.' Do that five times; you get the Quad Damage.
+
+Capture the Flag (CTF):  Capture the enemy flag, then take it back and touch 
+your flag at your own base.  Sounds simple, huh? It's a load of fun! This is 
+the most exciting variation for normal Deathmatch to date.  For more 
+information, see the CTF document.
+
+One Flag:  This is a variation on regular CTF. Two teams, one flag; in an 
+all out slaughter-fest! Find the flag, grab the flag; head for the enemy base.
+
+Three Team:  This CTF variation adds a third team into the mix. The Grey Team 
+can grab either team's flag, but they must take it to the opposite flag/team 
+base to score. 
+
+
+-----------------------------------------------------------------------------
+                New Multiplayer Features in Mission Pack No. 2
+-----------------------------------------------------------------------------
+
+Vengeance Sphere:  What can we say? It's ultimate retribution-from the grave!
+Random Powerup Respawn:  No more campers! Well... at least your opponent won't
+get the Quad Damage every time it "pops up" in Deathmatch. We call Random 
+Respawn the Great Equalizer.
+
+Grappling Hook:  This is an added feature to CTF. To use it, press the 1 key 
+twice, then fire the Hook at a wall or ceiling. Continue to hold down the 
+fire key... and you'll be pulled toward the 'grappled' location.   
+
+
+
+=============================================================================
+                           Commonly Asked Questions
+=============================================================================
+
+Q:      The Dissolution of Eternity is challenging! Are you guys targeting 
+        the pack to sado-masochists?
+A:      No, although we don't discriminate. We believe that an expansion pack 
+        that builds upon the Quake universe should have more difficult 
+        gameplay than the original game.
+
+Q:      Cool, you make computer games! So... do you guys just sit around and 
+        play games all day?
+A:      Well... certainly it is an exciting experience with a flexible 
+        schedule in the ultimate TEAM environment! But it's not all fun and... 
+        err... games. This career requires a lot of hard work, determination, 
+        and focus. To get games onto the retail shelves takes a miraculous, 
+        and sometimes indefinable, chain of events. Still, we can't think of 
+        anything we'd rather do with our time.
+
+Q:      Rogue's been low-key and fairly quiet; why doesn't the gaming public 
+        hear more out of you?
+A:      There's an ancient software proverb that says: "Time spent talking 
+        about game ideas takes away from actually making the game." We have  
+        tons to say (you can't shut us up), it's just that we've had our 
+        gaming blinders on for a long time now! We'd really prefer to hear 
+        from you. E-mail us at info@rogue-ent.com.
+
+
+
+
+=============================================================================
+                              Customer Support
+=============================================================================
+
+Before contacting customer support, please consult the technical help file. 
+It contains the answers to some of our most frequently asked questions and 
+may quickly and easily provide a solution to your difficulty. If after 
+reviewing the technical help file you are still experiencing problems, 
+please feel free to contact us through any of the online services listed.
+
+Quake Mission Pack No. 2 (Dissolution of Eternity) technical support is 
+available through our online services only. If you are experiencing 
+difficulty with your original version of Quake, please contact id Software 
+technical support.
+
+Due to the complex nature of network games, please provide the following 
+information when requesting technical support:
+
+1.	Complete product title.
+2.	Exact error message reported (if any) and a brief description of the 
+        problem.
+3.	What operating system is each player using (e.g., Windows 95 or DOS)?
+4.	What kind of processor does each machine have (e.g., Intel Pentium(r)  
+        90)?
+5.	What kind of video and soundcards do the machines have (e.g., Diamond
+        Stealth 64 video, Sound Blaster)?
+6.	Are you using a joystick? If so, what brand and model? What is it 
+        using as a game port (e.g., soundcard, dedicated game port)?
+7.	How much free disk space do you have?
+8.	How much RAM is in each machine?
+
+In addition, please note whether you are using a modem or LAN to play Quake 
+Mission Pack No. 2 and have the following information available.
+
+If you are using a modem:
+1.	What kind of modem is on each end (brand, model, speed, internal or 
+        external)?
+2.	Do you have more than one modem?
+3.	On which port is each configured?
+4.	Does Hyperterminal (or any other terminal program) work with your 
+        modem? This is an easy way to test whether or not your modem is 
+        configured correctly.
+5.	At what speed are you connecting?
+6.	Have you made sure data compression, error detection, and flow 
+        control is turned OFF?  Refer to your modem's manual to do this.
+
+If using an external modem:
+1.	What kind of serial card is being used?
+2.	Do you have a seven-wire serial cable?
+
+If you are on a LAN:
+1.	Can you see other computers on the network?
+2.	What is your network configuration?
+3.	What brand of network card do you have?
+4.	What network software are you running? What version number?
+
+
+Online Services with Activision Forums, E-Mail and File Library Support:
+
+America Online:  Use keyword "Activision" to locate the Activision forum.
+CompuServe:      76004,2122 or [GO GAMBPUB] GO ACTIVISION
+Activision BBS:  (310) 479-1335  Up to 28,800 Baud; Settings: 8 Bits, 
+                 No Parity, 1 Stop Bit (8, N, 1)
+
+Internet:        support@activision.com  or  www.activision.com
+Fax:             (310) 479-7355, 24 hours a day
+FaxBack:         (310) 473-6453, 24 hours a day
+Snail Mail:      Activision
+                 Customer Support
+                 P.O. Box 67713
+                 Los Angeles, CA  90067
+Phone:           Call our 24-hour automated voice-mail system for answers 
+                 to our most frequently asked questions at (310) 479-5644. 
+
+
+
+
+=============================================================================
+                                 Credits
+=============================================================================
+
+
+id Software
+Programming:  John Carmack, Michael Abrash, John Cash
+Design:  Sandy Petersen, American McGee, Tim Willits
+Art:  Adrian Carmack, Kevin Cloud, Paul Steed
+Biz:  Todd Hollenshead, Donna Jackson, Barrett Alexander 
+
+Rogue Entertainment
+Programming:  Peter Mack
+Design:  Jim Molinets, Steve Tietze, Cameron Lamprecht
+Art:  Rich Fleider, Steven Maines
+Sound:  James Grunke
+Business:  Jim Molinets
+Special Thanks to:  Dave "Zoid" Kirish for CTF
+
+Activision
+Production:  Steve Stringer, John Cibulski, Kelly Rogers
+Marketing:  Henk Hartong, Barbara Matias
+Quality Assurance:  Tim Vanlaw, John Tam
+Additional QA:  Steve Rosenthal, Kelly Wand, Michael Spann, Woody Grafing
+                and Jim Dangcil
+Original Musical Score by:  Jeehun Hwang
+Creative Services: Denise Walsh, Mike Rivera
+Installer:  Mark Lamia, Adam Goldberg, Frankie Tam
+Special Thanks to:  Biz:  Mitch Lasky and Bill Anker for doing the deal.
+id Software: Todd, Bear, Tim, Adrian and everyone else for making this go 
+             smoothly.
+Rogue:  Jim and crew for their great work.
+Music: Rob Patterson for additional guitar work.
+
+
+
+=============================================================================
+                             Legal Mumbo Jumbo
+=============================================================================
+
+Quake Mission Pack No. 2: Dissolution of Eternity Dissolution of Eternity(tm)
+(c) 1997 Id Software, Inc. All rights reserved. 
+
+Developed by Rogue Entertainment for Id Software, Inc. Distributed by 
+Activision, Inc. under license. Activision(r) is a registered trademark of 
+Activision, Inc. Dissolution of Eternity(tm) is a trademark of Id Software, 
+Inc. Quake(r) is a registered trademark of Id Software, Inc.
+
+All contents of this CD and related materials protected by applicable 
+copyright laws.
+

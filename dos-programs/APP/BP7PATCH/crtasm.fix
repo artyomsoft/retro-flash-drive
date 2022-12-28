@@ -1,0 +1,70 @@
+
+  Subject:  DPMI and Pentium Pro - Msg Number: 710628
+     From:  Rob Henningsgard 76470,3165
+       To:  Simon Page 100407,2171
+    Forum:  DELPHI   Sec: 06-Delphi Database
+     Date:  17-Sep-96 18:09
+
+  Jamie (and Simon):
+
+  I spent the afternoon writing a change to CRT.ASM which solves the
+  problem of super-hot machines (like Pentium Pro-200's) crashing the
+  CRT unit's init code with a DIV 0.  Here is my solution:
+
+  In \BP\RTL\CRT\CRT.ASM, make the following changes:
+
+  DelayCnt        DD      ?
+  ;Before 6.0a    ^-- this was DW (16 bits) which was inadequate.
+
+  In the Initialize procedure, replace the lines:
+
+  ;6.0a   DIV     CX
+  ;6.0a   MOV     DelayCnt,AX
+
+  with the new code:
+
+  ;
+  ; start new code 6.0a
+  ;
+          xor     bx,bx
+          xchg    ax,bx
+          xchg    ax,dx
+          div     cx
+          xchg    ax,bx
+          div     cx
+          mov     DelayCnt.w0,ax
+          mov     DelayCnt.w2,bx
+  ;
+  ; end new code
+  ;
+
+  And finally, in the Delay procedure, replace these:
+
+  ;6.0a   @@1: MOV     AX,DelayCnt
+  ;6.0a        XOR     DX,DX
+
+  with this new code:
+  ;
+  ; start new code 6.0a
+  ;
+  @@1:    mov     ax,DelayCnt.w0
+          mov     dx,DelayCnt.w2
+  ;
+  ; end new code 6.0a
+  ;
+
+  These changes allow the countdown in the initialization code to
+  exceed 3,604,479, which presently causes the DIV by 55 to exceed
+  a result of $FFFF, causing the DIV 0 error.  The fix alters the
+  size of the DelayCnt variable to 32 bits, which should allow the
+  Delay() call to deal with machines about 700 times faster than a
+  Pentium Pro 200.
+
+  I've just coded this today, and I've not beat the living daylights
+  out of it, but I'm quite sure the change will hold up under further
+  testing.  My company is recompiling all BP7/TP7 applications with
+  it tomorrow.
+
+  Rob---
+
+
